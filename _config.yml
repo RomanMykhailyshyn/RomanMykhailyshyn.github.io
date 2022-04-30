@@ -82,34 +82,34 @@ analytics:
 author:
   name             : "Mykhailyshyn Roman"
   avatar           : "profile.png"
-  bio              : "Fulbright Visiting Scholar at the Department of Robotics Engineering, Worcester Polytechnic Institute (USA)"
+  bio              : "Fulbright Visiting Scholar at the Department of Robotics Engineering, Worcester Polytechnic Institute, MA (USA)"
   location         : "Worcester, MA, USA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=9aP5kQMAAAAJ&hl=uk"
+  email            :  "roman.mux.mux@gmail.com"
+  researchgate     :  "https://www.researchgate.net/profile/Roman-Mykhailyshyn" # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         :  "https://www.facebook.com/mykhailyshyn.roman/"
   foursquare       :
-  github           : "academicpages"
+  github           : # "academicpages"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-1203-3446"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "RIMykhailyshyn"
   vine             :
   weibo            :
   xing             :
