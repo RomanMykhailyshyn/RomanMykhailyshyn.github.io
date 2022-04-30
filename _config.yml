@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Roman Mykhailyshyn"
+title                    : "Mykhailyshyn's Page"
 title_separator          : "-"
 name                     : &name "Roman Mykhailyshyn"
 description              : &description "personal description"
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Mykhailyshyn Roman"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Fulbright Visiting Scholar at the Department of Robotics Engineering, Worcester Polytechnic Institute (USA)"
+  location         : "Worcester, MA, USA"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
