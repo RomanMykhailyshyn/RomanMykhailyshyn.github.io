@@ -12,7 +12,8 @@ Dr. Roman Mykhailyshyn is a [Fulbright Visiting Scholar](https://issuu.com/fulbr
 
 Dr. Mykhailyshyn is an author of more than 30 articles, published in leading scholarly journals in robotics, computing, engineering, and manufacturing. His research focuses on robotics, motion planning and optimization, modeling of physical systems, additive manufacturing, minimization of energy costs for transport operations by industrial robots, and design of gripping devices for industrial robots. He served on the reviewer board of the International Journal of Advanced Robotic Systems, IEEE Access, Machines, Robotics, Applied Sciences, International Journal of Manufacturing, Materials, and Mechanical Engineering.
 
-excerpt: "Associated affiliations<br/><img src='/images/afil.png'>"
+### Associated Affiliations
+<br/><img src='/images/afil.png'>
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
