@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Automation and Computer-Integrated Technologies, Ternopil Ivan Puluj National Technical University (TNTU), 2013
+* M.S. in Mechatronics, Robotics, and Automation Engineering, TNTU, 2014
+* Ph.D in Engineering Science, TNTU, 2018
 
 Work experience
 ======
