@@ -17,15 +17,23 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2021 - Present: Fulbright Visiting Scholar
+  * Worcester Polytechnic Institute
+  * Robotics Engineering Department
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2019 - Present: Associate Professor
+  * Ternopil Ivan Puluj National Technical University (TNTU)
+  * Department of Automation of Technological Processes and Manufacturing
+
+* 2020: Scientific Researcher
+  * Slovak University of Technology in Bratislava (STU)
+  * National Center of Robotics
+  * House of Europe project
+
+* 2019: Visiting Lecturer
+  * Technical University of Košice
+  * Institute of Automation, Mechatronics, Robotics and Production Systems
+  * Erasmus+ project
   
 Skills
 ======
