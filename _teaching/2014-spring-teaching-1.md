@@ -1,14 +1,12 @@
 ---
-title: "Teaching experience 1"
+title: "Object-oriented programming"
 collection: teaching
-type: "Undergraduate course"
+type: "Bachelor's course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Ternopil Ivan Puluj National Technical University, Department of Automation of Technological Processes and Manufacturing"
+date: 2018-01-01
+location: "Ternopil, Ukraine"
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
 
 Heading 1
 ======
