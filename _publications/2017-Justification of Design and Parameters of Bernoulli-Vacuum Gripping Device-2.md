@@ -3,7 +3,7 @@ title: "Justification of Design and Parameters of Bernoulli-Vacuum Gripping Devi
 collection: publications
 permalink: /publication/2017-Justification of Design and Parameters of Bernoulli-Vacuum Gripping Device-2
 excerpt: ''
-date: 2017
+date: 2017-01-01
 venue: 'International Journal of Advanced Robotic Systems'
 paperurl: ''
 citation: 'V. Savkiv, R. Mykhailyshyn, F. Duchon, O. Fendo, (2017). &quot;Justification of Design and Parameters of Bernoulli-Vacuum Gripping Device.&quot; <i>International Journal of Advanced Robotic Systems</i>. doi:10.1177/1729881417741740.'
