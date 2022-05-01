@@ -12,4 +12,3 @@ The article presents the mathematical model for the calculation of the optimal o
 
 [Download paper here](https://www.sciencedirect.com/science/article/pii/S1877705817319045)
 
-Recommended citation: V. Savkiv., R. Mykhailyshyn., O. Fendo, M. Mykhailyshyn, (2017). "Orientation Modeling of Bernoulli Gripper Device with Off-Centered Masses of the Manipulating Object" <i>Procedia Engineering</i>. 187, 264 – 271..
