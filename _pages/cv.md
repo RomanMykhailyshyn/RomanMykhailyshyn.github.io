@@ -44,14 +44,23 @@ Work experience
   * National Center of Robotics
   * SAIA program
 
-Skills
+Fellowships and Awards
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2020 – 2022: Scholarship of the Cabinet of Ministers of Ukraine for Young Scientists, Ukraine
+* 2020:        Award of Ternopil City Council in the nomination "Young scientists and researchers", Ukraine
+* 2018:        Award of Ternopil Regional State Administration and Ternopil Regional Council on the occasion of Science Day, Ukraine
+
+Reviewing Activities
+======
+* 2021: Reviewer Robotics, MDPI
+* 2021: Reviewer Applied Sciences, MDPI
+* 2021: Reviewer Machines, MDPI
+* 2021: Reviewer International Journal of Big Data Intelligence and Applications, IGI Global
+* 2020: Reviewer International Journal of Manufacturing, Materials, and Mechanical Engineering, IGI Global
+* 2019: Reviewer International Conference on Intelligent Energy and Power Systems (IEPS), Institute of Electrical and Electronics Engineers Inc. (IEEE)
+* 2019: Reviewer Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, SAGE Publishing
+* 2019: Reviewer International Journal of Advanced Robotic Systems, SAGE Publishing
+* 2018: Reviewer IEEE Access, Institute of Electrical and Electronics Engineers Inc. (IEEE)
 
 Publications
 ======
@@ -59,7 +68,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Talks and coference paper
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
@@ -71,6 +80,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Miscellaneous
 ======
-* Currently signed in to 43 different slack teams
+* Photography
+* Swimming
+* Dogs
