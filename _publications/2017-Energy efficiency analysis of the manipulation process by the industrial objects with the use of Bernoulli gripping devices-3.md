@@ -1,12 +1,12 @@
 ---
-title: "Energy efficiency analysis of the manipulation process by the industrial objects with the use of Bernoulli gripping devices"
+title: "Energy Efficiency Analysis of the Manipulation Process by the Industrial Objects With the Use of Bernoulli Gripping Devices"
 collection: publications
 permalink: /publication/2017-Energy efficiency analysis of the manipulation process by the industrial objects with the use of Bernoulli gripping devices-3
 excerpt: ''
 date: 2017-01-01
 venue: 'Journal of Electrical Engineering'
 paperurl: ''
-citation: 'V. Savkiv, R. Mykhailyshyn, F. Duchon, M. Mikhalishin, (2017). &quot;Energy efficiency analysis of the manipulation process by the industrial objects with the use of Bernoulli gripping devices.&quot; <i>Journal of Electrical Engineering</i>. 68(6). 496 – 502.'
+citation: 'V. Savkiv, R. Mykhailyshyn, F. Duchon, M. Mikhalishin, (2017). &quot;Energy Efficiency Analysis of the Manipulation Process by the Industrial Objects With the Use of Bernoulli Gripping Devices.&quot; <i>Journal of Electrical Engineering</i>. 68(6). 496 – 502.'
 ---
 [Download paper here](http://iris.elf.stuba.sk/JEEEC/data/pdf/6_117-13.pdf)
 
