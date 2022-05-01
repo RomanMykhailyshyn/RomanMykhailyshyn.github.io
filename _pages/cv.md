@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
+[CV_pdf](http://romanMykhailyshyn.github.io/files/CV_Mykhailyshyn.pdf)
 {% include base_path %}
 
 Education
