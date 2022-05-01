@@ -11,10 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in Automation and Computer-Integrated Technologies, 'LF'
-Ternopil Ivan Puluj National Technical University (TNTU), 2013
+* B.S. in Automation and Computer-Integrated Technologies, TNTU, 2013
 * M.S. in Mechatronics, Robotics, and Automation Engineering, TNTU, 2014
-* Ph.D in Engineering Science, TNTU, 2018
+* Ph.D in Engineering Science, Ternopil Ivan Puluj National Technical University (TNTU), 2018
 
 Work experience
 ======
@@ -35,7 +34,16 @@ Work experience
   * Technical University of Košice
   * Institute of Automation, Mechatronics, Robotics and Production Systems
   * Erasmus+ project
-  
+
+* 2017 - 2018: Assistant Professor
+  * TNTU
+  * Department of Automation of Technological Processes and Manufacturing
+
+* 2017: Scientific Researcher
+  * STU
+  * National Center of Robotics
+  * SAIA program
+
 Skills
 ======
 * Skill 1
