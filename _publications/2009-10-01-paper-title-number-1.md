@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Orientation Modeling of Bernoulli Gripper Device with Off-Centered Masses of the Manipulating Object"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2017-Orientation Modeling of Bernoulli Gripper Device with Off-Centered Masses of the Manipulating Object-1
+excerpt: ''
+date: 2017
+venue: 'Procedia Engineering'
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S1877705817319045'
+citation: 'V. Savkiv., R. Mykhailyshyn., O. Fendo, M. Mykhailyshyn,  (2017). &quot;Orientation Modeling of Bernoulli Gripper Device with Off-Centered Masses of the Manipulating Object.&quot; <i>Procedia Engineering</i>. 187, 264 – 271'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+The article presents the mathematical model for the calculation of the optimal orientation of the gripper device which provides minimal energy consumption for holding the object in the process of manipulation. The case of the transportation of the manipulating object with off-centered masses along the rectilinear trajectory taking into account frontal resistance force and inertial forces during the re-orientation is examined. The formula for finding out the minimal necessary attractive force along all the segments of the rectilinear trajectory has been deduced. Off-centered masses of the manipulating object forcing relatively to the symmetry axis of the gripping device and frontal resistance forcing on the necessary minimal attractive force of the object has been investigated.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://www.sciencedirect.com/science/article/pii/S1877705817319045)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: V. Savkiv., R. Mykhailyshyn., O. Fendo, M. Mykhailyshyn, (2017). "Orientation Modeling of Bernoulli Gripper Device with Off-Centered Masses of the Manipulating Object" <i>Procedia Engineering</i>. 187, 264 – 271.
