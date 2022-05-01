@@ -2,8 +2,10 @@
 title: "Gasdynamic analysis of the Bernoulli grippers interaction with the surface of flat objects with displacement of the center of mass"
 collection: publications
 permalink: /publication/2019-Gasdynamic analysis of the Bernoulli grippers interaction with the surface of flat objects with displacement of the center of mass
+excerpt: ''
 date: 2019-01-01
 venue: 'Vacuum'
+paperurl: ''
 citation: 'V. Savkiv, R. Mykhailyshyn, F. Duchon, (2019). &quot;Gasdynamic analysis of the Bernoulli grippers interaction with the surface of flat objects with displacement of the center of mass.&quot; <i>Vacuum</i>. 159. 524 – 533.'
 ---
 [Download paper here](https://doi.org/10.1016/j.vacuum.2018.11.005)
