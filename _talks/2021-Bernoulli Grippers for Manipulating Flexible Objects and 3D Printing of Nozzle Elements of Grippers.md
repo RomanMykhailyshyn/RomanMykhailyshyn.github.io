@@ -7,8 +7,6 @@ venue: "Robotics Engineering Colloquium Series, Department of Robotics Engineeri
 date: 2021-10-29
 location: "Worcester MA, USA"
 ---
-
-
 <br/><img src='/images/wpi_col.jpg'>
 [More information here](https://www.wpi.edu/news/calendar/events/rbe-colloquium-series-dr-roman-mykhailyshyn-bernoulli-grippers-manipulating)
 
