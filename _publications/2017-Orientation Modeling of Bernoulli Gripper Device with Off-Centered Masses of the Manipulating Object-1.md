@@ -3,7 +3,7 @@ title: "Orientation Modeling of Bernoulli Gripper Device with Off-Centered Masse
 collection: publications
 permalink: /publication/2017-Orientation Modeling of Bernoulli Gripper Device with Off-Centered Masses of the Manipulating Object-1
 excerpt: ''
-date: 2017
+date: 2017-10-01
 venue: 'Procedia Engineering'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S1877705817319045'
 citation: 'V. Savkiv., R. Mykhailyshyn., O. Fendo, M. Mykhailyshyn,  (2017). &quot;Orientation Modeling of Bernoulli Gripper Device with Off-Centered Masses of the Manipulating Object.&quot; <i>Procedia Engineering</i>. 187, 264 – 271'
