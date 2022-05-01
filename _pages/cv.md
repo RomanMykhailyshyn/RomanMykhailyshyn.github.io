@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in Automation and Computer-Integrated Technologies, 
+* B.S. in Automation and Computer-Integrated Technologies, 'LF'
 Ternopil Ivan Puluj National Technical University (TNTU), 2013
 * M.S. in Mechatronics, Robotics, and Automation Engineering, TNTU, 2014
 * Ph.D in Engineering Science, TNTU, 2018
