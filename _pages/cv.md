@@ -68,7 +68,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks and Coference Papers
+Talks and Conference Papers
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
