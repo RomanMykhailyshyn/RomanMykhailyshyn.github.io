@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 ### Associated Affiliations
 <br/><img src='/images/afil.png'>
 
