@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Associated Affiliations"
+title: "Affiliations"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
