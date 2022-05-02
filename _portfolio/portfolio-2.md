@@ -1,5 +1,6 @@
 ---
-title: "Optimization of Design Parameters of Contactless Jet Gripping Devices of Industrial Robots"
-excerpt: "<br/><img src='/images/P2.png'>"
+title: "Experimental Investigations of the Dynamics of Contactless Manipulation by Bernoulli Grippers"
+excerpt: "<br/><img src='/images/P4.png'>"
 collection: portfolio
 ---
+
