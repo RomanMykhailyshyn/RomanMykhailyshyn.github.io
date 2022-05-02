@@ -7,12 +7,3 @@ venue: "Ternopil Ivan Puluj National Technical University, Department of Automat
 date: 2018-01-01
 location: "Ternopil, Ukraine"
 ---
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
