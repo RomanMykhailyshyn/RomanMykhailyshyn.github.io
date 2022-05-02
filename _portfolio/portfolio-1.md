@@ -1,6 +1,6 @@
 ---
-title: "Experimental Investigations of the Dynamics of Contactless Manipulation by Bernoulli Grippers"
-excerpt: "<br/><img src='/images/P4.png'>"
+title: "Substantiation Parameters of Gripping Devices of Industrial Robots and Methods of Manipulation of Flexible Objects"
+excerpt: "<br/><img src='/images/P3.png'>"
 collection: portfolio
 ---
 
