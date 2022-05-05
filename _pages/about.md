@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Affiliations"
+title: "<br/><img src='/images/afil.png'>"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
