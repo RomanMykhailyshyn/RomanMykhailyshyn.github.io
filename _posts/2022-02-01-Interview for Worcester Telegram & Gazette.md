@@ -1,6 +1,6 @@
 ---
 title: 'Interview for Worcester Telegram & Gazette'
-date: 2020-11-10
+date: 2022-02-01
 permalink: /posts/2022/02/Interview for Worcester Telegram & Gazette/
 tags:
   - cool posts
