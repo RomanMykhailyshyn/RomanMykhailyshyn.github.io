@@ -17,7 +17,11 @@ Education
 
 Work experience
 ======
-* 2021 - Present: Fulbright Visiting Scholar
+* 2022 - Present: Visiting Scholar
+  * The University of Texas at Austin
+  * Texas Robotics
+
+* 2021 - 2022: Fulbright Visiting Scholar
   * Worcester Polytechnic Institute
   * Robotics Engineering Department
 
