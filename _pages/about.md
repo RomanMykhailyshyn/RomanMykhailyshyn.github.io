@@ -11,5 +11,7 @@ Dr. Roman Mykhailyshyn is a Visiting Scholar at the [Texas Robotics](https://rob
 
 Dr. Mykhailyshyn is an author of more than 30 articles, published in leading scholarly journals in robotics, computing, engineering, and manufacturing. His research focuses on robotics, motion planning and optimization, modeling of physical systems, additive manufacturing, minimization of energy costs for transport operations by industrial robots, and design of gripping devices for industrial robots. He served on the [reviewer board](https://publons.com/researcher/1379995/roman-mykhailyshyn/peer-review/) of the International Journal of Advanced Robotic Systems, IEEE Access, Machines, Robotics, Applied Sciences, International Journal of Manufacturing, Materials, and Mechanical Engineering.
 
+Members
+======
 
 
