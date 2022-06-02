@@ -13,4 +13,4 @@ Dr. Mykhailyshyn is an author of more than 30 articles, published in leading sch
 
 Membership
 ===
-[<img src='/images/IEEE_logo.png' width='140'>](https://www.ieee.org/) [<img src='/images/IEEE-Ukraine.png' width='140'>](https://ieee.org.ua/) [<img src='/images/IEEE_RAS.png' width='140'>](https://www.ieee-ras.org/) 
+[<img src='/images/IEEE_logo.png' width='120'>](https://www.ieee.org/) [<img src='/images/IEEE-Ukraine.png' width='160'>](https://ieee.org.ua/) [<img src='/images/IEEE_RAS.png' width='140'>](https://www.ieee-ras.org/) 
