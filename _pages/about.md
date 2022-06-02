@@ -13,5 +13,5 @@ Dr. Mykhailyshyn is an author of more than 30 articles, published in leading sch
 
 Members
 ====
-
+[<img src='/images/IEEE-Ukraine.png' width='140'>](https://ieee.org.ua/)
 
