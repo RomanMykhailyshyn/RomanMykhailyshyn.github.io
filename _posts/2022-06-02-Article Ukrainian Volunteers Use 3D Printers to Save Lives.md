@@ -1,5 +1,5 @@
 ---
-title: 'Article Ukrainian Volunteers Use 3D Printers to Save Lives'
+title: 'Ukrainian Volunteers Use 3D Printers to Save Lives'
 date: 2022-06-02
 permalink: /posts/2022/06/Article Ukrainian Volunteers Use 3D Printers to Save Lives/
 tags:
