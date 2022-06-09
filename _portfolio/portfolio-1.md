@@ -10,6 +10,11 @@ Department of Robotics Engineering, Worcester Polytechnic Institute (USA)
 Texas Robotics, The University of Texas at Austin (USA)
 ## Materials
 
+| Materials        | Number |                                                      |
+| --------         | ------ | ------------------------------------------------------------ |
+| [John Doe](#)    | 2016   | Description of the item in the list                          |
+| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
+| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
 ## Results
 
 ## Publications
