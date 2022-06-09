@@ -13,12 +13,13 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 ### Materials
 
-| Materials    | Number | Coefficient | Microscopy (x20 and x150)                               |
-|              |        | of friction | Keyence VHX-70000                                       |
-| --------     | ------ | ------      | ------------------------------------------------------- |
-| Film         | 1      | 0.19        |                                                         |
-| Textile      | 2      | 0.32        | <br/><img src='/images/2.jpg'>                          |
-| [Doe Doe](#) | 2022   | 2022        | <br/><img src='/images/2.jpg'>                          |
+| №  | Materials | Coefficient | Microscopy (x20 and x150) Keyence VHX-70000             |
+|    |           | of friction |                                                         |
+| -- | ------    | ------      | ------------------------------------------------------- |
+| 1  | Film      | 0.19        |                                                         |
+| 2  | Textile   | 0.32        | <br/><img src='/images/2.jpg'>                          |
+| 3  | Textile   | 2022        | <br/><img src='/images/3.tif'>                          |
+| 4  | Textile   | 2022        | <br/><img src='/images/4.tif'>                          |
 
 ## Results
 
