@@ -9,19 +9,14 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 * Department of Robotics Engineering, Worcester Polytechnic Institute (USA).
 * Texas Robotics, The University of Texas at Austin (USA).
 ## Materials
-| Materials        | Number |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| Film             | 1      | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
-## Results
 ### Table 1
-
 | Materials    | Number | Number |                                                              |
 | --------     | ------ | ------ | ------------------------------------------------------------ |
 | [John Doe](#)| 2016   | 2016   | Description of the item in the list                          |
 | [Jane Doe](#)| 2019   | 2019   | Description of the item in the list                          |
 | [Doe Doe](#) | 2022   | 2022   | Description of the item in the list                          |
+
+## Results
 
 
 ## Publications
