@@ -5,13 +5,11 @@ collection: portfolio
 ---
 ## Funfing
 This project was supported in part by the U.S. Department of State (DOS), Bureau of Educational and Cultural Affairs (ECA), Exchange Visitor Program #G-1-00005 with the cooperation of the Institute of International Education (IIE) under Fulbright Grant PS00322778.
-
 ## Colaboration
-
-## Publications
-
-
+Department of Robotics Engineering, Worcester Polytechnic Institute (USA)
+Texas Robotics, The University of Texas at Austin (USA)
 ## Materials
 
+## Results
 
-
+## Publications
