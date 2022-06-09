@@ -9,8 +9,6 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 * Department of Robotics Engineering, Worcester Polytechnic Institute (USA).
 * Texas Robotics, The University of Texas at Austin (USA).
 
-## Materials
-
 ### Materials
 
 | №  | Materials | Coefficient | Microscopy (x20 and x150) Keyence VHX-70000             |
@@ -18,8 +16,8 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | -- | ------    | ------      | ------------------------------------------------------- |
 | 1  | Film      | 0.19        |                                                         |
 | 2  | Textile   | 0.32        | <br/><img src='/images/2.jpg'>                          |
-| 3  | Textile   | 2022        | <br/><img src='/images/3.tif'>                          |
-| 4  | Textile   | 2022        | <br/><img src='/images/4.tif'>                          |
+| 3  | Textile   | 0.37        | <br/><img src='/images/3.tif'>                          |
+| 4  | Textile   | 0.34        | <br/><img src='/images/4.tif'>                          |
 
 ## Results
 
