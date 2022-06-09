@@ -17,11 +17,11 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 ## Results
 ### Table 1
 
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
+| Materials    | Number | Number |                                                              |
+| --------     | ------ | ------ | ------------------------------------------------------------ |
+| [John Doe](#)| 2016   | 2016   | Description of the item in the list                          |
+| [Jane Doe](#)| 2019   | 2019   | Description of the item in the list                          |
+| [Doe Doe](#) | 2022   | 2022   | Description of the item in the list                          |
 
 
 ## Publications
