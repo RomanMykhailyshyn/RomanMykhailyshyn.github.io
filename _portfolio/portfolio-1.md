@@ -8,9 +8,10 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 ## Colaboration
 * Department of Robotics Engineering, Worcester Polytechnic Institute (USA).
 * Texas Robotics, The University of Texas at Austin (USA).
+
 ## Materials
 
-### Table 1
+### Materials
 
 | Materials    | Number | Coefficient | Microscopy (x20 and x150)                               |
 |              |        | of friction | Keyence VHX-70000                                       |
