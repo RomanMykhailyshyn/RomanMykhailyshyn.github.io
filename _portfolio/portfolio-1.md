@@ -16,11 +16,11 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | -- | ------    | ------      | ------    | ------      | ------------------------------------------- |
 | 1  | Film      | 0.19        | 0.00      | 0.00        |                                             |
 | 2  | Textile   | 0.40        | 0.00      | 0.00        | <br/><img src='/images/2.png'>              |
-| 3  | Textile   | 0.00        | 0.00      | 0.00        | <br/><img src='/images/3.jpg'>              |
-| 4  | Textile   | 0.00        | 0.00      | 0.00        | <br/><img src='/images/4.png'>              |
-| 5  | Textile   | 0.00        | 0.00      | 0.00        | <br/><img src='/images/5.png'>              |
-| 6  | Textile   | 0.00        | 0.00      | 0.00        | <br/><img src='/images/6.jpg'>              |
-| 7  | Textile   | 0.00        | 0.00      | 0.00        | <br/><img src='/images/7.png'>              |
+| 3  | Textile   | 0.37        | 0.00      | 0.00        | <br/><img src='/images/3.jpg'>              |
+| 4  | Textile   | 0.29        | 0.00      | 0.00        | <br/><img src='/images/4.png'>              |
+| 5  | Textile   | 0.33        | 0.00      | 0.00        | <br/><img src='/images/5.png'>              |
+| 6  | Textile   | 0.34        | 0.00      | 0.00        | <br/><img src='/images/6.jpg'>              |
+| 7  | Textile   | 0.39        | 0.00      | 0.00        | <br/><img src='/images/7.png'>              |
 | -  | -         | -           | -         | -           | -                                           |
 | -  | Textile   | 0.00        | 0.00      | 0.00        | <br/><img src='/images/10.jpg'>             |
 
