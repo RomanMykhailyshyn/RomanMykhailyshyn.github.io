@@ -14,6 +14,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | №  | Materials | Coefficient | Weight    | Thickness   | Microscopy (x20 and x150) Keyence VHX-70000 |
 |    |           | of friction | [g/cm*cm] | [mm]        |                                             |
 | -- | ------    | ------      | ------    | ------      | ------------------------------------------- |
+| 0  | Textile   | 0.32        | 0.0181    | 0.23        | <br/><img src='/images/10.jpg'>             |
 | 1  | Film      | 0.19        | 0.0047    | 0.05        |                                             |
 | 2  | Textile   | 0.40        | 0.0175    | 0.27        | <br/><img src='/images/2.png'>              |
 | 3  | Textile   | 0.37        | 0.0102    | 0.13        | <br/><img src='/images/3.jpg'>              |
@@ -22,7 +23,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | 6  | Textile   | 0.34        | 0.0154    | 0.22        | <br/><img src='/images/6.jpg'>              |
 | 7  | Textile   | 0.39        | 0.0165    | 0.41        | <br/><img src='/images/7.png'>              |
 | -  | -         | -           | -         | -           | -                                           |
-| -  | Textile   | 0.00        | 0.0181    | 0.23        | <br/><img src='/images/10.jpg'>             |
+
 
 ## Results
 
