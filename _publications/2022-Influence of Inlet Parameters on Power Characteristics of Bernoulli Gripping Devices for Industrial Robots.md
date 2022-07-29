@@ -6,7 +6,7 @@ excerpt: ''
 date: 2022-07-01
 venue: 'Applied Sciences'
 paperurl: 'https://www.mdpi.com/2076-3417/12/14/7074'
-citation: 'R. Mykhailyshyn, J. Xiao, (2022). &quot;Influence of Inlet Parameters on Power Characteristics of Bernoulli Gripping Devices for Industrial Robots.&quot; <i>Applied Sciences</i>. 12, 7074. https://doi.org/10.3390/app12147074.'
+citation: 'R. Mykhailyshyn, J. Xiao, (2022). &quot;Influence of Inlet Parameters on Power Characteristics of Bernoulli Gripping Devices for Industrial Robots.&quot; <i>Applied Sciences</i>. 12(14), 7074. https://doi.org/10.3390/app12147074.'
 ---
 [Download paper here](https://www.mdpi.com/2076-3417/12/14/7074)
 
