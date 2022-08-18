@@ -27,17 +27,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 ## Results
 Grasping non-rigid (textile) materials using a vacuum suction cup.​
-<div align="left">
-      <a href="https://www.youtube.com/watch?v=nIoEO3vjNYQ">
-         <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:100%;">
-      </a>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nIoEO3vjNYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Grasping non-rigid (textile) objects using the proposed gripping device.​
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2Dp1j-EONhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-[![Little red riding hood](http://i.imgur.com/7YTMFQp.png)](https://www.youtube.com/watch?v=2Dp1j-EONhM "Little red riding hood - Click to Watch!")
- <iframe width="425" height="300"
-src="https://www.youtube.com/watch?v=2Dp1j-EONhM" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 ## Publications
