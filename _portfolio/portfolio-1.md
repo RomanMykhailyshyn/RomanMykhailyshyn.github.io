@@ -27,10 +27,10 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 ## Results
 
-# Grasping non-rigid (textile) materials using a vacuum suction cup.
+* Grasping non-rigid (textile) materials using a vacuum suction cup.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nIoEO3vjNYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Grasping non-rigid (textile) objects using the proposed gripping device.
+* Grasping non-rigid (textile) objects using the proposed gripping device.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2Dp1j-EONhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Publications
