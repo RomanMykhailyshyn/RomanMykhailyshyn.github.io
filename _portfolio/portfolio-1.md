@@ -33,6 +33,7 @@ Grasping non-rigid (textile) materials using a vacuum suction cup.​
       </a>
 </div>
 Grasping non-rigid (textile) objects using the proposed gripping device.​
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2Dp1j-EONhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 [![Little red riding hood](http://i.imgur.com/7YTMFQp.png)](https://www.youtube.com/watch?v=2Dp1j-EONhM "Little red riding hood - Click to Watch!")
  <iframe width="425" height="300"
 src="https://www.youtube.com/watch?v=2Dp1j-EONhM" 
