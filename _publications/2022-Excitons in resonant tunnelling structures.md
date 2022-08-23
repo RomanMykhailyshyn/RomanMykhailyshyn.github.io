@@ -1,5 +1,5 @@
 ---
-title: "Influence o"
+title: "Excitons in resonant tunnelling structures based on AlN/GaN/AlN/AlGaN/AlN nitride spectral dependences and intensities of interband optical transitions"
 collection: publications
 permalink: /publication/2022-Excitons in resonant tunnelling structures based on AlN/GaN/AlN/AlGaN/AlN nitride spectral dependences and intensities of interband optical transitions
 excerpt: ''
