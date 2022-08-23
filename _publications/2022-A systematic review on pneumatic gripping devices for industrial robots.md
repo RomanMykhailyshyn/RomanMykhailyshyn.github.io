@@ -3,11 +3,11 @@ title: "A Systematic Review on Pneumatic Gripping Devices for Industrial Robots"
 collection: publications
 permalink: /publication/2022-A systematic review on pneumatic gripping devices for industrial robots
 excerpt: ''
-date: 2022-01-01
+date: 2022-08-01
 venue: 'Transport'
-paperurl: ''
-citation: 'R. Mykhailyshyn, V. Savkiv, P. Maruschak, J. Xiao, (2022). &quot;A Systematic Review on Pneumatic Gripping Devices for Industrial Robots.&quot; <i>Transport</i>. in print.'
+paperurl: 'https://journals.vilniustech.lt/index.php/Transport/article/view/17110'
+citation: 'R. Mykhailyshyn, V. Savkiv, P. Maruschak, J. Xiao, (2022). &quot;A Systematic Review on Pneumatic Gripping Devices for Industrial Robots.&quot; <i>Transport</i>. 37(3), 201–231. https://doi.org/10.3846/transport.2022.17110.'
 ---
-[Download paper here]()
+[Download paper here](https://journals.vilniustech.lt/index.php/Transport/article/view/17110/11276)
 
-This paper is about 
+Based on the literature review, the article presents the analysis of approaches to classifying Gripping Devices (GDs) of Industrial Robots (IRs) and substantiates the need for systematising Pneumatic GDs (PGDs). The authors propose a classification of well-known PGDs, in which the holding force of the Manipulated Object (MO) is formed under the action of gas-dynamic effects. A general classification of PGDs with features common to all PGD subtypes is proposed: PGD type; contact type; object base type; object centring type; specialisation type; working range; availability of additional devices; the number of grippers; type of control; type of attachment to the robot. Each feature of the general PGD classification, which affects PGD characteristics, is analysed, and a usage example is given. The advantages of each feature included in the general PGD classification are also considered. For a more detailed classification, PGDs are divided into the following types: Vacuum GDs (VGDs), Jet GDs (JGDs), Combined PGDs (CPGDs). For VGD, the main distinguishing features are highlighted, which are the vacuum creation method, effect/actuator, stepwise nozzle, suction cup type, suction material type. The main distinguishing features of JGDs include using a jet of compressed air, the shape of nozzle elements, the number of nozzle elements, the direction of gas flows, type of surface of the MO. The main distinguishing features of CPGD include the type of combination and function performed. The main features are given for each classification, and the advantages/disadvantages of the most typical representatives of GDs are described. The authors identify the main development directions for GDs at the present stage of robotisation of production processes, medicine, military and space technology, etc. Based on the analysis and systematisation of literature data, the authors define the main promising areas of research that will be actively developed soon: optimisation of grippers’ design, flexible grippers, additive manufacturing (3D-printing) when creating grippers, collaborative grippers, modular grippers, universal grippers, grippers based on new materials, new effects in grippers, bionic and medical grippers, simulation and rendering of the gripping process.
