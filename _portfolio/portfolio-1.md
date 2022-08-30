@@ -8,6 +8,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 ## Colaboration
 * Department of Robotics Engineering, Worcester Polytechnic Institute (USA).
 * Texas Robotics, The University of Texas at Austin (USA).
+* Department of Automation Technological Processes and Manufacturing, Ternopil Ivan Puluj National Technical University (Ukraine).
 
 ### Materials
 
@@ -34,3 +35,6 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2Dp1j-EONhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Publications
+
+* R. Mykhailyshyn, V. Savkiv, P. Maruschak, J. Xiao, (2022). &quot;A Systematic Review on Pneumatic Gripping Devices for Industrial Robots.&quot; <i>Transport</i>. 37(3), 201–231. https://doi.org/10.3846/transport.2022.17110.
+* R. Mykhailyshyn, J. Xiao, (2022). &quot;Influence of Inlet Parameters on Power Characteristics of Bernoulli Gripping Devices for Industrial Robots.&quot; <i>Applied Sciences</i>. 12(14), 7074. https://doi.org/10.3390/app12147074.
