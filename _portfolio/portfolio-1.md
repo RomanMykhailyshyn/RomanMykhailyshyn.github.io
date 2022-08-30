@@ -36,5 +36,5 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 ## Publications
 
-* R. Mykhailyshyn, V. Savkiv, P. Maruschak, J. Xiao, (2022). &quot;A Systematic Review on Pneumatic Gripping Devices for Industrial Robots.&quot; <i>Transport</i>. 37(3), 201–231. https://doi.org/10.3846/transport.2022.17110.
-* R. Mykhailyshyn, J. Xiao, (2022). &quot;Influence of Inlet Parameters on Power Characteristics of Bernoulli Gripping Devices for Industrial Robots.&quot; <i>Applied Sciences</i>. 12(14), 7074. https://doi.org/10.3390/app12147074.
+* R. Mykhailyshyn, V. Savkiv, P. Maruschak, J. Xiao, (2022). &quot;A Systematic Review on Pneumatic Gripping Devices for Industrial Robots.&quot; <i>Transport</i>. 37(3), 201–231. [https://doi.org/10.3846/transport.2022.17110](https://journals.vilniustech.lt/index.php/Transport/article/view/17110/11276).
+* R. Mykhailyshyn, J. Xiao, (2022). &quot;Influence of Inlet Parameters on Power Characteristics of Bernoulli Gripping Devices for Industrial Robots.&quot; <i>Applied Sciences</i>. 12(14), 7074. [https://doi.org/10.3390/app12147074](https://www.mdpi.com/2076-3417/12/14/7074).
