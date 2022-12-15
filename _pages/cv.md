@@ -39,7 +39,7 @@ Work experience
   * Institute of Automation, Mechatronics, Robotics and Production Systems
   * Erasmus+ project
 
-* 2017 - 2018: Assistant Professor
+* 2016 - 2018: Assistant Professor
   * TNTU
   * Department of Automation of Technological Processes and Manufacturing
 
@@ -50,6 +50,7 @@ Work experience
 
 Fellowships and Awards
 ======
+* 2022 – 2024: Scholarship of the Cabinet of Ministers of Ukraine for Young Scientists, Ukraine
 * 2020 – 2022: Scholarship of the Cabinet of Ministers of Ukraine for Young Scientists, Ukraine
 * 2020:        Award of Ternopil City Council in the nomination "Young scientists and researchers", Ukraine
 * 2018:        Award of Ternopil Regional State Administration and Ternopil Regional Council on the occasion of Science Day, Ukraine
@@ -65,6 +66,17 @@ Reviewing Activities
 * 2019: Reviewer Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, SAGE Publishing
 * 2019: Reviewer International Journal of Advanced Robotic Systems, SAGE Publishing
 * 2018: Reviewer IEEE Access, Institute of Electrical and Electronics Engineers Inc. (IEEE)
+
+Editing Activities
+======
+* 2022:  Selection Committee for the Fulbright Program (Visiting Scholar)
+* 2022: Review Editor, Frontiers in Robotics and AI
+* 2022-2023:   Special Issue Guest Editor, Robotics
+* 2021:  Grant Reviewer, Ministry of Education and Science Ukraine
+* 2021:  Reviewer of Projects under the Fulbright Program (Graduate Student, Research and Development, Visiting Scholar)
+
+
+
 
 Publications
 ======
