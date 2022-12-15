@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-Robot Trajectory Planning
 excerpt: ''
 date: 2022-11-01
-venue: 'Machines'
+venue: 'MM Science Journal'
 paperurl: 'https://www.mdpi.com/2075-1702/10/10/916'
 citation: 'Hroncova D, Sincak P, Merva T, Mykhailyshyn R (2022). &quot;Robot Trajectory Planning.&quot; <i>MM Science Journal</i>. https://doi.org/10.17973/MMSJ.2022_11_2022093.'
 ---
