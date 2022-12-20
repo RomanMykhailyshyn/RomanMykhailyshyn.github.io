@@ -1,6 +1,6 @@
 ---
 title: "Robotic grasping systems for medical applications"
-excerpt: "<br/><img src='/images/p2_1.png' width='300'>"
+excerpt: "<br/><img src='/images/p2_1.png' width='350'>"
 collection: portfolio
 ---
 ## Funding
