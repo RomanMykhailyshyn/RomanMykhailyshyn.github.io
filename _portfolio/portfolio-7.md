@@ -1,6 +1,6 @@
 ---
 title: "Development of Models for Optimizing the Orientation of the Industrial Robot Brush"
-excerpt: "<br/><img height='360' src='/images/P1.png'>"
+excerpt: "<br/><img src='/images/P1.png' width='500'>"
 collection: portfolio
 ---
 ## Funding
