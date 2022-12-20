@@ -1,14 +1,24 @@
 ---
-title: "Experimental Investigations of the Dynamics of Contactless Manipulation by Bernoulli Grippers"
-excerpt: "<br/><img src='/images/P4.png'>"
+title: "Robotic grasping systems for medical applications"
+excerpt: "<br/><img src='/images/p2_1.png'>"
 collection: portfolio
 ---
 ## Funding
-This project was supported by the program EDU-01/25 House of Europe.
+This project was supported in part by the ...
 
 ## Colaboration
-* Department of Robotics and Artificial Intelligence, Slovak University of Technology in Bratislava (Slovak Republic).
+* Texas Robotics, The University of Texas at Austin (USA).
+* Department of Automation Technological Processes and Manufacturing, Ternopil Ivan Puluj National Technical University (Ukraine).
+
+### Materials
+
+The
+
 
 ## Results
 
+The
+
 ## Publications
+
+The
