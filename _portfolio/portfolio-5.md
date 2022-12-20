@@ -1,6 +1,6 @@
 ---
 title: "Experimental Investigations of the Dynamics of Contactless Manipulation by Bernoulli Grippers"
-excerpt: "<br/><img height='460' src='/images/P4.png'>"
+excerpt: "<br/><img height='360' src='/images/P4.png'>"
 collection: portfolio
 ---
 ## Funding
