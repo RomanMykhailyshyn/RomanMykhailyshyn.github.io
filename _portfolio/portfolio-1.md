@@ -1,6 +1,6 @@
 ---
 title: "Substantiation Parameters of Gripping Devices of Industrial Robots and Methods of Manipulation of Flexible Objects"
-excerpt: "<br/><img height='250' src='/images/P3.png'>"
+excerpt: "<br/><img src='/images/P3.png' height='250'>"
 collection: portfolio
 ---
 ## Description
