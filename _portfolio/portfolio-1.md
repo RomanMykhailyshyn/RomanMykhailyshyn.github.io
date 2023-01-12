@@ -17,8 +17,9 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 | №  | Materials | Coefficient | Weight    | Thickness   | Microscopy (x20 and x150) Keyence VHX-70000 |
 |    |           | of friction | [g/cm*cm] | [mm]        |                                             |
+|    |           | with GD     |           |             |                                             |
 | -- | ------    | ------      | ------    | ------      | ------------------------------------------- |
-| 0  | Linen     | 0.32        | 0.0181    | 0.23        | <br/><img src='/images/10.jpg'>             |
+| 0  | Linen     | 0.32        | 0.0181    | 0.23        | <br/><img src='/images/0.jpg'>              |
 | 1  | Film      | 0.19        | 0.0047    | 0.05        |                                             |
 | 2  | Woven     | 0.40        | 0.0175    | 0.27        | <br/><img src='/images/2.png'>              |
 | 3  | Flannel   | 0.37        | 0.0102    | 0.13        | <br/><img src='/images/3.jpg'>              |
@@ -26,9 +27,15 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | 5  | Stretch   | 0.33        | 0.0124    | 0.26        | <br/><img src='/images/5.png'>              |
 | 6  | Polyester | 0.34        | 0.0154    | 0.22        | <br/><img src='/images/6.jpg'>              |
 | 7  | Satin     | 0.39        | 0.0165    | 0.41        | <br/><img src='/images/7.png'>              |
+| 8  | Satin (100% Polyester)    | 0.0         | 0.008     | 0.15        | <br/><img src='/images/8.png'>              |
+| 9  | Poly Cotton (65% Polyester/ 35% Cotton) | 0.39        | 0.01    | 0.19        | <br/><img src='/images/9.png'>              |
+| 10 | Cotton (80% Polyester/ 20% Cotton) | 0.39        | 0.012    | 0.2        | <br/><img src='/images/10.png'>             |
+| 11 | 600Denier Cordura Outdoor Canvas Waterproof Fabric | 0.39        | 0.03    | 0.37        | <br/><img src='/images/11.png'>          |
 | -  | -         | -           | -         | -           | -                                           |
 
 
+Premium Cotton Blend Broadcloth Fabric; 20% Cotton 80% Polyester
+Poly Cotton Broadcloth Black; 65% Polyester/ 35% Cotton.
 ## Results
 
 * Grasping non-rigid (textile) materials using a vacuum suction cup.
