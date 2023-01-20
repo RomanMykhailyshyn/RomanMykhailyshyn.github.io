@@ -16,6 +16,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 ## Materials
 
 ### Manipulation Materials
+
 | №  | Materials | Coefficient | Weight    | Thickness   | Microscopy (x20 and x150) Keyence VHX-70000 |
 |    |           | of friction | [g/cm*cm] | [mm]        |                                             |
 |    |           | with GD     |           |             |                                             |
@@ -35,6 +36,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | -  | -         | -           | -         | -           | -                                           |
 
 ### Cover from which the object is grasping
+
 | №  | Surfaces                                        | Durometer | Coefficient of friction with Materials № 8| Coefficient of friction with Materials № 9 | Coefficient of friction with Materials № 10 | Coefficient of friction with Materials № 11| 
 | -- | ------                                          | ----- | ---- | ---- | ---- | ---  |
 | 0  | Table                                           |       | 0.24 | 0.28 | 0.36 | 0.3  |
