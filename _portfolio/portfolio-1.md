@@ -44,6 +44,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | 2  | Multipurpose Neoprene with Crisscross Texture   | 50A   | 1.49 | 1.94 | 2.14 | 1.71 |
 | -  | -                                               | -     | -    | -    | -    | -    |
 
+### Multipurpose Neoprene
 <br/><img src='/images/cert.jpg' width='300'> 
 
 ## Results
