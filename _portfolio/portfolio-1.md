@@ -13,8 +13,9 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 * Texas Robotics, The University of Texas at Austin (USA).
 * Department of Automation Technological Processes and Manufacturing, Ternopil Ivan Puluj National Technical University (Ukraine).
 
-### Materials
+## Materials
 
+### Manipulation Materials
 | №  | Materials | Coefficient | Weight    | Thickness   | Microscopy (x20 and x150) Keyence VHX-70000 |
 |    |           | of friction | [g/cm*cm] | [mm]        |                                             |
 |    |           | with GD     |           |             |                                             |
@@ -32,6 +33,14 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | 10 | Cotton (80% Polyester/ 20% Cotton)                 | 0.39      | 0.012   | 0.2     | <br/><img src='/images/10.png'>             |
 | 11 | 600Denier Cordura Outdoor Canvas Waterproof Fabric | 0.39      | 0.03    | 0.37    | <br/><img src='/images/11.png'>             |
 | -  | -         | -           | -         | -           | -                                           |
+
+### Cover from which the object is grasping
+| №  | Surfaces                                        | Durometer | Coefficient of friction with Materials № 8| Coefficient of friction with Materials № 9 | Coefficient of friction with Materials № 10 | Coefficient of friction with Materials № 11| 
+| -- | ------                                          | ----- | ---- | ---- | ---- | ---  |
+| 0  | Table                                           |       | 0.24 | 0.28 | 0.36 | 0.3  |
+| 1  | Multipurpose Neoprene Rubber                    | 50A   | 0.47 | 0.53 | 0.59 | 0.57 |
+| 2  | Multipurpose Neoprene with Crisscross Texture   | 50A   | 1.49 | 1.94 | 2.14 | 1.71 |
+| -  | -                                               | -     | -    | -    | -    | -    |
 
 ## Results
 
