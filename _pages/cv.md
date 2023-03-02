@@ -54,7 +54,7 @@ Work experience
 
 Fellowships and Awards
 ======
-* 2020:        [Outstanding Reviewer Award](https://www.mdpi.com/journal/applsci/awards.pdf/0/pdf_90_2022_9_award_63fef0febc0be.pdf?fbclid=IwAR1hqFYUn4YRLYuzbXs5k1IU4mCQL5M9UbDPKaresFUKN-PkovGi9Szcia0), Applied Sciences MDPI
+* 2022:        [Outstanding Reviewer Award](https://www.mdpi.com/journal/applsci/awards.pdf/0/pdf_90_2022_9_award_63fef0febc0be.pdf?fbclid=IwAR1hqFYUn4YRLYuzbXs5k1IU4mCQL5M9UbDPKaresFUKN-PkovGi9Szcia0), Applied Sciences MDPI
 * 2022:        [Machines Young Investigator Award](https://www.mdpi.com/journal/machines/awards/1779), Machines MDPI
 * 2022 – 2024: Scholarship of the Cabinet of Ministers of Ukraine for Young Scientists, Ukraine
 * 2020 – 2022: Scholarship of the Cabinet of Ministers of Ukraine for Young Scientists, Ukraine
