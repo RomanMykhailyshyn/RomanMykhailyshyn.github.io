@@ -17,6 +17,10 @@ Education
 
 Work experience
 ======
+* 2023 - Present: Adjunct Professor
+  * American University Kyiv (Powered by Arizona State University)
+  * EPAM School of Digital Technologies
+
 * 2022 - Present: Visiting Scholar
   * The University of Texas at Austin
   * Texas Robotics
@@ -30,7 +34,7 @@ Work experience
   * Department of Automation of Technological Processes and Manufacturing
 
 * 2020: Scientific Researcher
-  * Slovak University of Technology in Bratislava (STU)
+  * Slovak University of Technology in Bratislava (STUBA)
   * National Center of Robotics
   * House of Europe project
 
@@ -44,7 +48,7 @@ Work experience
   * Department of Automation of Technological Processes and Manufacturing
 
 * 2017: Scientific Researcher
-  * STU
+  * STUBA
   * National Center of Robotics
   * SAIA program
 
