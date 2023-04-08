@@ -7,4 +7,4 @@ venue: "The University of Texas at Austin, Walker Department of Mechanical Engin
 date: 2023-04-04
 location: "Austin, USA"
 ---
-<br/><img src='/images/UT_AM.png'>
+<br/><img  width="560" height="315" src='/images/UT_AM.png'>
