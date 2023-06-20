@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "[<img src='/images/UT.png' width='140'>](https://www.utexas.edu/) [<img src='/images/tntu.png' width='60'>](https://tntu.edu.ua/?p=uk/main) [<img src='/images/wpi.png' width='140'>](https://www.wpi.edu/) [<img src='/images/auk.png' width='140'>](https://auk.edu.ua/)"
+title: "[<img src='/images/UT.png' width='140'>](https://www.utexas.edu/) [<img src='/images/tntu.png' width='60'>](https://tntu.edu.ua/?p=uk/main) [<img src='/images/wpi.png' width='140'>](https://www.wpi.edu/) [<img src='/images/auk.png' width='140'>](https://auk.edu.ua/en/)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
