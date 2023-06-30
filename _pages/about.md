@@ -15,4 +15,4 @@ Dr. Mykhailyshyn is an author of more than 30 articles, published in leading sch
 ### Membership
 [<img src='/images/IEEE_logo.png' width='100'>](https://www.ieee.org/)   [<img src='/images/IEEE-Ukraine.png' width='180'>](https://ieee.org.ua/)   [<img src='/images/IEEE_RAS.png' width='150'>](https://www.ieee-ras.org/) 
 ### Alumni
-[<img src='/images/HoE.png' width='70'>](https://houseofeurope.org.ua/en/alumni-community)   [<img src='/images/fulbright-logo.png' width='200'>](https://fulbrightscholars.org/) [<img src='/images/logo_SAIA.png' width='80'>](https://www.saia.sk/en/) [<img src='/images/Erasmus-Logo.jpg' width='110'>](https://erasmus-plus.ec.europa.eu/)
+[<img src='/images/HoE.png' width='70'>](https://houseofeurope.org.ua/en/alumni-community)   [<img src='/images/fulbright-logo.png' width='200'>](https://fulbrightscholars.org/) [<img src='/images/logo_SAIA.png' width='80'>](https://www.saia.sk/en/) [<img src='/images/Erasmus-Logo.jpg' width='90'>](https://erasmus-plus.ec.europa.eu/)
