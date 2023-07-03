@@ -21,7 +21,7 @@ Work experience
   * American University Kyiv (Powered by Arizona State University)
   * EPAM School of Digital Technologies
 
-* 2022 - Present: Visiting Scholar
+* 2022 - Present: Research Fellow
   * The University of Texas at Austin
   * Texas Robotics
 
