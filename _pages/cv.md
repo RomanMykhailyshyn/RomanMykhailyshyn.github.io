@@ -21,7 +21,7 @@ Work experience
   * American University Kyiv (Powered by Arizona State University)
   * EPAM School of Digital Technologies
 
-* 2022 - Present: Research Fellow
+* 2022 - Present: Research Fellow (Provost Early Career Fellowship)
   * The University of Texas at Austin
   * Texas Robotics
 
