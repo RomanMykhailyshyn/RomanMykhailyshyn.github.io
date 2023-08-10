@@ -76,6 +76,8 @@ Reviewing Activities
 
 Editing Activities
 ======
+* 2022: Editor, Transport
+* 2022: Topical Advisory Panel Member, Machines
 * 2022:  Selection Committee for the Fulbright Program (Visiting Scholar)
 * 2022: Review Editor, Frontiers in Robotics and AI
 * 2022-2023:   Special Issue Guest Editor, Robotics
