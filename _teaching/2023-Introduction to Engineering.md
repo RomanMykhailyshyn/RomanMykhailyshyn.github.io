@@ -7,4 +7,4 @@ venue: "American University Kyiv, EPAM School of Digital Technologies"
 date: 2023-09-01
 location: "Kyiv, Ukraine"
 ---
-<br/><img src='/images/STD 170.png'>
+<br/><img src='/images/SDT170.png'>
