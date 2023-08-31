@@ -11,7 +11,7 @@ This project was supported in part by the ...
 
 ## Colaboration
 * Texas Robotics, The University of Texas at Austin (USA).
-* Department of Automation Technological Processes and Manufacturing, Ternopil Ivan Puluj National Technical University (Ukraine).
+* EPAM School of Digital Technologies, American University Kyiv (Powered by Arizona State University) (Ukraine).
 
 ### Materials
 
@@ -21,10 +21,13 @@ The
 ## Results
 
 
-### Grasping soft balls of various shapes by vortex gripper
+### Grasping Soft Balls of Various Shapes by Vortex Gripper
+
+|- |- |
 | <br/><img src='/images/vortex/1_1.jpg' width='140'>  | <br/><img src='/images/vortex/2.jpg' width='140'>    |
 | <br/><img src='/images/vortex/3_1.jpg' width='140'>  | <br/><img src='/images/vortex/4_2.jpg' width='140'>  |
 | <br/><img src='/images/vortex/5_2.jpg' width='140'>  | <br/><img src='/images/vortex/6_1.jpg' width='140'>  |
+|- |- |
 
 ## Publications
 
