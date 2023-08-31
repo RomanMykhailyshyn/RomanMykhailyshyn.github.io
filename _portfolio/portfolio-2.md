@@ -17,7 +17,11 @@ The
 
 ## Results
 
-The
+
+### Grasping soft balls of various shapes by vortex gripper
+| <br/><img src='/images/vortex/1_1.jpg'>  | <br/><img src='/images/vortex/2.jpg'>  |
+| <br/><img src='/images/vortex/3_1.jpg>   | <br/><img src='/images/vortex/4_2.jpg'>  |
+| <br/><img src='/images/vortex/5_2.jpg'>  | <br/><img src='/images/vortex/6_1.jpg'>  |
 
 ## Publications
 
