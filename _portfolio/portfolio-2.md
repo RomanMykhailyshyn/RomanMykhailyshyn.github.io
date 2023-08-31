@@ -26,13 +26,20 @@ The
 
 <center>
 
-| Grasping | Grasping |
+| Grasping | <center> Grasping </center>|
 | :---: | :---: |
-| <br/><img src='/images/vortex/1_1.jpg' width='240'>  | <br/><img src='/images/vortex/2.jpg' width='240'>    |
+| <center><br/><img src='/images/vortex/1_1.jpg' width='240'></center>  | <br/><img src='/images/vortex/2.jpg' width='240'>    |
 | <br/><img src='/images/vortex/3_1.jpg' width='240'>  | <br/><img src='/images/vortex/4_2.jpg' width='240'>  |
 | <br/><img src='/images/vortex/5_2.jpg' width='240'>  | <br/><img src='/images/vortex/6_1.jpg' width='240'>  |
 
 </center>
+
+<div align="center">
+
+COLUMN&nbsp;&nbsp;&nbsp;1 | </br>COLUMN 2 | </br></br>COLUMN 3
+:--- | :---: | ---:
+</br></br>left | center | </br></br>right
+</div>
 
 ## Publications
 
