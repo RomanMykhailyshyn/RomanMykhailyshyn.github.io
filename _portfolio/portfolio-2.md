@@ -26,12 +26,12 @@ The
 
 <center>
 
-| Grasping | <center> Grasping </center>|
+| Grasping | Grasping |
 | --- | --- |
-| <center><br/><img src='/images/vortex/1_1.jpg' width='240'></center>  | <br/><img src='/images/vortex/2.jpg' width='240'>    |
+| <br/><img src='/images/vortex/1_1.jpg' width='240'>  | <br/><img src='/images/vortex/2.jpg' width='240'>    |
 | <br/><img src='/images/vortex/3_1.jpg' width='240'>  | <br/><img src='/images/vortex/4_2.jpg' width='240'>  |
 | <br/><img src='/images/vortex/5_2.jpg' width='240'>  | <br/><img src='/images/vortex/6_1.jpg' width='240'>  |
-| --- | --- |
+| - | - |
 
 </center>
 
