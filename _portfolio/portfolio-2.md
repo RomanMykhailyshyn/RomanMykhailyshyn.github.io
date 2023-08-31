@@ -24,6 +24,7 @@ The
 
 ### Grasping Soft Balls of Various Shapes by Vortex Gripper
 
+| Grasping | Grasping |
 | --- | ---- |
 | <br/><img src='/images/vortex/1_1.jpg' width='240'>  | <br/><img src='/images/vortex/2.jpg' width='240'>    |
 | <br/><img src='/images/vortex/3_1.jpg' width='240'>  | <br/><img src='/images/vortex/4_2.jpg' width='240'>  |
