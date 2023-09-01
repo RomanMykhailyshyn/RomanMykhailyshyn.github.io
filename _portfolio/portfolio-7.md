@@ -9,7 +9,5 @@ This project was supported by the research work VK55-16 "Development of models f
 ## Colaboration
 * National Center of Robotics (Slovak Republic).
 
-## Results
-
 ## Publications
 Total Published: articles and conference papers (Scopus and/or WoS) - 8; published articles in Ukrainian journals - 3; and foreign - 1; abstracts of conferences - 8; patents - 2; PhD thesis defended - 1.
