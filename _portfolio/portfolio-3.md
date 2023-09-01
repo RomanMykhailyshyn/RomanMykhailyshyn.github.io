@@ -3,12 +3,16 @@ title: "Bio-Inspired Grasping Systems"
 excerpt: "<br/><img src='/images/p2_1.png' width='350'>"
 collection: portfolio
 ---
+## Description
+The main idea of the project is the design of grippers that imitate (bio-inspire) the surface or functions of the existing grabbing mechanisms in nature, which, thanks to evolution, have achieved significant success for certain tasks and objects.
+
 ## Funding
-This project was supported in part by the ...
+The project is in the process of seeking funds.
 
 ## Colaboration
 * Texas Robotics, The University of Texas at Austin (USA).
-* Department of Automation Technological Processes and Manufacturing, Ternopil Ivan Puluj National Technical University (Ukraine).
+* Walker Department of Mechanical Engineering, The University of Texas at Austin (USA).
+* EPAM School of Digital Technologies, American University Kyiv (Powered by Arizona State University) (Ukraine).
 
 ### Materials
 
@@ -20,3 +24,5 @@ The
 The
 
 ## Publications
+
+* M. J. DeMoor, R. Mykhailyshyn, A. Majewicz Fey, Bio-Inspired Suction Cup. In process.
