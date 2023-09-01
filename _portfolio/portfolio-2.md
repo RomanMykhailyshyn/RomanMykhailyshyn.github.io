@@ -7,7 +7,7 @@ collection: portfolio
 The main idea of the project is the development of new types of grasping systems and methods of their use for medical purposes, in order to minimize tissue damage and contact with them.
 
 ## Funding
-The project is in the process of seeking funds.
+The project is in the process of seeking funds from NSF FRR.
 
 ## Colaboration
 * Texas Robotics, The University of Texas at Austin (USA).
