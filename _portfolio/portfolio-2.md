@@ -4,7 +4,7 @@ excerpt: "<br/><img src='/images/p2_2.png' width='500'>"
 collection: portfolio
 ---
 ## Description
-The main idea of the project is the development of new types of grasming systems and methods of their use for medical purposes, in order to minimize tissue damage and contact with them.
+The main idea of the project is the development of new types of grasping systems and methods of their use for medical purposes, in order to minimize tissue damage and contact with them.
 
 ## Funding
 The project is in the process of seeking funds.
@@ -35,3 +35,4 @@ The first step is the development of a low-contact gripper that would be able gr
 
 ## Publications
 
+* R. Mykhailyshyn, A. Majewicz Fey, Low-Contact Grasping of Soft Tissue with Complex Geometry using a Novel Vortex Gripper. IEEE IROS 2023 Workshop. Submitted.
