@@ -7,7 +7,7 @@ collection: portfolio
 The main idea of the project is the development of new types of grasming systems and methods of their use for medical purposes, in order to minimize tissue damage and contact with them.
 
 ## Funding
-This project was supported in part by the ...
+The project is in the process of seeking funds.
 
 ## Colaboration
 * Texas Robotics, The University of Texas at Austin (USA).
@@ -21,9 +21,9 @@ The
 
 ## Results
 
+The first step is the development of a low-contact gripper that would be able grasping and manipulate soft objects with different surface shapes. For example, during surgical applications, manipulation of various organs with convex and concave surfaces.
 
 ### Grasping Soft Balls of Various Shapes by Vortex Gripper
-
 
 | Grasping | Grasping |
 | :---: | :---: |
@@ -35,4 +35,3 @@ The
 
 ## Publications
 
-The
