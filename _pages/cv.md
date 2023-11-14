@@ -17,19 +17,19 @@ Education
 
 Work experience
 ======
-* 2023 - Present: Adjunct Professor
-  * American University Kyiv (Powered by Arizona State University)
-  * EPAM School of Digital Technologies
-
 * 2022 - Present: Research Fellow (Provost Early Career Fellowship)
   * The University of Texas at Austin
   * Texas Robotics
+
+* 2023 - Present: Adjunct Professor
+  * American University Kyiv (Powered by Arizona State University)
+  * EPAM School of Digital Technologies
 
 * 2021 - 2022: Fulbright Visiting Scholar
   * Worcester Polytechnic Institute
   * Robotics Engineering Department
 
-* 2019 - Present: Associate Professor
+* 2019 - 2023: Associate Professor
   * Ternopil Ivan Puluj National Technical University (TNTU)
   * Department of Automation of Technological Processes and Manufacturing
 
