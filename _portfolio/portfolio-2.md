@@ -35,4 +35,4 @@ The first step is the development of a low-contact gripper that would be able gr
 
 ## Publications
 
-* R. Mykhailyshyn, A. Majewicz Fey, Low-Contact Grasping of Soft Tissue with Complex Geometry using a Novel Vortex Gripper. IEEE IROS 2023 Workshop. Submitted.
+* R. Mykhailyshyn, A. Majewicz Fey, Low-Contact Grasping of Soft Tissue with Complex Geometry using a Novel Vortex Gripper. IEEE IROS 2023 Workshop.
