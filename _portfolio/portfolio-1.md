@@ -56,7 +56,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2Dp1j-EONhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Experiment to determine the holding force of non-rigid materials when lifting them vertically with different orientations of the gripper.
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=F-GiMlQj6F0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F-GiMlQj6F0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Publications
 
