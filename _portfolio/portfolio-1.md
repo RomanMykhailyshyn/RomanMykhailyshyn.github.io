@@ -32,7 +32,10 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | 8  | Satin (100% Polyester)                             | 0.0       | 0.008   | 0.15    | <br/><img src='/images/8.png'>              |
 | 9  | Poly Cotton (65% Polyester/ 35% Cotton)            | 0.39      | 0.01    | 0.19    | <br/><img src='/images/9.png'>              |
 | 10 | Cotton (80% Polyester/ 20% Cotton)                 | 0.39      | 0.012   | 0.2     | <br/><img src='/images/10.png'>             |
-| 11 | 600Denier Cordura Outdoor Canvas Waterproof Fabric | 0.39      | 0.03    | 0.37    | <br/><img src='/images/11.png'>             |
+| 11 | 600Denier Cordura Outdoor Canvas Waterproof Fabric | 0.39      | 0.03    | 0.37    | <br/><img src='/images/11.jpg'>             |
+| 12 | blue      | 0.33        | 0.0124    | 0.26        | <br/><img src='/images/12.jpg'>             |
+| 13 | white     | 0.34        | 0.0154    | 0.22        | <br/><img src='/images/13.jpg'>             |
+| 14 | jens      | 0.39        | 0.0165    | 0.41        | <br/><img src='/images/14.jpg'>             |
 | -  | -         | -           | -         | -           | -                                           |
 
 ### Cover from which the object is grasping
