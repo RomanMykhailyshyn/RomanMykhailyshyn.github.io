@@ -15,7 +15,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 ## Materials
 
-### Manipulation Materials
+### Grasping and Manipulation Materials
 
 | №  | Materials | Coefficient | Weight    | Thickness   | Microscopy (x20 and x150)                   |
 |    |           | of friction | [g/cm*cm] | [mm]        |                                             |
@@ -38,7 +38,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | 14 | Heavyweight (11 oz. per sq. yard) Denim Cotton (100%)  | 0.39        | 0.0165    | 0.41        | <br/><img src='/images/14.jpg'>             |
 | -  | -         | -           | -         | -           | -                                           |
 
-### Cover from which the object is grasping
+### Surface cover from which the object is grasping
 
 | №  | Surfaces                                        | Durometer | Coefficient of friction with Materials № 8| Coefficient of friction with Materials № 9 | Coefficient of friction with Materials № 10 | Coefficient of friction with Materials № 11| 
 | -- | ----------------------------------------------  | ----- | ---- | ---- | ---- | ---- |
@@ -52,7 +52,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 ## Results
 
-* Grasping non-rigid (textile) materials using a vacuum suction cup.
+* Failing grasping non-rigid (textile) materials using a vacuum suction cup.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nIoEO3vjNYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Grasping non-rigid (textile) materials using the proposed gripping device.
