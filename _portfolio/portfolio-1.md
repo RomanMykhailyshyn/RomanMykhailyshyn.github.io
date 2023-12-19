@@ -17,7 +17,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 ### Manipulation Materials
 
-| №  | Materials | Coefficient | Weight    | Thickness   | Microscopy (x20 and x150) Keyence VHX-70000 |
+| №  | Materials | Coefficient | Weight    | Thickness   | Microscopy (x20 and x150)                   |
 |    |           | of friction | [g/cm*cm] | [mm]        |                                             |
 |    |           | with GD     |           |             |                                             |
 | -- | ------    | ------      | ------    | ------      | ------------------------------------------- |
