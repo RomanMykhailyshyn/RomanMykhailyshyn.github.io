@@ -34,8 +34,8 @@ The first step is the development of a low-contact gripper that would be able gr
 
 ## Results Presentation
 
-* R. Mykhailyshyn &quot; A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue with Complex Geometry using a Novel Vortex Gripper.&quot; <i>IROS 2023 Workshop on Robotics for the Gut</i>.
-* R. Mykhailyshyn &quot; A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue Using a Novel Vortex Gripper.&quot; <i>IEEE 2024 International Symposium on Medical Robotics</i> [IEEE](11).
+* R. Mykhailyshyn &quot; A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue with Complex Geometry using a Novel Vortex Gripper.&quot; <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023) Workshop on Robotics for the Gut</i>.
+* R. Mykhailyshyn &quot; A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue Using a Novel Vortex Gripper.&quot; <i>IEEE 2024 International Symposium on Medical Robotics (ISMR 2024)</i> [IEEE](11).
 
 ## Publications
 
