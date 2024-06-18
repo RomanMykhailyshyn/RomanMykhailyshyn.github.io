@@ -25,7 +25,17 @@ The first step is the development of a low-contact gripper that would be able gr
 
 ### Grasping Soft Balls of Various Shapes by Vortex Gripper
 
-The 
+ | Grasping | Grasping |
+ | :---: | :---: |
+ | <br/><img src='/images/vortex/1_1.jpg' width='240'> | <br/><img src='/images/vortex/2.jpg' width='240'>    |
+ | <br/><img src='/images/vortex/3_1.jpg' width='240'>  | <br/><img src='/images/vortex/4_2.jpg' width='240'>  |
+ | <br/><img src='/images/vortex/5_2.jpg' width='240'>  | <br/><img src='/images/vortex/6_1.jpg' width='240'>  |
+ | - | - |
+
+## Results Presentation
+
+* R. Mykhailyshyn &quot; A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue with Complex Geometry using a Novel Vortex Gripper.&quot; <i>IROS 2023 Workshop on Robotics for the Gut</i>.
+* R. Mykhailyshyn &quot; A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue Using a Novel Vortex Gripper.&quot; <i>IEEE 2024 International Symposium on Medical Robotics</i> [IEEE](11).
 
 ## Publications
 
