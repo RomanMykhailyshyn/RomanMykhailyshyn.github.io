@@ -8,4 +8,4 @@ tags:
   - category2
 ---
 Dr. Roman Mykhailyshyn presented the direction of his scientific work at the PI meeting organized by the National Science Foundation in Washington DC.
-<br/><img src='/images/RM_in_NSF_PI.jpg'>
+<br/><img src='/images/RM_in_NSF_PI.jpg' width='500'>
