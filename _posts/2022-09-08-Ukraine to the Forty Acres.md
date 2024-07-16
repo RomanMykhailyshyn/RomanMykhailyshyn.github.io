@@ -8,4 +8,4 @@ tags:
   - category2
 ---
 Dr. Roman Mykhailyshyn one of the Scholars in UT "[UT CREEES Welcomes Scholars from Ukraine to the Forty Acres](https://liberalarts.utexas.edu/slavic/news/ut-creees-welcomes-scholars-from-ukraine-to-the-forty-acres)".
-<br/><img src='/images/post_n.jpg'>
+<br/><img src='/images/post_n.jpg' width='500'>
