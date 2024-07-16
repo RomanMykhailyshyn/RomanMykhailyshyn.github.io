@@ -8,7 +8,7 @@ tags:
   - category2
 ---
 [House of Europe is an EU-funded programme fostering professional and creative exchange between Ukrainians and their colleagues in EU countries.](https://eunicglobal.eu/projects/how-ukrainians-are-establishing-cultural-and-professional-links-with-the-european-union)
-<br/><img src='/images/EU.jpg'>
+<br/><img src='/images/EU.jpg' width='500'>
 
 Before the pandemic started and when the borders were still open, Roman Mykhailyshyn, a PhD candidate at Department of Automation of Technological Professions and Manufacturing at Ternopil National Technical University, became one of the participants in the programme and interned at the National Centre of Robotics, Slovakia. Not only did it let Roman do necessary research, it also helped him to establish a collaboration with the Institute of Robotics and Cybernetics in the same city.
 
