@@ -8,4 +8,4 @@ tags:
   - category2
 ---
 Dr. Roman Mykhailyshyn published an article "[Ukrainian Volunteers Use 3D Printers to Save Lives](https://spectrum.ieee.org/ukraine-3d-printing)" in IEEE Spectrum, edited by Evan Ackerman.
-<br/><img src='/images/art_spectrum.png'>
+<br/><img src='/images/art_spectrum.png' width='500'>
