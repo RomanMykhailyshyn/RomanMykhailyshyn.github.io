@@ -7,7 +7,7 @@ venue: "Robotics Engineering Colloquium Series, Department of Robotics Engineeri
 date: 2021-10-29
 location: "Worcester MA, USA"
 ---
-<br/><img src='/images/wpi_col.jpg'>
+<br/><img src='/images/wpi_col.jpg' width='500'>
 [More information here](https://www.wpi.edu/news/calendar/events/rbe-colloquium-series-dr-roman-mykhailyshyn-bernoulli-grippers-manipulating)
 
 Abstract: Gripping and manipulation of flexible materials by industrial robots encourage the use of high-cost handling systems. The use of Bernoulli grippers is underestimated for solving local problems of gripping and manipulating flexible objects. I propose a new design of the Bernoulli gripper to handle flexible and porous (textile) materials. The proposed design of the gripper has many advantages, and the most important advantage is grasping flexible objects from a great distance at different positions and orientations. We also consider the influence of input parameters on the power characteristics of the gripper.
