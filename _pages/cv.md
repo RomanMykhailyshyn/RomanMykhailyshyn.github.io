@@ -17,13 +17,17 @@ Education
 
 Work experience
 ======
-* 2022 - Present: Research Fellow (Provost Early Career Fellowship)
-  * The University of Texas at Austin
-  * Texas Robotics
+* 2024 - Present: Research Associate Professor
+  * Osaka University
+  * Graduate School of Engineering Science
 
 * 2023 - Present: Adjunct Professor
   * American University Kyiv (Powered by Arizona State University)
   * EPAM School of Digital Technologies
+
+* 2022 - 2024: Research Fellow (Provost Early Career Fellowship)
+  * The University of Texas at Austin
+  * Texas Robotics
 
 * 2021 - 2022: Fulbright Visiting Scholar
   * Worcester Polytechnic Institute
