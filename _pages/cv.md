@@ -47,7 +47,7 @@ Work experience
   * Institute of Automation, Mechatronics, Robotics and Production Systems
   * Erasmus+ project
 
-* 2016 - 2018: Assistant Professor
+* 2018 - 2019: Assistant Professor
   * TNTU
   * Department of Automation of Technological Processes and Manufacturing
 
@@ -55,6 +55,10 @@ Work experience
   * STUBA
   * National Center of Robotics
   * SAIA program
+
+* 2016 - 2018: Teaching Assistant
+  * TNTU
+  * Department of Automation of Technological Processes and Manufacturing
 
 Fellowships and Awards
 ======
@@ -66,8 +70,12 @@ Fellowships and Awards
 * 2020:        Award of Ternopil City Council in the nomination "Young scientists and researchers", Ukraine
 * 2018:        Award of Ternopil Regional State Administration and Ternopil Regional Council on the occasion of Science Day, Ukraine
 
-Reviewing Activities
+Reviewing Journal Activities
 ======
+* 2024: Reviewer IEEE Robotics and Automation Letters
+* 2024: Reviewer ASME Journal of Fluids Engineering
+* 2023: Reviewer Journal of Computational Design and Engineering, Oxford University Press
+* 2023: Reviewer IEEE Transactions on Automation Science and Engineering
 * 2021: Reviewer Robotics, MDPI
 * 2021: Reviewer Applied Sciences, MDPI
 * 2021: Reviewer Machines, MDPI
