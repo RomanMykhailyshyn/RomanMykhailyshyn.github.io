@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "[<img src='/images/Osaka_University_Logo.png' width='140'>](https://www.osaka-u.ac.jp/en) [<img src='/images/UT.png' width='140'>](https://www.utexas.edu/) [<img src='/images/tntu.png' width='55'>](https://tntu.edu.ua/?p=uk/main) [<img src='/images/wpi.png' width='140'>](https://www.wpi.edu/) [<img src='/images/stu.png' width='140'>](https://www.stuba.sk/english.html?page_id=132) [<img src='/images/auk.png' width='140'>](https://auk.edu.ua//en/) [<img src='/images/NCR.png' width='140'>](https://nacero.sk/language/en/)" 
+title: "[<img src='/images/Osaka_University_Logo.png' width='140'>](https://www.osaka-u.ac.jp/en) [<img src='/images/UT.png' width='140'>](https://www.utexas.edu/) [<img src='/images/tntu.png' width='55'>](https://tntu.edu.ua/?p=uk/main) [<img src='/images/wpi.png' width='140'>](https://www.wpi.edu/) [<img src='/images/stu.png' width='160'>](https://www.stuba.sk/english.html?page_id=132) [<img src='/images/auk.png' width='140'>](https://auk.edu.ua//en/) [<img src='/images/NCR.png' width='55'>](https://nacero.sk/language/en/)" 
 excerpt: "About me"
 author_profile: true
 redirect_from: 
