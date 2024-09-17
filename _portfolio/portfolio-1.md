@@ -9,6 +9,8 @@ Gripping and manipulating non-rigid and porous objects is an important challenge
 ## Funding
 This project was supported in part by the U.S. Department of State (DOS), Bureau of Educational and Cultural Affairs (ECA), Exchange Visitor Program #G-1-00005 with the cooperation of the Institute of International Education (IIE) under Fulbright Grant PS00322778.
 ## Colaboration
+* Department of Systems Innovation, Osaka University (Japan).
+* ICPS Research Center, National Institute of Advanced Industrial Science and Technology (AIST, Japan).
 * Department of Robotics Engineering, Worcester Polytechnic Institute (USA).
 * Texas Robotics, The University of Texas at Austin (USA).
 * Department of Automation Technological Processes and Manufacturing, Ternopil Ivan Puluj National Technical University (Ukraine).
@@ -67,7 +69,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 ## Publications
 
-* R. Mykhailyshyn, A. Majewicz Fey, J. Xiao, (2024). &quot;Toward Novel Grasping of Non-Rigid Materials Through Robotic End-Effector Reorientation.&quot; <i>IEEE/ASME Transactions on Mechatronics</i>. -, -. [https://doi.org/10.1109/TMECH.2023.3337628](https://doi.org/10.1109/TMECH.2023.3337628).
+* R. Mykhailyshyn, A. Majewicz Fey, J. Xiao, (2024). &quot;Toward Novel Grasping of Non-Rigid Materials Through Robotic End-Effector Reorientation.&quot; <i>IEEE/ASME Transactions on Mechatronics</i>. 29(4), 2614-2624. [https://doi.org/10.1109/TMECH.2023.3337628](https://doi.org/10.1109/TMECH.2023.3337628).
 * R. Mykhailyshyn, A. Majewicz Fey, J. Xiao, (2023). &quot;Finite Element Modeling of Grasping Porous Materials in Robotics Cells.&quot; <i>Robotica</i>. 41(11), 3485-3500. [https://doi.org/10.1017/S0263574723001121](https://www.cambridge.org/core/journals/robotica/article/finite-element-modeling-of-grasping-porous-materials-in-robotics-cells/2F3370037A36269D8690047F8A488880).
 * R. Mykhailyshyn, V. Savkiv, A. Majewicz Fey, J. Xiao, (2023). &quot;Gripping Device for Textile Materials.&quot; <i>IEEE Transactions on Automation Science and Engineering</i>. 20(4), 2397–2408. [https://doi.org/10.1109/TASE.2022.3208796](https://doi.org/10.1109/TASE.2022.3208796).
 * R. Mykhailyshyn, J. Xiao, (2022). &quot;Influence of Inlet Parameters on Power Characteristics of Bernoulli Gripping Devices for Industrial Robots.&quot; <i>Applied Sciences</i>. 12(14), 7074. [https://doi.org/10.3390/app12147074](https://www.mdpi.com/2076-3417/12/14/7074).
