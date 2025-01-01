@@ -1,7 +1,7 @@
 ---
 title: "Toward Novel Grasping of Non-Rigid Materials Through Robotic End-Effector Reorientation"
 collection: publications
-permalink: /publication/2023-Toward Novel Grasping of Non-Rigid Materials Through Robotic End-Effector Reorientation
+permalink: /publication/2024-Toward Novel Grasping of Non-Rigid Materials Through Robotic End-Effector Reorientation
 excerpt: ''
 date: 2024-08-01
 venue: 'IEEE/ASME Transactions on Mechatronics'
