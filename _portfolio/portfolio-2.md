@@ -39,4 +39,4 @@ The first step is the development of a low-contact gripper that would be able gr
 
 ## Publications
 
-The 
+* R. Mykhailyshyn &quot; A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue with Complex Geometry using a Vortex Gripper.&quot; <i>arXiv preprint</i> arXiv:[2501.07832](https://arxiv.org/abs/2501.07832).
