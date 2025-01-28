@@ -69,6 +69,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 ## Publications
 
+* R. Mykhailyshyn, J. Lee, M. Mykhailyshyn, K. Harada, A. Majewicz Fey, (2025). &quot;TDexterous Manipulation of Deformable Objects via Pneumatic Gripping: Lifting by One End.&quot; <i>arXiv preprint</i>. arXiv:[2501.05198](https://arxiv.org/abs/2501.05198).
 * R. Mykhailyshyn, A. Majewicz Fey, J. Xiao, (2024). &quot;Toward Novel Grasping of Non-Rigid Materials Through Robotic End-Effector Reorientation.&quot; <i>IEEE/ASME Transactions on Mechatronics</i>. 29(4), 2614-2624. [https://doi.org/10.1109/TMECH.2023.3337628](https://doi.org/10.1109/TMECH.2023.3337628).
 * R. Mykhailyshyn, A. Majewicz Fey, J. Xiao, (2023). &quot;Finite Element Modeling of Grasping Porous Materials in Robotics Cells.&quot; <i>Robotica</i>. 41(11), 3485-3500. [https://doi.org/10.1017/S0263574723001121](https://www.cambridge.org/core/journals/robotica/article/finite-element-modeling-of-grasping-porous-materials-in-robotics-cells/2F3370037A36269D8690047F8A488880).
 * R. Mykhailyshyn, V. Savkiv, A. Majewicz Fey, J. Xiao, (2023). &quot;Gripping Device for Textile Materials.&quot; <i>IEEE Transactions on Automation Science and Engineering</i>. 20(4), 2397–2408. [https://doi.org/10.1109/TASE.2022.3208796](https://doi.org/10.1109/TASE.2022.3208796).
