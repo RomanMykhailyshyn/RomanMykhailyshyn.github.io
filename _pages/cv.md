@@ -47,7 +47,7 @@ Work experience
   * Institute of Automation, Mechatronics, Robotics and Production Systems
   * Erasmus+ project
 
-* 2018 - 2019: Assistant Professor
+* 2019 - 2019: Assistant Professor
   * TNTU
   * Department of Automation of Technological Processes and Manufacturing
 
