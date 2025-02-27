@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <!-- <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> -->
+
+
+  <!-- <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG"> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image"> -->
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <style>
+    .rotate-90 {
+      transform: rotate(90deg);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      vertical-align: middle;
+    }
+
+    th:first-child, td:first-child {
+      border-right: 3px double;
+      font-weight: bold;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .nav {
+      border: 1px solid #ccc;
+      border-width: 1px 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center; /* The magic. */
+      background-color: #f8f9fa; /* Light gray background color */
+    }
+    
+    .nav li {
+      display: inline; /* More magic. */
+    }
+    
+    .nav a {
+      display: inline-block; /* Last bit of magic. */
+      padding: 15px;
+      font-size: 25px; /* Font size set to 30px */
+    }
+  </style>
+  
+  <title>BaRiFlex: A Robotic Gripper with Versatility and Collision Robustness for Robot Learning</title>
+  <link rel="icon" type="image/x-icon" href="static/images/robin_logo_vert3.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script src="static/js/isInViewport.min.js"></script>
+  <script src="static/js/cdn.jsdelivr.net_npm_bootstrap@5.1.3_dist_js_bootstrap.bundle.min.js"></script>
+  <script defer="" src="static/js/fontawesome.all.min.js"></script>
+  
+</head>
+
+<body data-gr-ext-installed>
+
+  <ul class="nav">
+    <li><a href="index.html" class="w3-bar-item w3-button">Main Paper</a></li>
+    <li><a href="hardware.html" class="w3-bar-item w3-button">Hardware Tutorial</a></li>
+    <li><a href="purchase_list.html" class="w3-bar-item w3-button">Purchase List</a></li>
+    <li><a href="CAD.html" class="w3-bar-item w3-button">CAD</a></li>
+    <li><a href="https://github.com/UT-Austin-RobIn/bariflex_code" class="w3-bar-item w3-button">Code</a></li>
+  </ul>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;">
+            <bold>Manufacturing Instruction for BaRiFlex</bold>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3" style="text-align: center;">Summary</h3>
+        <div class="row">
+          <div class="row">
+
+                <li class="list-group-item"> This is the design instruction for BaRiFlex. The estimated 3D printing time is one day, and the assembly time is under an hour. <br>
+                <li class="list-group-item"> As the first step, purchase all the items from <td><a href="purchase_list.html" style="font-weight:bold">here</a> </td>
+                <li class="list-group-item"> Download the 3D printing parts <td><a href="./static/CAD/BaRiFlex_CAD.zip" style="font-weight:bold">here</a> </td> and print all parts.
+                <li class="list-group-item"> Follow the 'Electronic Instruction' on this page to complete the motor wiring setup with calibration.
+                <li class="list-group-item"> Follow the 'Design Instruction' on this page and assemble all the parts for BaRiFlex.
+                <li class="list-group-item"> Refer to the BaRiFlex code <td><a href='https://github.com/UT-Austin-RobIn/bariflex_code' style='font-weight:bold'>here</a></td>. Now you are ready to use BaRiFlex!
+                <li class="list-group-item"> Contact us at goochul@utexas.edu if you have any questions.
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+  
+<section class="section"> 
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3">Electronic Instruction</h3>
+        <!-- <h5 style="text-align: center; padding-bottom: 10px;"> Test1. <br> Test2.</h5> !-->
+        <div class="row">
+           <div class="row"style="text-align: left;">
+           <h5 class="title is-5">Text Instruction</h5>
+                <li class="list-group-item"> Use the soldering iron and wire cutter, connect the GL60 encoder pins to the small cables for the ODrive motor driver as shown in Encoder wiring diagram. 
+            <br>
+                <li class="list-group-item"> Connect the 24 power supply and A,B,C phase motor cables to the ODrive motor driver as illustrated in Power Cable Diagram.
+            <br>
+            <div class="column is-full-width">
+                <div class="columns">
+                    <div class="column is-6">
+                        <h4 class="title is-5">Encoder Wiring Diagram</h4>
+                        <img src="./static/images/GL60_wiring.jpg" alt="GL60_Wiring" width="100%">
+                    </div>
+                    <div class="column is-6">
+                        <h4 class="title is-5">3-Phase Motor and Power Cable Wiring Diagram</h4>
+                        <img src="./static/images/Motor_wiring.jpg" alt="Motor_Wiring" width="100%">
+                    </div>
+                </div>
+            </div>
+            
+
+                <li class="list-group-item"> Connect the ODrive to the Host PC using USB-C cable.
+            
+            <br>
+                <li class="list-group-item"> Follow the Cabliration Instruction video and finish the motor configuration.
+            <br>
+            <br>
+            <h4 class="title is-5">Calibration Instruction Video</h4>
+            <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/gGHM64zFgYQ?si=6R65zrKDjacz-7rX" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <br>
+                <li class="list-group-item"> Set the below motor properties<br>
+                <br>
+                In "Power Source" page: <br>
+                DC bus overvoltage: 26 <br>
+                DC bus undervoltage: 26 <br>
+                DC max positive current: 5 <br>
+                DC max nagative current: -5 <br>
+                <br>
+                In "Motor" Setup page: <br>
+                Type: Gimbal <br>
+                Phase resistance : 1.2 <br>
+                Pole pairs: 14 <br>
+                KV: 55 <br>
+                Current limit: 3.1 <br>
+                Motor calib. current: 3.1 <br>
+                Motor calib. voltage: 24 <br>
+                Lock-in spin current: 0.1 <br>
+                <br>
+                In "Encoder Paramater" page: <br>
+                Type: SPI(AMS protocol) <br>
+                nCS pin: GPIO17 <br>
+                <br>
+                In "Control mode" page<br>
+                Control mode: Filtered Position Control <br>
+                Position Setpoint: USB/UART/CAN <br>
+                Bandwidth: 15 <br>
+                Soft velocity limit: 10 <br>
+                Hard velocity limit: 10 <br>
+                Torque limit: 0.6 <br>
+            
+            <br>
+                <li class="list-group-item"> Go to the "Apply & Calibrate" page <br>
+                1) Click "Erase & Reboot" button in Erease old configuration step<br>
+                2) Click "Apply new configuration" button in Apply new configuration step<br>
+                3) Click "Save & Reboot" button in Save to non-volatile memory step<br>
+                4) Click "Run Calibration Sequence" button in Calibrate step and wait until calibration is done<br>
+                5) Click "Save & Reboot" button in Save to non-volatile memory step<br>
+            
+            <br>
+                <li class="list-group-item"> Go to the Dashboard on the top of the page.<br>
+                Change the Position Gain, velocity Gain and velocity Integrator Gain as below.<br>
+                (This is the empirical value. You can find the better tuning values by modifying those.) <br>
+                Position Gain: 20<br>
+                Velocity Gain: 0.3<br>
+                Velocity Integrator Gain: 0.333<br>
+            <br>
+                <li class="list-group-item"> All electronic setup is completed. Go to the <a href="bariflex.html" style="font-weight:bold">"Code"</a> page and follow the instruction.
+
+            <br>
+            <br>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3" style="text-align: center;">Design Instruction</h3>
+        <h4 class="title is-5" style="text-align: center;"><bold>Assembly Time ~ 30-45 minutes</bold></h4>
+        <div class="row">
+          <div class="row">
+            <div class="publication-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/H9pBcKfE404?si=P0jVNrOxqFtggob0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <br>
+            <h3 class="title is-6" style="text-align: left;"><li class="list-group-item"> <bold>Before Assembly</bold> </h3>
+                Motor calibration is required before assebmling the BaRiFlex. Follow the "Electornic Instruction" first. <br>
+                Prepare all components (3D printed parts, Required Components, Other Misc. Parts and Tools) described below.
+            <br>
+            <br>
+            <h3 class="title is-6" style="text-align: left;"><li class="list-group-item"> <bold>Main Assembly</bold> </h3>
+                Insert the 5 6mm bearings into the bearing holes on the Top and Bottom Housing. <br>
+                Insert the 6 6mm hex nuts into the hex nut holes in the Top Housing. <br>
+                Insert the 2 6mm shafts (41mm length) into both the Left and Right Crank gear holes leaving equal protruding shaft from the top and bottom of the crank.<br>
+                On the Left Rocker’s top holes, attach the bottom two holes of the Coupler Link using 1 M4 x 35 screw and secure the other end using an 4mm hex nut. Do not overtighten. <br>
+                Insert 1 torsion spring into the inside of the Coupler Link near the top.<br>
+                Insert the other end of the torsion spring into the left Finger Tip torsion spring hole. <br>
+                Align the mounting holes from the Finger Tip with the upper holes in the Left Rocker and the Coupler Link.<br>
+                Insert an M4 x 35 screw into the aligned holes and secure the end with a 4mm nylon lock nut. Do not over tighten. <br>
+                Insert the TPU Tip and TPU Finger extrusions into their designated holes on the Finger Tip.<br>
+                Apply grip tape along the face of the of the TPU Tip and TPU Finger<br>
+                Repeat steps 4-10 for the Right Crank. <br>
+                Insert 2 M6 x 40 screws into the bottom of the Bottom Housing and into the left and right lower rocker holes. <br>
+                Adjust the lower TPU Finger extrusions to overlap and sit between the two rocker screws. <br>
+                Over top the lower TPU Finger extrusions, and rocker screws, insert the Inner Link Stopper Spacer with the bare side facing up on the screws and facing the crank gears.
+            <br>
+            <br>
+            <h3 class="title is-6" style="text-align: left;">
+              <li class="list-group-item"><bold>Actuator Drive Assembly</bold>
+            </h3>
+                On the 6mm D-cut shaft (54mm length), in order, insert the Actuator Shaft Mounting Plate, 1 6mm flange (screwed into the plate), the pinion gear (geared side facing mounting plate) and 1 6mm flange (screwed into the pinion).<br>
+                All parts on the shaft should be up against each other but leave enough shaft protruding from both the top and bottom of the assembly to properly align the pinion gear with the crank gear. <br>
+                Screw the Actuator Shaft Mounting Plate to the actuator with 4 M3 x 8 screws.
+            <br>
+            <br>
+            <h3 class="title is-6" style="text-align: left;">
+              <li class="list-group-item"><bold>Main Assembly (Cont.)</bold>
+            </h3>
+
+                Insert the actuator drive assembly into the largest hole on the top housing.<br>
+                Making sure all shafts, bearings and screws align properly, and press the top and bottom housings together. <br>
+                Tighten the two rocker screws from the bottom of the bottom housing (Do not overtighten) and bring all the parts together making sure all shafts press into the bearings. <br>
+                Place the Motor Mount Case atop the actuator and align the 4 actuator holes with the holes on the case. <br>
+                Screw 4 M3 x 6mm into the 4 holes<br>
+                Align the extruding case holes with the extruding holes on the top housing and fasten them from the bottom using 2 M6 x 16 screws.<br>
+                Lastly, place the Flange Adapter between the top and bottom housings near the rear and run 2 M6 x 45 screws through from the bottom of the bottom housing and tighten until the screw reaches the case’s hex nut.   
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+  
+  
+
+
+
+<footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <!-- <a class="large-font bottom_buttons" disabled>
+        <i class="fab fa-github"></i>
+      </a> -->
+        <br>
+        <p>Contact us at goochul@utexas.edu if you have any questions.</p>
+      </div>
+    </div>
+  </footer>
+
+
+<!--
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;">
+            <bold>Electronic Instruction</bold>
+          </h3>
+            <div class="col">
+              <h5 class="is-4">
+                <bold>Text Instructions:</bold>
+              </h5>
+              <ul class="list-group">
+                <li class="list-group-item">1) Attach larger S101 bracket using 4 short 4mm tap black screws screwed into the MCP side motor.</li>
+                <li class="list-group-item">2) Attach PIP motor to S101 bracket using 4 of the long M2 8mm tap screws.</li>
+                <li class="list-group-item">3) Align H101 Horn, DIP Spacer and larger S101 bracket, and put 4 M2 10mm screws through them followed by nuts inside S101.</li>
+                <li class="list-group-item">4) Attach DIP assembly to PIP motor using 4 black M2 4mm tap screws and idler.</li>
+                <li class="list-group-item">5) Attach DIP Motor to open S101 bracket using 4 of the long M2 8mm tap screws.</li>
+                <li class="list-group-item">6) Attach Fingertip to H101 Horn using 6 M2 4mm screws into 3D brass inserts.  Attach Horn to open DIP motor using idler and 4 short 4mm tap black screws.</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5 class="is-4">
+                <bold>3D Model Preview:</bold>
+              </h5>
+              <div class="sketchfab-embed-wrapper"> <iframe title="PIP/DIP LEAP Assembly" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" width="526" height="300" src="https://sketchfab.com/models/e33db4a8c3f8492ead0b2e0a9e8c0a65/embed?autospin=0&amp;camera=0"> </iframe> </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
