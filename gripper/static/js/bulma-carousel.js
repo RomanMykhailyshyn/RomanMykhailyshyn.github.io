@@ -1259,7 +1259,7 @@ var Breakpoints = function () {
 		key: '_getActiveBreakpoint',
 		value: function _getActiveBreakpoint() {
 			//Get breakpoint for window width
-			var _iteratorNormalCompletion = true;
+			var _iteratorNormalCompletion = false;
 			var _didIteratorError = false;
 			var _iteratorError = undefined;
 
