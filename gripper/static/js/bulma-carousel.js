@@ -2307,7 +2307,7 @@ var Translate = function () {
 var defaultOptions = {
   initialSlide: 0,
   slidesToScroll: 1,
-  slidesToShow: 1,
+  slidesToShow: 4,
 
   navigation: true,
   navigationKeys: true,
