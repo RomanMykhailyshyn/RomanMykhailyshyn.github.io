@@ -294,8 +294,8 @@
       <h3 class="title is-3">Tools Used in Assembly and Disassembly</h3>
       
       <div id="results-carousel" class="carousel">
-        <div class="carousel-item has-background"> 
-          <img class="is-background" src="./static/images/SD_1.jpg"> 
+        <div class="carousel-item has-background is-active"> 
+          <img class="is-background" src="./static/images/SD_1.jpg" width="20%"> 
           <div class="hero-body has-text-centered is-overlay"> 
               <h2 class="title">C'est beau le mourillon!</h2>
               <h3 class="subtile">Surtout le 15 août...</h3>
@@ -339,13 +339,13 @@
     </div>
   </div>
 </section>
-<script>
-   bulmaCarousel.attach('#post_images', {
-      slidesToScroll: 1,
-      slidesToShow: 4,
-      loop: true,
-    });
-</script>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		<script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 4
+		});
+		</script>
 
 <section class="section"> 
   <div class="container">
