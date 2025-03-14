@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <!-- <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> -->
+
+
+  <!-- <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG"> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image"> -->
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy4qU8LZ/dreQq1hQa9u5sFrK6k18FbR7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
+  <!-- Bootstrap JS and Popper.js (for dropdowns, modals, etc.) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-YZbTQ6jZtBAqEGyN8K61Ay3G99ZXyOrlrYVA6iMPaXHNSZEXiXyEZB2a1oM42qJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy4qU8LZ/dreQq1hQa9u5sFrK6k18FbR7" crossorigin="anonymous"></script>
+
+  <style>
+    .rotate-90 {
+      transform: rotate(90deg);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      vertical-align: middle;
+    }
+
+    th:first-child, td:first-child {
+      border-right: 3px double;
+      font-weight: bold;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .nav {
+      border: 1px solid #ccc;
+      border-width: 1px 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center; /* The magic. */
+      background-color: #f8f9fa; /* Light gray background color */
+    }
+    
+    .nav li {
+      display: inline; /* More magic. */
+    }
+    
+    .nav a {
+      display: inline-block; /* Last bit of magic. */
+      padding: 15px;
+      font-size: 25px; /* Font size set to 30px */
+
+    }
+  </style>
+  
+  
+  <title>ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications</title>
+  <link rel="icon" type="image/x-icon" href="static/images/Logo.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  
+<!-- Testing -->
+  
+</head>
+
+
+
+
+
+<body data-gr-ext-installed>
+
+  <ul class="nav">
+    <li><a href="artis.html" class="w3-bar-item w3-button">Main Page</a></li>
+    <li><a href="hardware.html" class="w3-bar-item w3-button">Hardware Tutorial</a></li>
+    <li><a href="purchase_list.html" class="w3-bar-item w3-button">Purchase List</a></li>
+    <li><a href="CAD.html" class="w3-bar-item w3-button">CAD</a></li>
+    <li><a href="https://github.com/RomanMykhailyshyn/RomanMykhailyshyn.github.io/tree/main/artis/static/code" class="w3-bar-item w3-button">Code</a></li>
+  </ul>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">ARTiS: </h1>
+            <h2 class="title is-4 publication-title">An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications</h2>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://romanmykhailyshyn.github.io/" target="_blank">Roman Mykhailyshyn</a><sup>1,2</sup>,</span>
+                <span class="author-block">
+                  <a href="https://www.roboticmanipulation.org/members2/kensuke-harada/" target="_blank">Kensuke Harada</a><sup>1,2</sup></span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Graduate School of Engineering Science, Osaka University, Osaka 560-8531, Japan<br><sup>2</sup>ICPS Research Center, National Institute of Advanced Industrial Science and Technology (AIST), Japan<br>Under Review</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2312.05323" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary Tutorial link -->
+                    <span class="link-block">
+                      <a href="hardware.html" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-book"></i>
+                      </span>
+                      <span>Hardware Tutorial</span>
+                    </a>
+                  </span>
+                  
+                    <!-- Supplementary Tutorial link -->
+                    <span class="link-block">
+                      <a href="purchase_list.html" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="	far fa-file-alt"></i>
+                      </span>
+                      <span>Purchase List</span>
+                    </a>
+                  </span>
+                  
+                    <!-- Supplementary Tutorial link -->
+                    <span class="link-block">
+                      <a href="CAD.html" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="	fas fa-archive"></i>
+                      </span>
+                      <span>CAD Files</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/RomanMykhailyshyn/RomanMykhailyshyn.github.io/tree/main/gripper/static/code" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                    <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                            <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>arXiv</span>
+                    </a>
+                </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/bioinspire_7.jpg" width="100%">
+    </div>
+  </div>
+</section> -->
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p><font size="4">
+            We present a new approach to robot hand design specifically suited for successfully implementing robot learning methods to accomplish tasks in daily human environments.
+          </font></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://youtu.be/ZD-lK-SoFko" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Performance Evaluation</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> BaRiFlex has the ability to withstand contacts and collisions, perform precise pinch grasps as well as compliant grasps, to be robust to noises in poses of objects and finally, to perform a wide variety of tasks!</h5>
+        <div class="columns is-centered">
+            <div class="column is-5">
+                <h4 class="title is-4">Robustness to Collisions</h4>
+                 <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/requirements/teaser_zoom.mov" width="100%"; object-fit: fill; style="border-radius:10px;"></video>
+            </div>
+            <div class="column is-4">
+                <h4 class="title is-4">Grasping Versatility</h4>
+                    <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/requirements/GraspingVersatility_x2.mov" width="95%" style="border-radius:10px;"></video>
+            </div>
+            <div class="column is-5">
+                <h4 class="title is-4">Task Versatility</h4>
+                    <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/requirements/MakeCoffee_x8.mov" width="100%" style="border-radius:10px;"></video>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+			<div class="container">
+				<!-- Start Carousel -->
+        <h3 class="title is-3">Tools Used in Assembly and Disassembly</h3>
+				<div id="carousel-demo" class="carousel">
+					<div class="item-2">
+						<img src="./static/images/SD_2.jpg" alt="Tool 2 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №2</strong>
+            </h2>
+					</div>
+					<div class="item-3">
+						<img src="./static/images/SD_3.jpg" alt="Tool 3 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №3</strong>
+            </h2>
+					</div>
+					<div class="item-4">
+						<img src="./static/images/SD_4.jpg" alt="Tool 4 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №3</strong>
+            </h2>
+					</div>
+					<div class="item-5">
+						<img src="./static/images/SD_5_1.jpg" alt="Tool 5 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №5</strong>
+            </h2>
+					</div>
+          <div class="item-6">
+						<img src="./static/images/SD_6.jpg" alt="Tool 6 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №6</strong>
+            </h2>
+					</div>
+          <div class="item-7">
+						<img src="./static/images/SD_7.jpg" alt="Tool 7 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №7</strong>
+            </h2>
+					</div>
+          <div class="item-8">
+						<img src="./static/images/SD_8.jpg" alt="Tool 8 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №8</strong>
+            </h2>
+					</div>
+          <div class="item-9">
+						<img src="./static/images/SD_9.jpg" alt="Tool 9 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №9</strong>
+            </h2>
+					</div>
+          <div class="item-12">
+						<img src="./static/images/dreel_1.jpg" alt="Tool 12 - CAD Design" width="87%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Dreel №1</strong>
+            </h2>
+					</div>
+          <div class="item-13">
+						<img src="./static/images/dreel_2.jpg" alt="Tool 13 - CAD Design" width="87%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Dreel №2</strong>
+            </h2>
+					</div>
+          <div class="item-10">
+						<img src="./static/images/hammer_1_1.jpg" alt="Tool 10 - CAD Design" width="52%">
+            <h2 class="subtitle">
+            <strong>Hammer   №1</strong>
+            </h2>
+					</div>
+          <div class="item-11">
+						<img src="./static/images/hammer_2.jpg" alt="Tool 11 - CAD Design" width="52%">
+            <h2 class="subtitle">
+            <strong>Hammer   №2</strong>
+            </h2>
+					</div>
+          <div class="item-1">
+						<img src="./static/images/SD_1.jpg" alt="Tool 1 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №1</strong>
+            </h2>
+          </div>
+				</div>
+				<!-- End Carousel -->
+			</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		<script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 4,
+      loop: true,
+      infinite: true
+		});
+</script>
+
+<section class="section"> 
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Real World Reinforcement Learning</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> Experimental evaluation for BaRiFlex supporting real-world reinforcement learning. The hand is used to learn to pick up a cube from trial and error. The gripper collides with the surface a total of 49 times without any damage eventually achieving a 100% success rate at the task. The video shows an example of collision and an example of a successful grasp. This experiment shows that BaRiFlex can withstand collisions that are typical in a real-world reinforcement learning training.</h5>
+        <!-- <h5 style="text-align: center; padding-bottom: 10px;"> Test1. <br> Test2.</h5> !-->
+        <div class="columns is-centered">
+          <div class="column is-5">
+           <h4 class="title is-4">RL Test</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/requirements/RL_Test_with_mark.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+          <div class="column is-5">
+           <h4 class="title is-4">RL Test Result</h4>
+          <img src="./static/images/RL_Learning_Test.png" alt="RL_Result" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Design Concept</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> (a) The rigid 4-bar linkage mechanism transmits the torques from the direct drive actuator and the collision forces back to it, enabling (b) smooth back-drive motion, and facilitating (c) parallel precise grasping when combined with the underactuated fingertips. The torsional springs at the fingertips further enhance robustness by absorbing collision forces. The inner linkage is constructed with a Fin-Ray structure of soft 3D printed material that yields (d) compliant grasping with adaption to the objects’ shape, increasing BaRiFlex’s grasp versatility. The design is simple, with only one actuated DoF and no gearbox, cost is under 500 USD, and is manufacturable in one day with two 3D printers.</h5>
+        <div class="columns is-centered">
+          <div class="column is-5">
+           <h4 class="title is-4">CAD design for BaRiFlex</h4>
+          <img src="./static/images/CAD_Design.jpg" alt="CAD_Design" width="100%">
+          </div>
+          <div class="column is-5">
+           <h4 class="title is-4">Design Specification</h4>
+          <!-- <img src="./static/images/Design_Table.jpg" alt="Design_Table" width="100%"> -->
+            <table>
+                <tr>
+                    <th>Specification</th>
+                    <th>Value</th>
+                    <th>Unit</th>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td>750</td>
+                    <td>g</td>
+                </tr>
+                <tr>
+                    <td>Size</td>
+                    <td>125 x 255 x 83 (W x H x T)</td>
+                    <td>mm</td>
+                </tr>
+                <tr>
+                    <td>Max Stroke</td>
+                    <td>200</td>
+                    <td>mm</td>
+                </tr>
+                <tr>
+                    <td>Continuous Force <br> (Fingertip)</td>
+                    <td style="vertical-align: middle;">11</td>
+                    <td style="vertical-align: middle;">N</td>
+                </tr>
+                <tr>
+                    <td>Rnage of Motion</td>
+                    <td>86.5</td>
+                    <td>Deg</td>
+                </tr>
+                <tr>
+                    <td>Speed</td>
+                    <td>1440</td>
+                    <td>Deg/s</td>
+                </tr>
+                <tr>
+                    <td>Closing time</td>
+                    <td>0.18</td>
+                    <td>Seconds</td>
+                </tr>
+                <tr>
+                    <td>Rated Torque</td>
+                    <td>0.6</td>
+                    <td>Nm</td>
+                </tr>
+                <tr>
+                    <td>Gear-Pinion Ratio</td>
+                    <td>1.54 (37T-24T)</td>
+                    <td>-</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Grasping Versatility</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> The target objects are placed at five locations (up, down, left, right, and center with 5mm distance) and with four orientations (15, 30, 45 degrees) to evaluate the tolerance of the grippers to inaccuracies in poses. We test multiple YCB objects with different shapes, sizes, surfaces, and weights. BaRiFlex demonstrates a superior grasp versatility in all cases, especially with objects that require pinch grasps or conformity, thanks to its rigid-flexible design.</h5>
+        <div class="columns is-centered">
+          <div class="column is-3">
+           <h4 class="title is-4">Rigid</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Grasping_Versatility/Rigid_GraspingVersatility_x2.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+          <div class="column is-3">
+           <h4 class="title is-4">Fin-Ray Soft</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Grasping_Versatility/Soft_GraspingVersatility_x2.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+          <div class="column is-3">
+           <h4 class="title is-4">BaRiFlex</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Grasping_Versatility/BaRiFlex_GraspingVersatility_x2.mov" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+            <!-- <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/requirements/RL_test.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px; border-style: solid; border-color: red;"></video> !-->
+          </div>
+          <div class="column is-3">
+           <h4 class="title is-4">GV Result</h4>
+            <img src="./static/images/Grasp_Versatility.png" alt="GV_Result" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Task Versatility</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;">BaRiFlex is mounted on a portable device and used by a human to perform multiple tasks such as opening heavy door, opening fridge door, catching a fast moving object. Through this human-controlled manipulation, we empirically evidence the high task-variability enabled by BaRiFlex, which covers a significant fraction of possible tasks in household domains. </h5>
+        <div class="columns is-centered">
+          <div class="column is-3">
+           <h4 class="title is-4">Open Door-1</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Task_Versatility/Door1.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+          <div class="column is-3">
+           <h4 class="title is-4">Open Door-2</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Task_Versatility/Door2_Rotate.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+          <div class="column is-3">
+           <h4 class="title is-4">Open Fridge</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Task_Versatility/Fridge.mov" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+            <!-- <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/requirements/RL_test.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px; border-style: solid; border-color: red;"></video> !-->
+          </div>
+          <div class="column is-3">
+           <h4 class="title is-4">Catch the ball</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Task_Versatility/Catch_ball_Tennis.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+        </div>
+<!--
+        <div class="columns is-centered">
+          <div class="column is-4">
+           <h4 class="title is-4">Catch the ball1</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Task_Versatility/Catch_ball_Soft.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+          <div class="column is-4">
+           <h4 class="title is-4">Catch the ball2</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Task_Versatility/Catch_ball_Tennis.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+        </div>
+!-->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Robustness Test</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> An accurate linear stepper motor presses on the tested hand (Rigid, 95A Fin-Ray Soft, 87A Fin-Ray Soft, and BaRiFlex). The reactive forces corresponding to different collision distances are recorded (Right). BaRiFlex exhibits the highest compliance, being able to absorb more impact forces, which facilitates interactions and learning in unstructured environments.</h5>
+        <div class="columns is-centered">
+          <div class="column is-2">
+           <h4 class="title is-4">Rigid</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Robustness_Test/Rigid.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+          <div class="column is-2">
+           <h4 class="title is-4">Soft 95A</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Robustness_Test/95A.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+          <div class="column is-2">
+           <h4 class="title is-4">Soft 87A</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Robustness_Test/87A.mov" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+            <!-- <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/requirements/RL_test.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px; border-style: solid; border-color: red;"></video> !-->
+          </div>
+          <div class="column is-2">
+           <h4 class="title is-4">BaRiFlex</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Robustness_Test/BaRiFlex.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+          <div class="column is-4">
+           <h4 class="title is-4">Robustness Test Result</h4>
+            <img src="./static/images/Compliance_Result.png" alt="Robustness/Compliance Result" width="100%">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Durability & Precision Test</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> The test involves the gripper’s fingertip pressing a dial indicator with a resolution of 0.001 inches, 25 times. We measure the actual displacement of the dial indicator. As can be seen in the graph (rightmost figure), the variance in the actual displacement is very low (maximum deviation is 0.0889 mm), demonstrating high precision of BaRiFlex.</h5>
+        <div class="columns is-centered">
+          <div class="column is-3">
+           <h4 class="title is-4">Durability</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Precision_Durability_Test/Durability Test.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+          <div class="column is-3">
+           <h4 class="title is-4">Precision</h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Precision_Durability_Test/Precision_Test.mov" width="100%" style="border-radius:10px;"></video>
+          </div>
+          <div class="column is-6">
+           <h4 class="title is-4">Precision Result</h4>
+            <img src="./static/images/precision_plot.jpg" alt="Precsion Result" width="98%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">ARTiS</h2>
+      <pre><code>@misc{mykhailyshyn_artis_2025,
+	title = {ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications},
+	url = {http://arxiv.org/abs/2312.05323},
+	doi = {10.48550/arXiv.2312.05323},
+	publisher = {arXiv},
+	author = {Roman, Mykhailyshyn and Kensuke, Harada},
+	month = dec,
+	year = {2025}}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+<!--
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+-->
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
