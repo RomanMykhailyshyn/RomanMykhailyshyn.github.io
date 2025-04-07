@@ -31,13 +31,13 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | 5  | Stretch   | 0.33        | 0.0124    | 0.26        | <br/><img src='/images/5.png'>              |
 | 6  | Polyester | 0.34        | 0.0154    | 0.22        | <br/><img src='/images/6.jpg'>              |
 | 7  | Satin     | 0.39        | 0.0165    | 0.41        | <br/><img src='/images/7.png'>              |
-| 8  | Satin (100% Polyester)                             | 0.0       | 0.008   | 0.15    | <br/><img src='/images/8.png'>              |
+| 8  | Satin (100% Polyester)                             | 0.21       | 0.008   | 0.15    | <br/><img src='/images/8.png'>              |
 | 9  | Poly Cotton (65% Polyester/ 35% Cotton)            | 0.39      | 0.01    | 0.19    | <br/><img src='/images/9.png'>              |
-| 10 | Cotton (80% Polyester/ 20% Cotton)                 | 0.39      | 0.012   | 0.2     | <br/><img src='/images/10.png'>             |
-| 11 | 600Denier Cordura Outdoor Canvas Waterproof Fabric | 0.39      | 0.03    | 0.37    | <br/><img src='/images/11.jpg'>             |
-| 12 | Thin (5 oz per sq. yard) Denim Cotton (100%)           | 0.33        | 0.0124    | 0.26        | <br/><img src='/images/12.jpg'>             |
-| 13 | Heavyweight (10 oz per sq. yard) Denim Natural Cotton (100%)   | 0.34        | 0.0154    | 0.22        | <br/><img src='/images/13.jpg'>             |
-| 14 | Heavyweight (11 oz. per sq. yard) Denim Cotton (100%)  | 0.39        | 0.0165    | 0.41        | <br/><img src='/images/14.jpg'>             |
+| 10 | Cotton (80% Polyester/ 20% Cotton)                 | 0.49      | 0.012   | 0.2     | <br/><img src='/images/10.png'>             |
+| 11 | 600Denier Cordura Outdoor Canvas Waterproof Fabric | 0.57      | 0.031    | 0.4    | <br/><img src='/images/11.jpg'>             |
+| 12 | Thin (5 oz per sq. yard) Denim Cotton (100%)           | 0.5        | 0.014    | 0.28        | <br/><img src='/images/12.jpg'>             |
+| 13 | Heavyweight (10 oz per sq. yard) Denim Natural Cotton (100%)   | 0.44        | 0.031    | 0.62        | <br/><img src='/images/13.jpg'>             |
+| 14 | Heavyweight (11 oz. per sq. yard) Denim Cotton (100%)  | 0.35        | 0.036    | 0.74        | <br/><img src='/images/14.jpg'>             |
 | -  | -         | -           | -         | -           | -                                           |
 
 ### Surface cover from which the object is grasping
