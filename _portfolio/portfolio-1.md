@@ -45,8 +45,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 | №  | Surfaces                                        | Durometer | Coefficient of friction with Materials № 8| Coefficient of friction with Materials № 9 | Coefficient of friction with Materials № 10 | Coefficient of friction with Materials № 11| 
 | -- | ----------------------------------------------  | ----- | ---- | ---- | ---- | ---- |
 | 0  | Table                                           |       | 0.24 | 0.28 | 0.36 | 0.3  |
-| 1  | Multipurpose Neoprene Rubber                    | 50A   | 0.47 | 0.53 | 0.59 | 0.57 |
-| 2  | Multipurpose Neoprene with Crisscross Texture   | 50A   | 1.49 | 1.94 | 2.14 | 1.71 |
+| 1  | Multipurpose Neoprene with Crisscross Texture   | 50A   | 1.49 | 1.94 | 2.14 | 1.71 |
 | -  | -                                               | -     | -    | -    | -    | -    |
 
 ### Multipurpose Neoprene
