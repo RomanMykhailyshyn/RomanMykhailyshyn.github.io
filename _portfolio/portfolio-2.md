@@ -10,6 +10,7 @@ The main idea of the project is the development of new types of grasping systems
 The project is in the process of seeking funds from NSF FRR.
 
 ## Colaboration
+* National Institute of Advanced Industrial Science and Technology (Japan).
 * Texas Robotics, The University of Texas at Austin (USA).
 * Walker Department of Mechanical Engineering, The University of Texas at Austin (USA).
 * EPAM School of Digital Technologies, American University Kyiv (Powered by Arizona State University) (Ukraine).
