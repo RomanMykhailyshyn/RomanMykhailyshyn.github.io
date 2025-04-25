@@ -15,6 +15,7 @@ The project partially funded by grant "Disassembly plans that take into account 
 * DENSO Robotics (Japan).
 * Texas Robotics, The University of Texas at Austin (USA).
 * Walker Department of Mechanical Engineering, The University of Texas at Austin (USA).
+* Department of Aerospace Engineering and Engineering Mechanics, The University of Texas at Austin (USA).
 * EPAM School of Digital Technologies, American University Kyiv (Powered by Arizona State University) (Ukraine).
 
 ## Projects
