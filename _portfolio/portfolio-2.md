@@ -24,10 +24,7 @@ The project is in the process of seeking funds from NSF FRR.
 
 The first step is the development of a low-contact gripper that would be able grasping and manipulate soft objects with different surface shapes. For example, during surgical applications, manipulation of various organs with convex and concave surfaces.
 
-[data_set_vortex](http://romanMykhailyshyn.github.io/files/data_set_vortex.zip)
-{% include base_path %}
-
-<a download="http://romanMykhailyshyn.github.io/files/data_set_vortex.zip">Download Vortex gripper data set</a>
+<a hreflang="http://romanMykhailyshyn.github.io/files/data_set_vortex.zip">Download Vortex gripper data set</a>
 
 ### Grasping Soft Balls of Various Shapes by Vortex Gripper
 
