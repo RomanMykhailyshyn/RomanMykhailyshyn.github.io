@@ -27,6 +27,8 @@ The first step is the development of a low-contact gripper that would be able gr
 [data_set_vortex](http://romanMykhailyshyn.github.io/files/data_set_vortex.zip)
 {% include base_path %}
 
+<a href="http://romanMykhailyshyn.github.io/files/data_set_vortex.zip">Download Vortex gripper data set</a>
+
 ### Grasping Soft Balls of Various Shapes by Vortex Gripper
 
  | Grasping | Grasping |
