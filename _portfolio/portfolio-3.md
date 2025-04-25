@@ -24,4 +24,5 @@ The project was partially funded by the grant "Disassembly plans that take into 
 ## Publications
 
 * R. Mykhailyshyn, Y. Domae, K. Harada, ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications.  In process.
+* M. Kojouharov, R. Mykhailyshyn, A. Majewicz Fey, Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots. In process.
 * M. J. DeMoor, R. Mykhailyshyn, A. Majewicz Fey, Bio-Inspired Suction Cup. In process.
