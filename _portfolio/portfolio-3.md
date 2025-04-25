@@ -7,7 +7,7 @@ collection: portfolio
 The main idea of the project is the design of grippers that imitate (bio-inspire) the mechanisms or functions of the existing grasping methods in nature, which, thanks to evolution, have achieved significant success for certain tasks and objects.
 
 ## Funding
-The project was partially funded by the grant "Disassembly plans that take into account the mechanical and dynamic characteristics of the robot/implementation of disassembly application" funding from [https://www.nedo.go.jp/english/](New Energy and Industrial Technology Development Organization (NEDO))
+The project was partially funded by the grant "Disassembly plans that take into account the mechanical and dynamic characteristics of the robot/implementation of disassembly application" funding from [https://www.nedo.go.jp/english/](New Energy and Industrial Technology Development Organization NEDO).
 
 ## Colaboration
 * National Institute of Advanced Industrial Science and Technology (Japan).
