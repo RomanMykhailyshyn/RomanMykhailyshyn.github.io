@@ -17,7 +17,11 @@ Education
 
 Work experience
 ======
-* 2024 - Present: Research Associate Professor
+* 2025 - Present: Senior Research Scientist
+  * National Institute of Advanced Industrial Science and Technology (AIST)
+  * Embodied AI Research Team
+
+* 2024 - 2025: Research Associate Professor
   * Osaka University
   * Graduate School of Engineering Science
 
