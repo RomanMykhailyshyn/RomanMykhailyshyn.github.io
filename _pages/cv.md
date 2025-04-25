@@ -6,8 +6,8 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-[CV_pdf](http://romanMykhailyshyn.github.io/files/CV_Mykhailyshyn.pdf)
-{% include base_path %}
+
+<a href="http://romanMykhailyshyn.github.io/files/CV_Mykhailyshyn.pdf" target="_blank" rel="noopener">CV_pdf</a>
 
 Education
 ======
