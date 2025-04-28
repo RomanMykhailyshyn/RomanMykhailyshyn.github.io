@@ -1,6 +1,6 @@
 ---
 title: "Bio-Inspired Grasping Systems"
-excerpt: "<br/><img src='/images/proj_2_1.jpg' width='550'>"
+excerpt: "<br/><img src='/images/proj_2_1.jpg'>"
 collection: portfolio
 ---
 ## Description
