@@ -1,6 +1,6 @@
 ---
 title: "Robotic Grasping and Manipulation Soft Tissues in Medical Applications"
-excerpt: "<br/><img src='/images/p2_2.png'>"
+excerpt: "<br/><img src='/images/p2_2.jpg'>"
 collection: portfolio
 ---
 ## Description
