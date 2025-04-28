@@ -29,9 +29,9 @@ The first step is the development of a low-contact gripper that would be able gr
 
  | Grasping | Grasping |
  | :---: | :---: |
- | <br/><img src='/images/vortex/1_1.jpg' width='240'> | <br/><img src='/images/vortex/2.jpg' width='240'>    |
- | <br/><img src='/images/vortex/3_1.jpg' width='240'>  | <br/><img src='/images/vortex/4_2.jpg' width='240'>  |
- | <br/><img src='/images/vortex/5_2.jpg' width='240'>  | <br/><img src='/images/vortex/6_1.jpg' width='240'>  |
+ | <br/><img src='/images/vortex/1_1.jpg' width='140'> | <br/><img src='/images/vortex/2.jpg' width='140'>    |
+ | <br/><img src='/images/vortex/3_1.jpg' width='140'>  | <br/><img src='/images/vortex/4_2.jpg' width='140'>  |
+ | <br/><img src='/images/vortex/5_2.jpg' width='140'>  | <br/><img src='/images/vortex/6_1.jpg' width='140'>  |
  | - | - |
 
 ## Results Presentation
