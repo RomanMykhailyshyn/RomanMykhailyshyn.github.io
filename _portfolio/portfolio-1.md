@@ -1,5 +1,5 @@
 ---
-title: "Substantiation Parameters of Gripping Devices of Industrial Robots and Methods of Manipulation of Flexible Objects"
+title: "Grasping and Manipulating Deformable Objects"
 excerpt: "<br/><img src='/images/proj_1.jpg'>"
 collection: portfolio
 ---
