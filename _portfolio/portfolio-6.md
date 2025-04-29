@@ -8,6 +8,7 @@ This project was supported by the grant of the State Fund For Fundamental Resear
 
 ## Colaboration
 * Department of Robotics and Artificial Intelligence, Slovak University of Technology in Bratislava (Slovak Republic).
+* Department of Automation Technological Processes and Manufacturing, Ternopil Ivan Puluj National Technical University (Ukraine).
 
 ## Results
 
