@@ -1,5 +1,5 @@
 ---
-title: "Grasping and Manipulating Deformable Objects"
+title: "Grasping and Manipulation Deformable Objects"
 excerpt: "<br/><img src='/images/proj_1.jpg'>"
 collection: portfolio
 ---
