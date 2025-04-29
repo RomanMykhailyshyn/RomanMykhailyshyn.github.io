@@ -8,6 +8,7 @@ This project was supported by the research work VK55-16 "Development of models f
 
 ## Colaboration
 * National Center of Robotics (Slovak Republic).
+* Department of Automation Technological Processes and Manufacturing, Ternopil Ivan Puluj National Technical University (Ukraine).
 
 ## Results
 
