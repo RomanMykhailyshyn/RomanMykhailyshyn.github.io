@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<a href="http://romanMykhailyshyn.github.io/files/CV_Mykhailyshyn.pdf" target="_blank" rel="noopener">CV_pdf</a>
+<a href="http://romanMykhailyshyn.github.io/files/CV_Mykhailyshyn_2025.pdf" target="_blank" rel="noopener">CV_pdf</a>
 
 Education
 ======
