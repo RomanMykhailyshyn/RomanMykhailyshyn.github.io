@@ -14,7 +14,7 @@ This project was supported by the research work VK55-16 "Development of models f
 
 
 * Optimization of Robot End-Effector Orientation.
-<iframe width="560" height="315" src="https://youtu.be/IG_sIPefblQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/IG_sIPefblQ?si=GKrh7CEd2HXP1Jei" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Results Presentation
 
