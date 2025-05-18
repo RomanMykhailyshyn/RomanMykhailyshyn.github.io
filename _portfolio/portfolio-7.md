@@ -13,6 +13,9 @@ This project was supported by the research work VK55-16 "Development of models f
 ## Results
 
 
+* Failing grasping non-rigid (textile) materials using a vacuum suction cup.
+<iframe width="560" height="315" src="https://youtu.be/IG_sIPefblQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Publications
 Total Published: articles and conference papers (Scopus and/or WoS) - 8; published articles in Ukrainian journals - 3; and foreign - 1; abstracts of conferences - 8; patents - 2; PhD thesis defended - 1.
