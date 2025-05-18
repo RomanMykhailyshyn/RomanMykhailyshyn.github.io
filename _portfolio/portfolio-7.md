@@ -13,7 +13,7 @@ This project was supported by the research work VK55-16 "Development of models f
 ## Results
 
 
-* Failing grasping non-rigid (textile) materials using a vacuum suction cup.
+* Optimization of Robot End-Effector Orientation.
 <iframe width="560" height="315" src="https://youtu.be/IG_sIPefblQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
