@@ -13,6 +13,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 * National Institute of Advanced Industrial Science and Technology (AIST, Japan).
 * Department of Robotics Engineering, Worcester Polytechnic Institute (USA).
 * Texas Robotics, The University of Texas at Austin (USA).
+* Department of Industrial Automation and Mechatronics, Technical University of Kosice (Slovak Republic).
 * Department of Automation Technological Processes and Manufacturing, Ternopil Ivan Puluj National Technical University (Ukraine).
 
 ## Materials
@@ -64,6 +65,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 ## Results Presentation
 
+* R. Mykhailyshyn, J. Romancik, K. Harada, A. Majewicz Fey, (2025). &quot;Vibration Vanquished: Enhancing Grasping of Deformable Objects with Jet Gripper Technology.&quot; <i>IEEE CASE 2025</i>.
 * R. Mykhailyshyn &quot;Increasing the Holding Force of Non-Rigid Materials Through Robot End-Effector Reorientation.&quot; <i>IROS 2023 Workshop on Leveraging Models for Contact-Rich Manipulation</i> [Openreview.net](https://openreview.net/forum?id=nsWWMhVRfn).
 
 ## Publications
