@@ -24,7 +24,7 @@ DEVICENAME = '/dev/ttyUSB1'  # Adjust according to your system (e.g., COM3 for W
 ARDUINO_PORT = '/dev/ttyACM0'  # Port for Arduino communication
 ARDUINO_BAUDRATE = 9600
 
-DXL_IDs = [2, 3, 4, 5, 6, 7, 8]  # List of Dynamixel IDs
+DXL_IDs = [1, 2, 3, 4, 5, 6, 8]  # List of Dynamixel IDs
 TORQUE_ENABLE = 1  # Enable torque
 TORQUE_DISABLE = 0  # Disable torque
 
