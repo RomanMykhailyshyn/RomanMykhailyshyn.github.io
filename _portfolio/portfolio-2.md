@@ -4,7 +4,7 @@ excerpt: "<br/><img src='/images/proj_2_1.jpg'>"
 collection: portfolio
 ---
 ## Description
-The main idea of the project is the design of grippers that imitate (bio-inspire) the mechanisms or functions of the existing grasping methods in nature, which, thanks to evolution, have achieved significant success for certain tasks and objects.
+Evolution has consistently demonstrated optimal strategies for the adaptation and functional efficiency of living organisms, particularly in executing critical operations necessary for survival. Consequently, bio-inspiration from biological systems, including humans, remains a well-established and effective methodology in the design and control of robotic mechanisms. In addressing complex tasks such as assembly, disassembly, and object manipulation, it is essential to adopt biologically inspired approaches that facilitate learning and adaptability based on natural analogues. This project aims to develop bio-inspired grippers and robotic systems engineered to achieve high efficiency and adaptability across diverse operational scenarios.
 
 ## Funding
 The project partially funded by grant "Disassembly plans that take into account the mechanical and dynamic characteristics of the robot/implementation of disassembly application" from fund [New Energy and Industrial Technology Development Organization (NEDO)](https://www.nedo.go.jp/english/). Other part of the project was partially funded by [Texas Robotics](https://robotics.utexas.edu/) AIP Research Fund Award “Dexterous Fingers for Delicate Grasping with Low Contact Capabilities”.
