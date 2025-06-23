@@ -4,7 +4,7 @@ excerpt: "<br/><img src='/images/proj_1.jpg'>"
 collection: portfolio
 ---
 ## Description
-Gripping and manipulating non-rigid and porous objects is an important challenge for manufacturing, which many scientists are currently engaged in. Now there are many problems in handling non-rigid (textile) materials from a stack or oriented in space. The goal of this project is to development of gripping devices, their control systems and manipulation methods for non-rigid objects. Such grippers and new methods of manipulation would allow to automate manufacturing where non-rigid objects are used. In addition, important aspects are the use of household robotic systems with the ability to grasping and manipulate a flexible object, which is practically not used now due to its complexity.
+Grasping and manipulating non-rigid and porous objects is an important challenge for manufacturing, which many scientists are currently engaged in. Now there are many problems in handling non-rigid (textile) materials from a stack or oriented in space. The goal of this project is to development of gripping devices, their control systems and manipulation methods for non-rigid objects. Such grippers and new methods of manipulation would allow to automate manufacturing where non-rigid objects are used. In addition, important aspects are the use of household robotic systems with the ability to grasping and manipulate a flexible object, which is practically not used now due to its complexity.
 
 ## Funding
 This project was supported in part by the U.S. Department of State (DOS), Bureau of Educational and Cultural Affairs (ECA), Exchange Visitor Program #G-1-00005 with the cooperation of the Institute of International Education (IIE) under Fulbright Grant PS00322778.
