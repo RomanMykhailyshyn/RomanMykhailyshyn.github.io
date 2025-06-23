@@ -3,6 +3,9 @@ title: "Optimization of Design Parameters of Contactless Jet Gripping Devices of
 excerpt: "<br/><img src='/images/proj_5.jpg'>"
 collection: portfolio
 ---
+## Description
+The use of low-contact or non-contact gripping devices for manipulating fragile, easily deformable, complex-shaped, hot or non-magnetic objects in the construction of robotic cells is very important. To solve such problems, jet gripping devices are often used, which increase the efficiency of automating processes with difficult-to-grasp objects. Therefore, the optimization and development of new gripping devices is an important main task in modern manufacturing. Also no less important are the parameters of the operation of gripping devices (object manipulation) using low-contact and non-contact methods of holding objects.
+
 ## Funding
 This project was supported by the grant of the State Fund For Fundamental Research F83/78-2018, and by the program EDU-01/25 House of Europe (European Union).
 
