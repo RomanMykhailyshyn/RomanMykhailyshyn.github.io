@@ -66,6 +66,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 ## Results Presentation
 
 * R. Mykhailyshyn, J. Romancik, K. Harada, A. Majewicz Fey, (2025). &quot;Vibration Vanquished: Enhancing Grasping of Deformable Objects with Jet Gripper Technology.&quot; <i>IEEE CASE 2025</i>.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Refd4-V1z3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 * R. Mykhailyshyn &quot;Increasing the Holding Force of Non-Rigid Materials Through Robot End-Effector Reorientation.&quot; <i>IROS 2023 Workshop on Leveraging Models for Contact-Rich Manipulation</i> [Openreview.net](https://openreview.net/forum?id=nsWWMhVRfn).
 
 ## Publications
