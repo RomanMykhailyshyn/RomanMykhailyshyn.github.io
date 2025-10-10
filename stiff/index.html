@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <!-- <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> -->
+
+
+  <!-- <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG"> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image"> -->
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy4qU8LZ/dreQq1hQa9u5sFrK6k18FbR7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
+  <!-- Bootstrap JS and Popper.js (for dropdowns, modals, etc.) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-YZbTQ6jZtBAqEGyN8K61Ay3G99ZXyOrlrYVA6iMPaXHNSZEXiXyEZB2a1oM42qJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy4qU8LZ/dreQq1hQa9u5sFrK6k18FbR7" crossorigin="anonymous"></script>
+
+  <style>
+    .rotate-90 {
+      transform: rotate(90deg);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      vertical-align: middle;
+    }
+
+    th:first-child, td:first-child {
+      border-right: 3px double;
+      font-weight: bold;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .nav {
+      border: 1px solid #ccc;
+      border-width: 1px 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center; /* The magic. */
+      background-color: #f8f9fa; /* Light gray background color */
+    }
+    
+    .nav li {
+      display: inline; /* More magic. */
+    }
+    
+    .nav a {
+      display: inline-block; /* Last bit of magic. */
+      padding: 15px;
+      font-size: 25px; /* Font size set to 30px */
+
+    }
+  </style>
+  
+  
+  <title>ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Disassembly Applications</title>
+  <link rel="icon" type="image/x-icon" href="static/images/Logo.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  
+<!-- Testing -->
+  
+</head>
+
+
+
+
+
+<body data-gr-ext-installed>
+
+  <ul class="nav">
+    <li><a href="index.html" class="w3-bar-item w3-button">Main Page</a></li>
+    <li><a href="hardware.html" class="w3-bar-item w3-button">Hardware Tutorial</a></li>
+    <li><a href="purchase_list.html" class="w3-bar-item w3-button">Purchase List</a></li>
+    <li><a href="CAD.html" class="w3-bar-item w3-button">CAD</a></li>
+    <li><a href="https://github.com/RomanMykhailyshyn/RomanMykhailyshyn.github.io/tree/main/stiff/static/code" class="w3-bar-item w3-button">Code</a></li>
+  </ul>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">STIFF: </h1>
+            <h2 class="title is-4 publication-title">Sectional Three-Dimensional Interactive Fin-Ray Fingers: Design, Grasping, and Learning in Robotics</h2>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://romanmykhailyshyn.github.io/" target="_blank">Roman Mykhailyshyn</a><sup>1,2</sup>,</span>
+                <span class="author-block">
+                  <a href="https://researchmap.jp/yukiyasu-domae" target="_blank">Yukiyasu Domae</a><sup>2</sup>,</span>
+                <span class="author-block">
+                  <a href="https://www.roboticmanipulation.org/members2/kensuke-harada/" target="_blank">Kensuke Harada</a><sup>1,2</sup></span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Department of Systems Innovation, The University of Osaka, Osaka 560-8531, Japan<br><sup>2</sup>Embodied AI Research Team, National Institute of Advanced Industrial Science and Technology (AIST), Koto City, Tokyo 135-0064, Japan<br>Under Review</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary Tutorial link -->
+                    <span class="link-block">
+                      <a href="hardware.html" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-book"></i>
+                      </span>
+                      <span>Hardware Tutorial</span>
+                    </a>
+                  </span>
+                  
+                    <!-- Supplementary Tutorial link -->
+                    <span class="link-block">
+                      <a href="purchase_list.html" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="	far fa-file-alt"></i>
+                      </span>
+                      <span>Purchase List</span>
+                    </a>
+                  </span>
+                  
+                    <!-- Supplementary Tutorial link -->
+                    <span class="link-block">
+                      <a href="CAD.html" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="	fas fa-archive"></i>
+                      </span>
+                      <span>CAD Files</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/RomanMykhailyshyn/RomanMykhailyshyn.github.io/tree/main/stiff/static/code" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                    <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                            <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>arXiv</span>
+                    </a>
+                </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/Abstract_1.jpg" width="100%">
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p><font size="4">
+            Grasping and holding tools while using them presents a considerable challenge not only for robots but also for humans. Such a challenge is particularly noticeable in processes involving assembly and disassembly, where efficiency and consistency depend on performing rapidly adaptive tasks. Nonetheless, contemporary robotic grasping technologies that can securely manipulate tools during operation frequently have significant constraints. In this paper, we introduce ARTiS (Adaptive Robotic Tool Gripper in Disassembly Systems), a novel gripper that combines the adaptability of soft grippers, the dexterity of anthropomorphic hands, and the robustness of rigid mechanisms with a soft palm. This unique combination makes it possible to hold tools securely in a variety of situations through using active jamming in the palm and fin-ray adaptation in fingertips. Furthermore, high finger dexterity is achieved through the seven degrees of freedom design, which enables the fingertips to orient themselves to any surface, both for automated solutions and collaborative tasks. We conducted a comprehensive evaluation using a range of conventional disassembly tools to assess the gripper's compliance, durability, and functional versatility.
+          </font></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths"> 
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://youtube.com/embed/LEo59xH3rqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Human Hand Bio-Inspiration</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> An important element in the development of the ARTiS gripping device is bio-inspiration from the human hand. </h5>
+        <h5 class="title is-5">Adaptability/Motion of Human Palm and Finger</h5>
+        <img src="./static/images/Fig3_1_2.jpg" alt="Palm and Finger" width="80%">
+        <h4 class="title is-4"></h4>
+        <h5 class="title is-5">Main Methods of Grasping/Holding Studying Tools</h5>
+        <img src="./static/images/Fig3_1_3.jpg" alt="Grasping Methods" width="80%">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Design Concept</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> To provide ARTiS with a wide working range of palm usage, it is necessary for the gripper's fingers to completely leave the working area of the jamming part (Open finger), and for this, we used the classic four-bar finger mechanism with two finger tips (Tip 1 and 2). Thanks to classical kinematics, we can solve the system of equations to find the position of the fingertip depending on the angle of rotation of the driven (motor 3 - Dynamixel MX-28R) link L1. Each gripper finger is equipped with an orientation motor (motor 2 - Dynamixel MX-28R) that changes the orientation of the finger around the finger-axis J_1 in the range from -90 to 90 degrees. One of the fingers is fixed to the base of the gripper, and the other two are driven by motor (motor 1 - Dynamixel MX-64R), which, through a double gear transmission (1:4), transmits movement to rotary platforms 1 and 2. The rotary platforms are driven to symmetrically change the orientation of the fingers relative to the gripper axis from 0 to 70 degrees. With this design, one finger has 2 DoF, and the other two have 3 DoF, which is enough to provide versatility in choosing a grasping finger configuration.</h5>
+        <img src="./static/images/CAD_Design.jpg" alt="CAD_Design" width="100%">
+        <div class="columns is-centered">
+          <div class="column is-8">
+           <h4 class="title is-4"></h4>
+           <h5 class="title is-5">ARTiS control flow</h5>
+          <img src="./static/images/CAD_Design1.jpg" alt="CAD_Design1" width="100%">
+          </div>
+          <div class="column is-4">
+           <h4 class="title is-4"></h4>
+           <h5 class="title is-5">Design Specification</h5>
+            <img src="./static/images/spec.jpg" alt="Spec" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Highly Adaptive Fingertips</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> To obtain high adaptability to different tool and part geometries, we developed the novel TPU-95A 3D-printed fingertips 1 and 2. The design was bioinspired by human fingers in their ability to actively adapt to the orientation and geometry of the tools. To ensure minimal force for adapting to the tool's geometry and changing orientation, it was decided to make one of the two fixing parts of the Fin-Ray move freely (released) and combine four such structures to obtain a round shape. As a result, we got Tip 1, which consists of a rigid holder with a bolt to which four TPU-95A 3D printing elements are attached, and are additionally connected to each other with a rubber ring. The same time, we designed Tip 2, which has oppositely deployed small Fin-Rays with five elements, connected by a thin (0.3 mm) ellipse, and like the previous finger, covered with a friction surface.</h5>
+        <div class="columns is-centered">
+          <div class="column is-6">
+           <h5 class="title is-5">Power Sphere Using Tip 1</h5>
+            <img src="./static/images/Fig_4_1_6.jpg" alt="Tip 1" width="100%">
+          </div>
+          <div class="column is-6">
+           <h5 class="title is-5">Power Wrap Using Tip 2</h5>
+            <img src="./static/images/Fig_4_2_5.jpg" alt="Tip 2" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Evaluating Robustness</h3>
+        <div class="columns is-centered">
+          <div class="column is-6">
+           <!-- <h4 class="title is-4">Evaluating Robustness</h4> -->
+           <h5 style="text-align: center; padding-bottom: 10px;"> The robustness of the ARTiS gripping device is ensured by the adaptability and force absorption of fingertip 1 (sphere holding) and 2 (wrap holding). An experimental setup was built, consisting of a fixed adaptive tip on which objects are pressed at different orientations (from 0 to 50 degrees) while simultaneously obtaining data on displacement and force. To ensure the reliability and robustness of the obtained data, each experiment is performed 30 times, and the average value is displayed with the data fluctuation zone of the same color.</h5>
+          </div>
+          <div class="column is-3">
+           <h4 class="title is-6">Experimental Setup</h6>
+            <img src="./static/images/Setup_2.jpg" alt="Setup 2" width="70%">
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-4">
+           <h5 class="title is-5">Tip 1 Object Orienation</h5>
+            <img src="./static/images/r1.jpg" alt="Tip 1 rob" width="100%">
+          </div>
+          <div class="column is-4">
+           <h5 class="title is-5">Tip 2 Object Orienation</h5>
+            <img src="./static/images/r3.jpg" alt="Tip 2 rob 1" width="100%">
+          </div>
+          <div class="column is-4">
+           <h5 class="title is-5">Tip 2 Finger Orienation</h5>
+            <img src="./static/images/r4.jpg" alt="Tip 2 rob 2" width="100%">
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-11">
+           <!-- <h4 class="title is-4">Evaluating Robustness</h4> -->
+           <h5 style="text-align: center; padding-bottom: 10px;"> When using a tool held by a gripper, the robustness and stability of its holding are important, which are disturbed by interaction with the external environment. The most unfavorable moment occurred when grasping the power sphere method with two fingers, the force applied to the tip of the tool is directed perpendicular to the grasping plane with two fingers. Using this method, we hold screwdrivers that, with sufficient applied force, can slip out of the fingers and cause the inability to work correctly. To demonstrate the influence of the method of holding the tool with a gripper on the slipping force, an experiment was conducted according to the scheme and with two screwdrivers of different shapes and sizes when gripping (each method test was repeated 30 times to obtain an average force value): using only fingers - Finger(on); the palm is present but excluded, only fingers actively use - Palm(off), Finger(on); with the use of the palm to actively fix the tool and without the use of fingers - Palm(on), Finger(off); with the use of the palm to actively fix the tool and with the use of fingers - Palm(on), Finger(on).</h5>
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-4">
+           <h5 class="title is-5">Slip Diagram</h5>
+            <img src="./static/images/rob_23.jpg" alt="Tip 1 rob" width="90%">
+          </div>
+          <div class="column is-4">
+           <h5 class="title is-5">Slip Force Screwdriwer №2</h5>
+            <img src="./static/images/rob_1.jpg" alt="Tip 2 rob 1" width="93%">
+          </div>
+          <div class="column is-4">
+           <h5 class="title is-5">Slip Force Screwdriwer №4</h5>
+            <img src="./static/images/rob_2.jpg" alt="Tip 2 rob 2" width="93%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+			<div class="container">
+				<!-- Start Carousel -->
+        <div class="columns is-centered has-text-centered">
+        <h3 class="title is-3">Tools Used in Assembly and Disassembly</h3>
+        <h6 class="title is-6"></h6>
+        </div>
+				<div id="carousel-demo" class="carousel">
+					<div class="item-2">
+						<img src="./static/images/SD_2.jpg" alt="Tool 2 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №2</strong>
+            </h2>
+					</div>
+					<div class="item-3">
+						<img src="./static/images/SD_3.jpg" alt="Tool 3 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №3</strong>
+            </h2>
+					</div>
+					<div class="item-4">
+						<img src="./static/images/SD_4.jpg" alt="Tool 4 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №4</strong>
+            </h2>
+					</div>
+					<div class="item-5">
+						<img src="./static/images/SD_5_1.jpg" alt="Tool 5 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №5</strong>
+            </h2>
+					</div>
+          <div class="item-6">
+						<img src="./static/images/SD_6.jpg" alt="Tool 6 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №6</strong>
+            </h2>
+					</div>
+          <div class="item-7">
+						<img src="./static/images/SD_7.jpg" alt="Tool 7 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №7</strong>
+            </h2>
+					</div>
+          <div class="item-8">
+						<img src="./static/images/SD_8.jpg" alt="Tool 8 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №8</strong>
+            </h2>
+					</div>
+          <div class="item-9">
+						<img src="./static/images/SD_9.jpg" alt="Tool 9 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №9</strong>
+            </h2>
+					</div>
+          <div class="item-12">
+						<img src="./static/images/dreel_1.jpg" alt="Tool 12 - CAD Design" width="87%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Drill №1</strong>
+            </h2>
+					</div>
+          <div class="item-13">
+						<img src="./static/images/dreel.jpg" alt="Tool 13 - CAD Design" width="87%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Drill №2</strong>
+            </h2>
+					</div>
+          <div class="item-10">
+						<img src="./static/images/hammer_1_1.jpg" alt="Tool 10 - CAD Design" width="52%">
+            <h2 class="subtitle">
+            <strong>Hammer   №1</strong>
+            </h2>
+					</div>
+          <div class="item-11">
+						<img src="./static/images/hammer_2.jpg" alt="Tool 11 - CAD Design" width="52%">
+            <h2 class="subtitle">
+            <strong>Hammer   №2</strong>
+            </h2>
+					</div>
+          <div class="item-1">
+						<img src="./static/images/SD_1.jpg" alt="Tool 1 - CAD Design" width="80%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Screwdriver №1</strong>
+            </h2>
+          </div>
+				</div>
+				<!-- End Carousel -->
+			<h6 class="title is-6"></h6>
+      </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		<script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 6,
+      loop: true,
+      infinite: true
+		});
+</script>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Grasping Versatility</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> To test the ability of ARTiS to grasp and hold various tools (versatility) during disassembly, we selected three of the most widely used tools: a screwdriver (9 types), a hammer (2 types) and a drill (2 types). Compared to other tests for object grasping for pick-and-place operations, during disassembly, it is important not only whether the grasping is successful but also whether it is possible to reorient/use the tool and then release it in the original location. To do this, we attached an ARTiS gripping device with a control box to a collaborative 6 DoF robot arm UR-5e, which is installed 45 degrees to the worktable to which the tool holders are attached. The precise grasping consists of fixing the tool handle in the jamming palm and grasping the other end of the tool with fingertip 1. First stage is jamming, the fingers are fully opened, then moving vertically downwards the palm is deformed to the shape of the tool and reaching the maximum depth, air is sucked out of the palm, which increases the density of the palm and fixes the tool. Subsequently, the palm is lifted together with the fixed tool, and in the process, the fingers begin to close and fix the other part of the tool with the help of fingertip 1. After full grasping, depending on the need, the tool can be reoriented by changing the orientation of the fingers, or the tool can be used directly. Consequently, the tool is released in reverse order of the grasping process. In the case of power grasping, everything happens identically to precise grasping, fingertip 2 is used, and the tool is located on the table, not in the tool holder.</h5>
+        <img src="./static/images/2-6.jpg" alt="" width="100%">
+        <div class="columns is-centered">
+          <div class="column is-4">
+           <h4 class="title is-4"></h4>
+           <h5 class="title is-5">Jamming + Lifting</h5>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/jaming_1.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+          </div>
+          <div class="column is-4">
+           <h4 class="title is-4"></h4>
+           <h5 class="title is-5">Grasping + Releasing</h5>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/GR_R_1.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+          </div>
+          <div class="column is-4">
+           <h4 class="title is-4"></h4>
+           <h5 class="title is-5">Grasping + Reor. + Releasing</h5>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/GR_O_R_1.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+            <!-- <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/requirements/RL_test.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px; border-style: solid; border-color: red;"></video> !-->
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-6">
+           <h5 class="title is-5">Using Screwdriver №2</h5>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/U_SD2_1.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+          </div>
+          <div class="column is-6">
+           <h5 class="title is-5">Using Drill №2</h5>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/U_D_1.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+          </div>
+        </div>
+        <h5 class="title is-5">Scoring Table for Grasping Assessment</h5>
+        <img src="./static/images/Score.jpg" alt="" width="100%">
+        <div class="columns is-centered">
+          <div class="column is-4">
+           <h4 class="title is-4"></h4>
+           <h5 class="title is-5">Failing Screwdriver №3</h5>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Fail_SD3.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+          </div>
+          <div class="column is-4">
+           <h4 class="title is-4"></h4>
+           <h5 class="title is-5">Failing Screwdriver №8</h5>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Fail_SD8.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+          </div>
+          <div class="column is-4">
+           <h4 class="title is-4"></h4>
+           <h5 class="title is-5">Failing Drill №1</h5>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Fail_D1.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-3">
+           <h5 class="title is-5">Torque During Tightening</h5>
+            <br>
+            <img src="./static/images/r2.jpg" alt="Torque During Tightening a Screw" width="100%">
+          </div>
+          <div class="column is-3">
+           <h5 class="title is-5">Torque During Unscrewing</h5>
+            <br>
+            <img src="./static/images/r5.jpg" alt="Torque During Unscrewing" width="100%">
+          </div>
+          <div class="column is-6">
+           <h5 class="title is-5">Torque During Drilling</h5>
+            <img src="./static/images/r6.jpg" alt="Torque During Drilling" width="75%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Task Versatility</h3>
+        <br>
+        <div class="columns is-centered">
+          <div class="column is-6">
+            <h5 class="title is-5">Collaborative Usage</h5>
+            <h5 style="text-align: center; padding-bottom: 10px;">Collaborative usage of a gripping device ARTiS, in this case for fixing (to ensure stability of position and orientation) a part of the mechanism during disassembly: (0) - demonstration of the problem of part movement during interaction with a human; (1) - positioning the ARTiS palm on the surface of the part, pressing it against the table; (2) - correction of the position of the fingers relative to the gripper axis; (3) - correcting the orientation of the fingers relative to the finger axis; (4) - using palm jamming and finger clamping to fix the part; (5) - human work on unscrewing screws with a fixed part. </h5>
+          </div>
+          <div class="column is-6">
+            <h4 class="title is-4"></h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/Collab.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+          </div>
+        </div>
+        <img src="./static/images/teching_2.jpg" alt="" width="100%">
+        <h3 class="title is-3"></h3>
+        <br>
+        <div class="columns is-centered">
+          <div class="column is-6">
+            <h5 class="title is-5">Breaking Parts</h5>
+            <h5 style="text-align: center; padding-bottom: 10px;">An important task during disassembly is to break the connections and parts of the structure to speed up the process. Using the power grasping/holding tools like a human, we can break the connections of parts, in our example, the composite connection of the car's air conditioner. </h5>
+            <img src="./static/images/F_br.jpg" alt="" width="100%">
+          </div>
+          <div class="column is-6">
+            <h4 class="title is-4"></h4>
+            <video class="center" playsinline="" autoplay="" loop="" muted="" src="./static/videos/B_SD.mp4" width="100%" style="margin: -4px; border: 8px; border-radius:10px;"></video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Power Sphere and Wrap Holding the Studying Tools by ARTiS</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> A portion of the instruments holding by ARTiS using two methods is presented. </h5>
+        <img src="./static/images/Fig_all_1.jpg" alt="" width="100%">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-3">Acknowledgment</h3>
+        <h5 style="text-align: center; padding-bottom: 10px;"> The authors thank New Energy and Industrial Technology Development Organization (NEDO) Exploratory Research Program and Denso Robotics for their support of this project. </h5>
+        <br>
+        <div class="columns is-centered">
+          <div class="column is-3">
+            <img src="./static/images/logo-uosaka.png" alt="Torque During Tightening a Screw" width="98%">
+          </div>
+          <div class="column is-3">
+            <img src="./static/images/AIST.jpg" alt="Torque During Unscrewing" width="100%">
+          </div>
+          <div class="column is-3">
+            <img src="./static/images/Denso.png" alt="Torque During Drilling" width="90%">
+          </div>
+          <div class="column is-3">
+            <img src="./static/images/NEDO_logo.png" alt="Torque During Drilling" width="80%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">ARTiS</h2>
+      <pre><code>@misc{mykhailyshyn2025artis,
+	title = {ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Disassembly Applications},
+	url = {http://arxiv.org/abs/},
+	doi = {10.0/arXiv.},
+	publisher = {arXiv},
+	author = {Mykhailyshyn, Roman and Domae, Yukiyasu and Harada, Kensuke},
+	month = dec,
+	year = {2025}}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+<!--
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+-->
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
