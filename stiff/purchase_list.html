@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <!-- <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> -->
+
+
+  <!-- <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG"> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image"> -->
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    .rotate-90 {
+      transform: rotate(90deg);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      vertical-align: middle;
+    }
+
+    th:first-child, td:first-child {
+      border-right: 3px double;
+      font-weight: bold;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .nav {
+      border: 1px solid #ccc;
+      border-width: 1px 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center; /* The magic. */
+      background-color: #f8f9fa; /* Light gray background color */
+    }
+    
+    .nav li {
+      display: inline; /* More magic. */
+    }
+    
+    .nav a {
+      display: inline-block; /* Last bit of magic. */
+      padding: 15px;
+      font-size: 25px; /* Font size set to 30px */
+    }
+  </style>
+  
+  <title>STIFF: Sectional Three-Dimensional Interactive Fin-Ray Fingers: Design, Grasping, and Learning in Robotics</title>
+  <link rel="icon" type="image/x-icon" href="static/images/Logo.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script src="static/js/isInViewport.min.js"></script>
+  <script src="static/js/cdn.jsdelivr.net_npm_bootstrap@5.1.3_dist_js_bootstrap.bundle.min.js"></script>
+  <script defer="" src="static/js/fontawesome.all.min.js"></script>
+  
+</head>
+
+<body data-gr-ext-installed>
+
+  <ul class="nav">
+    <li><a href="index.html" class="w3-bar-item w3-button">Main Page</a></li>
+    <li><a href="hardware.html" class="w3-bar-item w3-button">Hardware Tutorial</a></li>
+    <li><a href="purchase_list.html" class="w3-bar-item w3-button">Purchase List</a></li>
+    <li><a href="CAD.html" class="w3-bar-item w3-button">CAD</a></li>
+    <li><a href="https://github.com/RomanMykhailyshyn/RomanMykhailyshyn.github.io/tree/main/stiff/static/code" class="w3-bar-item w3-button">Code</a></li>
+  </ul>
+  
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;">
+            <bold>Purchase List for ARTiS</bold>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-4" style="text-align: center; padding-bottom: 10px;">
+            <bold>Required Components</bold>
+          </h3>
+          <br>      
+              <div class="row">
+                <br><table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th data-width="200">Item</th>
+                      <th data-width="200">Name</th>
+                      <th data-width="100">Quantity</th>
+                      <th data-width="400">Cost (ea.)</th>
+                      <th data-width="100">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><img style="width:300px;" class="img-fluid" src="./static/images/P_list/MX_28R.jpg"></td>
+                      <td> <a href="https://www.robotis.us/dynamixel-mx-28r-6pcs-bulk/" style="font-weight:bold">DYNAMIXEL MX-28R 6pcs Bulk</a> <br> <br>
+                      </td>
+                      <td>1</td>
+                      <td>$1,484.89</td>
+                      <td>$1,484.89</td>
+                    </tr>
+                    <tr>
+                      <td><img style="width:300px;" class="img-fluid" src="./static/images/P_list/MX_64R.jpg"></td>
+                      <td><a href="https://www.robotis.us/dynamixel-mx-64r/" style="font-weight:bold">DYNAMIXEL MX-64R</a>
+                      </td>
+                      <td>1</td>
+                      <td>$406.89</td>
+                      <td>$406.89</td>
+                    </tr>
+                    <tr>
+                      <td><img style="width:300px;" class="img-fluid" src="./static/images/P_list/DXL_Starter_Set.jpg"></td>
+                      <td><a href="https://www.robotis.us/dynamixel-starter-set-us/" style="font-weight:bold">DYNAMIXEL Starter Set</a></td>
+                      <td>1</td>
+                      <td>$65.67</td>
+                      <td>$65.67</td>
+                    </tr>
+                    <tr>
+                      <td><img style="width:300px;" class="img-fluid" src="./static/images/P_list/DXLSHIELD.jpg"></td>
+                      <td><a href="https://www.robotis.us/dynamixel-shield/" style="font-weight:bold">DYNAMIXEL Shield</a></td>
+                      <td>1</td>
+                      <td>$26.29</td>
+                      <td>$26.29</td>
+                    </tr>
+                    <tr>
+                      <td><img style="width:300px;" class="img-fluid" src="./static/images/P_list/Arduino_Mega_2560.jpg"></td>
+                      <td><a href="https://store-usa.arduino.cc/products/arduino-mega-2560-rev3?utm_source=google&utm_medium=cpc&utm_campaign=EU-Pmax&gad_source=1&gad_campaignid=22591755262&gbraid=0AAAAACbEa84nGvv2S-8cXtZv5w9bdw6Ei&gclid=Cj0KCQjwmK_CBhCEARIsAMKwcD4JXY4l2A1TQnw8PTvDUoKQN3v7su4ZNZrTn6Yv1Vnohwqzv6hm9F8aAhJPEALw_wcB" style="font-weight:bold">Arduino Mega 2560</a></td>
+                      <td>1</td>
+                      <td>$49.90</td>
+                      <td>$49.90</td>
+                    </tr>
+                    <tr>
+                      <td><img style="width:300px;" class="img-fluid" src="./static/images/P_list/valve.jpg"></td>
+                      <td><a href="https://www.smcworld.com/webcatalog/en-id/seriesList/?id=VQ-K-E" style="font-weight:bold">2 Port Solenoid Valve VQ21A1-6GH-C6 SMC</a></td>
+                      <td>1</td>
+                      <td>$20.99</td>
+                      <td>$20.99</td>
+                    </tr>
+                    <tr>
+                      <td><img style="width:300px;" class="img-fluid" src="./static/images/P_list/ejector.jpg"></td>
+                      <td><a href="https://www.smcworld.com/products/subject/en-au/newgen_space/vacuum/zu_a.html" style="font-weight:bold">In-line Vacuum Ejector ZU05SA SMC</a>
+                      <td>1</td>
+                      <td>$10.00 </td>
+                      <td>$10.00</td>
+                    </tr>
+                    <tr>
+                      <td><img style="width:300px;" class="img-fluid" src="./static/images/P_list/relay.jpg"></td>
+                      <td><a href="https://www.amazon.com/dp/B00E0NTPP4/ref=sspa_dk_detail_1?pd_rd_i=B00E0NTPP4&pd_rd_w=Vbli1&content-id=amzn1.sym.386c274b-4bfe-4421-9052-a1a56db557ab&pf_rd_p=386c274b-4bfe-4421-9052-a1a56db557ab&pf_rd_r=NR4652D7ZER8JMWN4W4Y&pd_rd_wg=wkwuH&pd_rd_r=32e577b3-2b1f-4e1f-bd1f-4353b4da49dd&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&th=1" style="font-weight:bold">2 Channel DC 5V Relay Module</a>
+                      <td>1</td>
+                      <td>$6.79 </td>
+                      <td>$6.79</td>
+                    </tr>
+                    <tr>
+                      <td><img style="width:300px;" class="img-fluid" src="./static/images/P_list/FR07_S101K_set.jpg"></td>
+                      <td><a href="https://www.robotis.us/fr07-s101k-set/" style="font-weight:bold">FR07-S101K Set</a>
+                      <td>3</td>
+                      <td>$15.62 </td>
+                      <td>$46.86</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            
+          
+          <h5 class="title is-4" style="text-align: center; padding-bottom: 10px;">Other Misc. Parts</h5>
+          
+            
+              <div class="row">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th data-width="200">Name</th>
+                      <th data-width="100">Quantity</th>
+                      <th data-width="400">Cost (ea.)</th>
+                      <th data-width="100">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="https://jp.misumi-ec.com/vona2/detail/221000551286/?KWSearch=%E3%83%9C%E3%83%AB%E3%83%88&searchFlow=results2products" style="font-weight:bold">M2.5 30 Screws CSHZ-SUS-M2.5-30</a></td>
+                      <td>16</td>
+                      <td>$1.00</td>
+                      <td>$16.00</td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.amazon.com/Ktehloy-Threaded-Assortment-Printing-Components/dp/B0CLKDPN65/ref=sr_1_1_sspa?crid=1UT32I4B7UHTR&dib=eyJ2IjoiMSJ9.2X2AybzcBqMrt2dlZtwycZKJI8M3XsHjK3qsrUIUnsppj9Mp2kty-Br4IbMyD3p0X916a27lDmTZbNUHLtu1wBnOiSL4sT4VIm-nliIDetMyk6zYsgNRIJ04Vfp-zcYsGUrSov-mEyQw7wG1TFpS2hqD5odUqdYX1QaDa0CqyLDQajNlSJHsNxudqPxIRRJmBLxVVVWX97_l-J1tvqO9uxWu7coUKOv5GKVgopdTu6Q.IyPqAuPuytBpa8YHkFHvwzbobwf0Csr7vmkV7mp-grk&dib_tag=se&keywords=Threaded%2BInserts&qid=1749804772&sprefix=threaded%2Binserts%2Caps%2C572&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" style="font-weight:bold">Threaded Inserts</a></td>
+                      <td>1</td>
+                      <td>$15.98</td>
+                      <td>$15.98</td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://jp.misumi-ec.com/vona2/detail/110302458340/?CategorySpec=00000173471%3A%3Ad" style="font-weight:bold">Pivot pin CLBHN10-[45/0.1]</a></td>
+                      <td>1</td>
+                      <td>$4.87</td>
+                      <td>$4.87</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://www.amazon.com/AnkerMake-Printing-Filament-High-Adhesion-High-Speed/dp/B0C5XXRVJQ/ref=sr_1_3?crid=CUK6JS286YL4&dib=eyJ2IjoiMSJ9.75TqgfmrLRoMVD6UucYsoIfcqO4u_YOvG3JHmRIZ7QiPJd-D_XV6YJXfdS18wxcSSFNJ9FyZ9HPoLp0rygzC8LD8l4d4hlBbdu59S1BiDR41jceU1dyB7zMtKM7tbJ2HYufPEhR96Kg3kCVrWJ3htb1sooMSmWAWAkQbvNgGTDhUVYLw3KM_X16tSxzhSZRCH-rw7f1r_dP-Joa9SB95dG9d-d73EwTIRXG_63tk3A4.FDnyL865uyefl8j2Z5bqbTlvMBh0xEQFLxO1_jUuNSI&dib_tag=se&keywords=anker%2Banker%2Bpla%2B&qid=1749799667&sprefix=ankermaker%2Bpla%2B%2Caps%2C293&sr=8-3&th=1" style="font-weight:bold">AnkerMaker PLA+</a></td>
+                    <td>1</td>
+                    <td>$25.99</td>
+                    <td>$25.99</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://www.amazon.com/Overture-Filament-Flexible-Consumables-Dimensional/dp/B07VDP2S3P/ref=sr_1_8?dib=eyJ2IjoiMSJ9.pj25xq9vKfda0H4G0dCDKjc7kWhtjI3kHU1Lbq6yp2gH15VYzN8klNPSMJ23RbBwPDeKj8LCWO94FZ3KUwbUL9tOJUj1W9pIVEQT3HP6A2VU5l_T6t0GZOcmOhhyqcxbc9151uhqAXMbxf3KzF_m87p-D4eL4gt2GeZID6q9yYKuozzLSbfx9gywrVbcMjb0Wv3bHMvl4bCkHqQ-btJkRFGVD0woSl0I0CdIvtuuiA0.Qo4nAu19C_uC4JNzk0f9CKac48e7-xBwH47ZG7t2OzU&dib_tag=se&keywords=FLASHFORGE%2BTPU%2BFilament&qid=1749799594&sr=8-8&th=1" style="font-weight:bold">FLASHFORGE TPU Filament</a><br> (95A hardness)</td>
+                    <td>1</td>
+                    <td>$30.99</td>
+                    <td>$30.99</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://jp.misumi-ec.com/vona2/detail/221000531138/?clkid=clkid_basic_shape_template" style="font-weight:bold">Horizontal bearing F4-9</a></td>
+                    <td>18</td>
+                    <td>$3.43</td>
+                    <td>$61.74</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://jp.misumi-ec.com/vona2/detail/221000058402/?rid=dj_sub125_1_detail_1_221000058402_e01_221000058299" style="font-weight:bold">Horizontal bearing F20-35 (51104)</a></td>
+                    <td>3</td>
+                    <td>$6.87</td>
+                    <td>$20.62</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://jp.misumi-ec.com/vona2/detail/110302590820/?clkid=clkid_basic_shape_template" style="font-weight:bold">Flange bearing C-FL684ZZ</a></td>
+                    <td>18</td>
+                    <td>$0.93</td>
+                    <td>$16.74</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://jp.misumi-ec.com/vona2/detail/110300096110/" style="font-weight:bold">Threaded shaft CLBR4-57</a></td>
+                    <td>3</td>
+                    <td>$2.73</td>
+                    <td>$8.19</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://jp.misumi-ec.com/vona2/detail/110300096110/" style="font-weight:bold">Threaded shaft CLBR4-34</a></td>
+                    <td>6</td>
+                    <td>$2.73</td>
+                    <td>$16.38</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://www.amazon.com/ADOINBY-Inch-White-Large-Balloons/dp/B0D98RHSCL/ref=sxin_16_pa_sp_search_thematic_sspa?content-id=amzn1.sym.70fcaece-2dd2-4653-bf00-fb6af1af1b93%3Aamzn1.sym.70fcaece-2dd2-4653-bf00-fb6af1af1b93&crid=32S9QSEYBBXLU&cv_ct_cx=18%2Blatex%2Bballoons&keywords=18%2Blatex%2Bballoons&pd_rd_i=B0D98RHSCL&pd_rd_r=29ce37dd-e030-4021-adca-f22b617c5a31&pd_rd_w=exk2c&pd_rd_wg=Ldl5E&pf_rd_p=70fcaece-2dd2-4653-bf00-fb6af1af1b93&pf_rd_r=YYK9D2H4BSBD171SVHCW&qid=1750142011&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=18%22%2Blate%2Caps%2C383&sr=1-4-e169343e-09af-4d41-85b1-8335fe8f32d0-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1" style="font-weight:bold">Latex Balloon 18"</a></td>
+                    <td>1</td>
+                    <td>$8.99</td>
+                    <td>$8.99</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://www.amazon.com/Microspheres-Weighted-Blankets-Stuffies-Sensory/dp/B07QN11HB9/ref=sr_1_40?crid=2NYJR50UU9Z5T&dib=eyJ2IjoiMSJ9.-vETniGMKTKHe234QQ5nALosXCt0zbjD95SBA4_apZO15Nu2ji4AnQiEeG9vmEAH6PXzkgv_7njnmLOEvXrocPA_TQ-3tJsMEvvrpTl3eYyVVagPkywGuCT0zJblmoMfibC6marhC5pxUtwecDlEpV9x3-P67wSwftTJJJJzQnGeI8-sTS_sVGNoZ-IuGiUH1H4OsgaKle32d32nfOhY-PxM2JQg35ZjW3IP5q9TsBLmV6DyVb47GjTys_c1Y7GsuJXx30MzmNFwmWhG42yR2558kFOMPm7ldVUe5n4g_Yc.q8__VETAUkMJJWLopRb8YmyvnbcB-qnmOCwtjuJ8zVE&dib_tag=se&keywords=glass+beads&qid=1750141756&sprefix=glass+beads%2Caps%2C445&sr=8-40" style="font-weight:bold">Glass Beads 0.6 mm to 0.9 mm</a></td>
+                    <td>0.5 kg</td>
+                    <td>$5.00</td>
+                    <td>$2.50</td>
+                  </tr>
+          </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;">
+            <bold>Tools Required</bold>
+          </h3>
+          <div class="row">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th data-width="200">Name</th>
+                  <th data-width="100">Quantity</th>
+                  <th data-width="400">Cost (ea.)</th>
+                  <th data-width="100">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="https://www.amazon.com/dp/B084V7KS25?ref_=cm_sw_r_cp_ud_dp_QNNY228B4WTC4WG9P5N7" style="font-weight:bold">M3, M4, M6 Hex Allen Wrenches</a> </td>
+                  <td>1</td>
+                  <td>$11.99</td>
+                  <td>$11.99</td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.amazon.com/AnkerMake-High-Speed-Multi-Device-Auto-Leveling-220%C3%97220%C3%97250/dp/B0C2HMQB15/ref=sr_1_1?crid=35Z3IMC31R886&dib=eyJ2IjoiMSJ9.nz32KxFjxWSJZlKkuJ28ABBgT6NU19NyyK0HESj8nDJz3ZhIGlFaUBeiF6Ev4yTa9zgpB0thfCAwb13D2BQaGV75q6zFMWpwXk6YC3PNWOsgwsqAq_omseztxgsotqTe0N7JIhQAOPcwHCxIebJ2YLRyV0DqZ0aEIcAPmX2AxLQCXeB5gO5IBD8vW18OLHLjzv7QIGiQrc5g-NiaDxgss_Og5HASCg4Rvh79vSsM3DM.u5y8NdL3cJVg6D63R4fypXacvCUhGi4cYmibQ06OJnw&dib_tag=se&keywords=ankermake+3d+printer&qid=1749799224&sprefix=AnkerMaker+3d%2Caps%2C285&sr=8-1" style="font-weight:bold">AnkerMaker M5C</a></td>
+                  <td>1</td>
+                  <td>$286</td>
+                  <td>$286</td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.amazon.com/Soldering-Interchangeable-Adjustable-Temperature-Enthusiast/dp/B087767KNW/ref=sr_1_1_sspa?crid=3A90XBQVBQMJ5&keywords=soldering%2Biron&qid=1698802218&sprefix=soldering%2Biron%2Caps%2C100&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" style="font-weight:bold">Soldering Iron</a> <br>
+                  <td>1</td>
+                  <td>$11.99</td>
+                  <td>$11.99</td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.amazon.com/Amazon-Basics-Ratcheting-Electronics-Screwdriver/dp/B07V4TFWFZ/ref=sr_1_1_ffob_sspa?crid=32GHPF9L7STEC&dib=eyJ2IjoiMSJ9.McboCzSa-UU4zCz8wd8sscom-5uO5fLtThPFgZWAQ-btI8WVcTdpyjk5DaEm5gGPfHSFieWw7I5Z7jFmPMVI0UZS6UfXxnTfooY40b5vpIsBV0s1E6K7d0hxFA5oMkr5nMjfmJLoUvZ_500PC6Aq3Z3rwyWaZbYxJYz_LITxEMNeQrjSTjI6QsAwzYUhcKL-u5bf1fCYKwhANRJz4HLttkr7uJlCDcxKjWSkoi6JpQW89vFsx1yotBbhKog9jtBaKWq_mACEQMrqNpKFcUkuP1_zjrEaIpiNvEDQtxOZSB8.IQA5Isy1FOS2a8tQU9_NHRiQvcKIsLTgJ98pTQx7dfw&dib_tag=se&keywords=screwdriver%2Bset&qid=1749799731&sprefix=skrew%2Caps%2C341&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" style="font-weight:bold">Screwdriver Set</a> <br>
+                  <td>1</td>
+                  <td>$21.94</td>
+                  <td>$21.94</td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.amazon.com/WGGE-Professional-crimping-Multi-Tool-Multi-Function/dp/B073YG65N2/ref=sr_1_2_sspa?crid=VTTOIEDHM3OI&keywords=Wire%2BStripper&qid=1698937510&sprefix=wire%2Bstripper%2Caps%2C91&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" style="font-weight:bold">Wire Cutter</a> <br>
+                  <td>1</td>
+                  <td>$8.59</td>
+                  <td>$8.59</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <!-- <a class="large-font bottom_buttons" disabled>
+        <i class="fab fa-github"></i>
+      </a> -->
+        <br>
+        <p>Contact us at roman.mux.mux@gmail.com if you have any questions.</p>
+      </div>
+    </div>
+  </footer>
+
+
+<!--
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;">
+            <bold>Electronic Instruction</bold>
+          </h3>
+            <div class="col">
+              <h5 class="is-4">
+                <bold>Text Instructions:</bold>
+              </h5>
+              <ul class="list-group">
+                <li class="list-group-item">1) Attach larger S101 bracket using 4 short 4mm tap black screws screwed into the MCP side motor.</li>
+                <li class="list-group-item">2) Attach PIP motor to S101 bracket using 4 of the long M2 8mm tap screws.</li>
+                <li class="list-group-item">3) Align H101 Horn, DIP Spacer and larger S101 bracket, and put 4 M2 10mm screws through them followed by nuts inside S101.</li>
+                <li class="list-group-item">4) Attach DIP assembly to PIP motor using 4 black M2 4mm tap screws and idler.</li>
+                <li class="list-group-item">5) Attach DIP Motor to open S101 bracket using 4 of the long M2 8mm tap screws.</li>
+                <li class="list-group-item">6) Attach Fingertip to H101 Horn using 6 M2 4mm screws into 3D brass inserts.  Attach Horn to open DIP motor using idler and 4 short 4mm tap black screws.</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5 class="is-4">
+                <bold>3D Model Preview:</bold>
+              </h5>
+              <div class="sketchfab-embed-wrapper"> <iframe title="PIP/DIP LEAP Assembly" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" width="526" height="300" src="https://sketchfab.com/models/e33db4a8c3f8492ead0b2e0a9e8c0a65/embed?autospin=0&amp;camera=0"> </iframe> </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
