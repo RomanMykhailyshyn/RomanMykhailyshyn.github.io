@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <!-- <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> -->
+
+
+  <!-- <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG"> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image"> -->
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <style>
+    .rotate-90 {
+      transform: rotate(90deg);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      vertical-align: middle;
+    }
+
+    th:first-child, td:first-child {
+      border-right: 3px double;
+      font-weight: bold;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .nav {
+      border: 1px solid #ccc;
+      border-width: 1px 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center; /* The magic. */
+      background-color: #f8f9fa; /* Light gray background color */
+    }
+    
+    .nav li {
+      display: inline; /* More magic. */
+    }
+    
+    .nav a {
+      display: inline-block; /* Last bit of magic. */
+      padding: 15px;
+      font-size: 25px; /* Font size set to 30px */
+    }
+  </style>
+  
+  <title>STIFF: Sectional Three-Dimensional Interactive Fin-Ray Fingers: Design, Grasping, and Learning in Robotics</title>
+  <link rel="icon" type="image/x-icon" href="static/images/Logo.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script src="static/js/isInViewport.min.js"></script>
+  <script src="static/js/cdn.jsdelivr.net_npm_bootstrap@5.1.3_dist_js_bootstrap.bundle.min.js"></script>
+  <script defer="" src="static/js/fontawesome.all.min.js"></script>
+  
+</head>
+
+<body data-gr-ext-installed>
+
+  <ul class="nav">
+    <li><a href="index.html" class="w3-bar-item w3-button">Main Page</a></li>
+    <li><a href="hardware.html" class="w3-bar-item w3-button">Hardware Tutorial</a></li>
+    <li><a href="purchase_list.html" class="w3-bar-item w3-button">Purchase List</a></li>
+    <li><a href="CAD.html" class="w3-bar-item w3-button">CAD</a></li>
+    <li><a href="https://github.com/RomanMykhailyshyn/RomanMykhailyshyn.github.io/tree/main/stiff/static/code" class="w3-bar-item w3-button">Code</a></li>
+  </ul>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;">
+            <bold>Manufacturing Instruction for ARTiS</bold>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3" style="text-align: center;">Summary</h3>
+        <div class="row">
+          <div class="row">
+
+                <li class="list-group-item"> This is the design instruction for ARTiS. The estimated 3D printing time is 6 days. <br>
+                <li class="list-group-item"> As the first step, purchase all the items from <td><a href="purchase_list.html" style="font-weight:bold">here</a></td>.
+                <li class="list-group-item"> Download the 3D printing parts <td><a href="./static/CAD/ARTiS_CAD.zip" style="font-weight:bold">here</a> </td> and print all parts.
+                <li class="list-group-item"> Follow the 'Design Instruction' on this page and assemble all the parts for ARTiS.
+                <li class="list-group-item"> Electronic setup and complete the motor wiring setup with calibration.
+                <li class="list-group-item"> Refer to the ARTiS code <td><a href='https://github.com/RomanMykhailyshyn/RomanMykhailyshyn.github.io/tree/main/artis/static/code' style='font-weight:bold'>here</a></td>. Now you are ready to use ARTiS!
+                <li class="list-group-item"> Contact us at roman.mux.mux@gmail.com if you have any questions.
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+
+<section class="section">
+			<div class="container">
+				<h3 class="title is-3" style="text-align: center;">Design Instruction</h3>
+        <!--<h4 class="title is-5" style="text-align: center;"><bold>Assembly Time ~ 30-45 minutes</bold></h4>--> 
+        <!-- Start Carousel -->        
+        <div class="row">
+          <br>
+          <h3 class="title is-6" style="text-align: left;"><li class="list-group-item"> <bold>Before Assembly</bold> </h3>
+              Prepare all components (3D printed parts, Required Components, Other Misc. Parts and Tools) described below.<br>
+              Before starting assembly, we need to install threaded inserts into the 3D printed parts using a soldering iron, instructions on best practices are presented below.<br>
+          <br>
+        <div class="column is-four-fifths">
+          <div class="columns is-centered">
+            <div class="column is-7">
+              <div class="publication-video">
+                <iframe src="https://www.youtube.com/embed/P7nHyI1TwKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="column is-5">
+              <h6 class="title is-6" style="text-align: center;">Examples of inserts in ARTiS parts</h6>
+                <div class="columns is-centered">
+                  <div class="column is-6">
+                    <img src="./static/images/Hardware/threaded_inserts_1.jpg" alt="Tool 8 - CAD Design" width="100%">
+                  </div>
+                  <div class="column is-6">
+                    <img src="./static/images/Hardware/threaded_inserts_2.jpg" alt="Tool 8 - CAD Design" width="100%">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section class="section">
+			<div class="container">
+				<!--<h4 class="title is-5" style="text-align: center;"><bold>Assembly Time ~ 30-45 minutes</bold></h4>--> 
+        <!-- Start Carousel -->        
+        <div class="row">
+          <h3 class="title is-6" style="text-align: left;"><li class="list-group-item"> <bold>Assembly Jamming Palm</bold> </h3>
+              To assemble this component you will need the following items: cup, filter, jamming holder, inflatable ball, glass beads, and fitting. <br>
+              Tools required: scissors, soldering iron, Phillips screwdriver, and hex wrench to fit the fitting.<br>
+              <br>
+              First, need to cut the neck off the ball (step 2), then insert the jamming holder into the middle of the ball (step 4), holding the ball on the edge, punch 6 holes for the connection (steps 6 and 7), pour glass bead into the ball (step 9), screw the jamming holder to the cup (step 10), and screw the fitting into the thread on the back of the cup (step 11).
+          <br>
+        <br>
+        </div>
+				<div id="carousel-demo" class="carousel">
+					<div class="item-2">
+						<img src="./static/images/Hardware/H1_1.jpg" alt="Tool 2 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 1</strong>
+            </h2>
+					</div>
+					<div class="item-3">
+						<img src="./static/images/Hardware/H1_2.jpg" alt="Tool 3 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 2</strong>
+            </h2>
+					</div>
+					<div class="item-4">
+						<img src="./static/images/Hardware/H1_3.jpg" alt="Tool 4 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 3</strong>
+            </h2>
+					</div>
+					<div class="item-5">
+						<img src="./static/images/Hardware/H1_4.jpg" alt="Tool 5 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 4</strong>
+            </h2>
+					</div>
+          <div class="item-6">
+						<img src="./static/images/Hardware/H1_5.jpg" alt="Tool 6 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 5</strong>
+            </h2>
+					</div>
+          <div class="item-7">
+						<img src="./static/images/Hardware/H1_6.jpg" alt="Tool 7 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 6</strong>
+            </h2>
+					</div>
+          <div class="item-8">
+						<img src="./static/images/Hardware/H1_7.jpg" alt="Tool 8 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 7</strong>
+            </h2>
+					</div>
+          <div class="item-9">
+						<img src="./static/images/Hardware/H1_8.jpg" alt="Tool 9 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 8</strong>
+            </h2>
+					</div>
+          <div class="item-12">
+						<img src="./static/images/Hardware/H1_9.jpg" alt="Tool 12 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 9</strong>
+            </h2>
+					</div>
+          <div class="item-13">
+						<img src="./static/images/Hardware/H1_10.jpg" alt="Tool 13 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 10</strong>
+            </h2>
+					</div>
+          <div class="item-10">
+						<img src="./static/images/Hardware/H1_11.jpg" alt="Tool 10 - CAD Design" width="100%">
+            <h2 class="subtitle">
+            <strong>Step 11</strong>
+            </h2>
+					</div>
+				</div>
+				<!-- End Carousel -->
+			<h6 class="title is-6"></h6>
+      <br>
+      </div>
+      <br>
+</section>
+<br>
+<br>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		<script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 4,
+      loop: false,
+      infinite: false
+		});
+</script>  
+
+
+
+<section class="section">
+			<div class="container">
+				<!--<h4 class="title is-5" style="text-align: center;"><bold>Assembly Time ~ 30-45 minutes</bold></h4>--> 
+        <!-- Start Carousel -->        
+        <div class="row">
+          <h3 class="title is-6" style="text-align: left;"><li class="list-group-item"> <bold>Assembly the Base</bold> </h3>
+              To assemble this component you will need the following items: DYNAMIXEL MX-64R, base, gear, axis holder, pivot pin, horizontal bearing, fastener, and bolts.<br>
+              Tools required: hex allen wrenches.<br>
+              <br>
+              First, need to screw the motor (step 2) into the prepared base with threaded inserts (step 1), then need to screw the gear to the motor (step 5), install the pivot pin and horizontal bearing in the axis holder (steps 6 and 7), install the fastener with communications and connect the motor (steps 8 and 9), and combine the axis holder with the base (steps 9 and 10).
+          <br>
+        <br>
+        </div>
+				<div id="carousel-demo" class="carousel">
+					<div class="item-2">
+						<img style="width:400px;" src="./static/images/Hardware/H2_1.jpg" alt="Tool 2 - CAD Design">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 1</strong>
+            </h2>
+					</div>
+					<div class="item-3">
+						<img style="width:400px;" src="./static/images/Hardware/H2_2.jpg" alt="Tool 3 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 2</strong>
+            </h2>
+					</div>
+					<div class="item-4">
+						<img style="width:400px;" src="./static/images/Hardware/H2_3.jpg" alt="Tool 4 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 3</strong>
+            </h2>
+					</div>
+					<div class="item-5">
+						<img style="width:400px;" src="./static/images/Hardware/H2_4.jpg" alt="Tool 5 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 4</strong>
+            </h2>
+					</div>
+          <div class="item-6">
+						<img style="width:400px;" src="./static/images/Hardware/H2_5.jpg" alt="Tool 6 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 5</strong>
+            </h2>
+					</div>
+          <div class="item-7">
+						<img style="width:400px;" src="./static/images/Hardware/H2_6.jpg" alt="Tool 7 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 6</strong>
+            </h2>
+					</div>
+          <div class="item-8">
+						<img style="width:400px;" src="./static/images/Hardware/H2_7.jpg" alt="Tool 8 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 7</strong>
+            </h2>
+					</div>
+          <div class="item-9">
+						<img style="width:400px;" src="./static/images/Hardware/H2_8.jpg" alt="Tool 9 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 8</strong>
+            </h2>
+					</div>
+          <div class="item-12">
+						<img style="width:400px;" src="./static/images/Hardware/H2_9.jpg" alt="Tool 12 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 9</strong>
+            </h2>
+					</div>
+          <div class="item-13">
+						<img style="width:400px;" src="./static/images/Hardware/H2_10.jpg" alt="Tool 13 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 10</strong>
+            </h2>
+					</div>
+				</div>
+				<!-- End Carousel -->
+			<h6 class="title is-6"></h6>
+      </div>
+</section>
+<br>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		<script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 4,
+      loop: false,
+      infinite: false
+		});
+</script>  
+
+
+
+<section class="section">
+			<div class="container">
+				<!--<h4 class="title is-5" style="text-align: center;"><bold>Assembly Time ~ 30-45 minutes</bold></h4>--> 
+        <!-- Start Carousel -->        
+        <div class="row">
+          <h3 class="title is-6" style="text-align: left;"><li class="list-group-item"> <bold>Pressing Bearings into Parts</bold> </h3>
+              To assemble this component you will need the following items: axis holder, rotating platform 1, rotating platform 2, and top axis holder. <br>
+              Tools required: press or clamp.<br>
+              <br>
+              The horizontal bearing consists of three parts, top/bottom, and balls (step 1), since three bearings are used in the design, all six top/bottom bearing parts must be pressed into the corresponding seats of the parts (steps 2-7).
+          <br>
+        <br>
+        </div>
+				<div id="carousel-demo" class="carousel">
+					<div class="item-2">
+						<img style="width:400px;" src="./static/images/Hardware/H3_1.jpg" alt="Tool 2 - CAD Design">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 1</strong>
+            </h2>
+					</div>
+					<div class="item-3">
+						<img style="width:400px;" src="./static/images/Hardware/H3_2.jpg" alt="Tool 3 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 2</strong>
+            </h2>
+					</div>
+					<div class="item-4">
+						<img style="width:400px;" src="./static/images/Hardware/H3_3.jpg" alt="Tool 4 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 3</strong>
+            </h2>
+					</div>
+					<div class="item-5">
+						<img style="width:400px;" src="./static/images/Hardware/H3_4.jpg" alt="Tool 5 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 4</strong>
+            </h2>
+					</div>
+          <div class="item-6">
+						<img style="width:400px;" src="./static/images/Hardware/H3_5.jpg" alt="Tool 6 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 5</strong>
+            </h2>
+					</div>
+          <div class="item-7">
+						<img style="width:400px;" src="./static/images/Hardware/H3_6.jpg" alt="Tool 7 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 6</strong>
+            </h2>
+					</div>
+          <div class="item-8">
+						<img style="width:400px;" src="./static/images/Hardware/H2_7.jpg" alt="Tool 8 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 7</strong>
+            </h2>
+					</div>
+				</div>
+				<!-- End Carousel -->
+			<h6 class="title is-6"></h6>
+      </div>
+</section>
+<br>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		<script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 4,
+      loop: false,
+      infinite: false
+		});
+</script>  
+
+
+
+<section class="section">
+			<div class="container">
+				<!--<h4 class="title is-5" style="text-align: center;"><bold>Assembly Time ~ 30-45 minutes</bold></h4>--> 
+        <!-- Start Carousel -->        
+        <div class="row">
+          <h3 class="title is-6" style="text-align: left;"><li class="list-group-item"> <bold>Main Assembly</bold> </h3>
+              To assemble this component you will need the following items: assembled base, three fingers, palm, and prepared rotary platforms 1 and 2. <br>
+              Tools required: hex allen wrenches.<br>
+              <br>
+              First, the balls from the bearing are installed on the assembled base, followed by the rotary platform 1 (step 1-2), then the same procedure is repeated with the rotary platform 2 (step 3-4) and the top axis holder (step 5-6), after which the rotation axis is fixed with a bolt and the than bolt is fixed (step 7), then the jamming palm is screwed to the top axis holder (step 8-9), after which the assembled three fingers are attached using two bolts (step 10-13), connect all the wires (step 14), and as a result we will get a gripper connected to the controller (step 15).
+          <br>
+        <br>
+        </div>
+				<div id="carousel-demo" class="carousel">
+					<div class="item-1">
+						<img style="width:400px;" src="./static/images/Hardware/H4_1.jpg" alt="Tool 2 - CAD Design">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 1</strong>
+            </h2>
+					</div>
+					<div class="item-2">
+						<img style="width:400px;" src="./static/images/Hardware/H4_2.jpg" alt="Tool 3 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 2</strong>
+            </h2>
+					</div>
+					<div class="item-3">
+						<img style="width:400px;" src="./static/images/Hardware/H4_3.jpg" alt="Tool 4 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 3</strong>
+            </h2>
+					</div>
+					<div class="item-4">
+						<img style="width:400px;" src="./static/images/Hardware/H4_4.jpg" alt="Tool 5 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 4</strong>
+            </h2>
+					</div>
+          <div class="item-5">
+						<img style="width:400px;" src="./static/images/Hardware/H4_5.jpg" alt="Tool 6 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 5</strong>
+            </h2>
+					</div>
+          <div class="item-6">
+						<img style="width:400px;" src="./static/images/Hardware/H4_6.jpg" alt="Tool 7 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 6</strong>
+            </h2>
+					</div>
+          <div class="item-7">
+						<img style="width:400px;" src="./static/images/Hardware/H4_7.jpg" alt="Tool 8 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 7</strong>
+            </h2>
+					</div>
+          <div class="item-8">
+						<img style="width:400px;" src="./static/images/Hardware/H4_8.jpg" alt="Tool 9 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 8</strong>
+            </h2>
+					</div>
+          <div class="item-9">
+						<img style="width:400px;" src="./static/images/Hardware/H4_9.jpg" alt="Tool 12 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 9</strong>
+            </h2>
+					</div>
+          <div class="item-10">
+						<img style="width:400px;" src="./static/images/Hardware/H4_10.jpg" alt="Tool 13 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 10</strong>
+            </h2>
+					</div>
+          <div class="item-11">
+						<img style="width:400px;" src="./static/images/Hardware/H4_11.jpg" alt="Tool 6 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 11</strong>
+            </h2>
+					</div>
+          <div class="item-12">
+						<img style="width:400px;" src="./static/images/Hardware/H4_12.jpg" alt="Tool 7 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 12</strong>
+            </h2>
+					</div>
+          <div class="item-13">
+						<img style="width:400px;" src="./static/images/Hardware/H4_13.jpg" alt="Tool 8 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 13</strong>
+            </h2>
+					</div>
+          <div class="item-14">
+						<img style="width:400px;" src="./static/images/Hardware/H4_14.jpg" alt="Tool 9 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 14</strong>
+            </h2>
+					</div>
+          <div class="item-15">
+						<img style="width:400px;" src="./static/images/Hardware/H4_15.jpg" alt="Tool 12 - CAD Design" width="100%">
+            <h2 class="subtitle has-text-centered">
+            <strong>Step 15</strong>
+            </h2>
+					</div>
+				</div>
+				<!-- End Carousel -->
+			<h6 class="title is-6"></h6>
+      </div>
+</section>
+<br>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		<script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 4,
+      loop: false,
+      infinite: false
+		});
+</script>  
+
+
+<!-- 
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3" style="text-align: center;">Design Instruction</h3>
+        <h4 class="title is-5" style="text-align: center;"><bold>Assembly Time ~ 30-45 minutes</bold></h4>
+        <div class="row">
+          <div class="row">
+            <br>
+            <h3 class="title is-6" style="text-align: left;"><li class="list-group-item"> <bold>Before Assembly</bold> </h3>
+                To assemble this component you will need the following items: cup, filter, jamming holder, inflatable ball, glass beads, and fitting. <br>
+                Tools required: scissors, soldering iron, Phillips screwdriver, and hex wrench to fit the fitting.<br>
+                Prepare all components (3D printed parts, Required Components, Other Misc. Parts and Tools) described below.
+            <br>
+            <br>
+            <h3 class="title is-6" style="text-align: left;"><li class="list-group-item"> <bold>Main Assembly</bold> </h3>
+                Insert the 5 6mm bearings into the bearing holes on the Top and Bottom Housing. <br>
+                Insert the 6 6mm hex nuts into the hex nut holes in the Top Housing. <br>
+                Insert the 2 6mm shafts (41mm length) into both the Left and Right Crank gear holes leaving equal protruding shaft from the top and bottom of the crank.<br>
+                On the Left Rocker’s top holes, attach the bottom two holes of the Coupler Link using 1 M4 x 35 screw and secure the other end using an 4mm hex nut. Do not overtighten. <br>
+                Insert 1 torsion spring into the inside of the Coupler Link near the top.<br>
+                Insert the other end of the torsion spring into the left Finger Tip torsion spring hole. <br>
+                Align the mounting holes from the Finger Tip with the upper holes in the Left Rocker and the Coupler Link.<br>
+                Insert an M4 x 35 screw into the aligned holes and secure the end with a 4mm nylon lock nut. Do not over tighten. <br>
+                Insert the TPU Tip and TPU Finger extrusions into their designated holes on the Finger Tip.<br>
+                Apply grip tape along the face of the of the TPU Tip and TPU Finger<br>
+                Repeat steps 4-10 for the Right Crank. <br>
+                Insert 2 M6 x 40 screws into the bottom of the Bottom Housing and into the left and right lower rocker holes. <br>
+                Adjust the lower TPU Finger extrusions to overlap and sit between the two rocker screws. <br>
+                Over top the lower TPU Finger extrusions, and rocker screws, insert the Inner Link Stopper Spacer with the bare side facing up on the screws and facing the crank gears.
+            <br>
+            <br>
+            <h3 class="title is-6" style="text-align: left;">
+              <li class="list-group-item"><bold>Actuator Drive Assembly</bold>
+            </h3>
+                On the 6mm D-cut shaft (54mm length), in order, insert the Actuator Shaft Mounting Plate, 1 6mm flange (screwed into the plate), the pinion gear (geared side facing mounting plate) and 1 6mm flange (screwed into the pinion).<br>
+                All parts on the shaft should be up against each other but leave enough shaft protruding from both the top and bottom of the assembly to properly align the pinion gear with the crank gear. <br>
+                Screw the Actuator Shaft Mounting Plate to the actuator with 4 M3 x 8 screws.
+            <br>
+            <br>
+            <h3 class="title is-6" style="text-align: left;">
+              <li class="list-group-item"><bold>Main Assembly (Cont.)</bold>
+            </h3>
+
+                Insert the actuator drive assembly into the largest hole on the top housing.<br>
+                Making sure all shafts, bearings and screws align properly, and press the top and bottom housings together. <br>
+                Tighten the two rocker screws from the bottom of the bottom housing (Do not overtighten) and bring all the parts together making sure all shafts press into the bearings. <br>
+                Place the Motor Mount Case atop the actuator and align the 4 actuator holes with the holes on the case. <br>
+                Screw 4 M3 x 6mm into the 4 holes<br>
+                Align the extruding case holes with the extruding holes on the top housing and fasten them from the bottom using 2 M6 x 16 screws.<br>
+                Lastly, place the Flange Adapter between the top and bottom housings near the rear and run 2 M6 x 45 screws through from the bottom of the bottom housing and tighten until the screw reaches the case’s hex nut.   
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  !-->
+  
+<section class="section"> 
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3">Electronic Instruction</h3>
+        <!-- <h5 style="text-align: center; padding-bottom: 10px;"> Test1. <br> Test2.</h5> !-->
+        <div class="row">
+           <div class="row"style="text-align: left;">
+           <h5 class="title is-5">Instruction</h5>
+                <li class="list-group-item"> Using the Dynemixel Wizard, setup the motors with the appropriate IDs, and set them to the initial position for installation.
+            <br>
+                <li class="list-group-item"> Use the soldering iron and wire cutter, to extend the wires to connect motors 1 and 2 to the control box.
+            <br>
+                <li class="list-group-item"> Install all the elements in the control box, and install it on the robot arm.
+            <br>
+                <li class="list-group-item"> Connect all power and control elements to the gripper and to the control box, turn on the switch on the U2D2, supplying power to the motors.
+            <br>
+                <li class="list-group-item"> Upload the program to Arduino, and using Python code start using the ARTiS.
+            <br>
+            <br>
+            <h4 class="title is-5">Setup DYNAMIXEL Instruction Video</h4>
+            <div class="column is-6">
+              <div class="publication-video">
+                <iframe src="https://www.youtube.com/embed/JRRZW_l1V-U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <br>
+                <li class="list-group-item"> Set the below motor properties<br>
+                <br>
+                <img src="./static/images/Hardware/electr.jpg" alt="Tool 12 - CAD Design" width="35%">
+                <br>
+                Motor number in design: ID's for programming<br>
+                Motor 1 (Jo): ID-8 <br>
+                Motor 2 (J1): ID-1 <br>
+                Motor 4 (J2): ID-2 <br>
+                Motor 6 (J3): ID-3 <br>
+                Motor 3 (J4): ID-4 <br>
+                Motor 5 (J5): ID-5 <br>
+                Motor 7 (J6): ID-6 <br>
+                <br>
+                What to disable: <br>
+                Overload error <br>
+                <br>
+                What to apply: <br>
+                Overheating error <br>
+                Joint control <br>
+                <br>
+                Update the firmware if necessary.<br>
+            
+            <br>
+                <li class="list-group-item"> Control Box - Gripper connection<br>
+                <br>
+                <img src="./static/images/Hardware/conect.jpg" alt="Tool 12 - CAD Design" width="100%">
+                <br>
+                We recommend a minimum connection length between the gripper and the control box of 750 mm, for a pneumatic line this would be 750 mm of tube (diameter 6 mm), and for wires 850 mm. When fixing the control box on the robot's shoulder, this distance of connection with the gripper is enough for the robot (UR-5e) to make 2 full revolutions of the end effector. If you use a robot with longer or shorter link lengths than the UR-5e, this length can be changed to ensure sufficient orientation during operation.<br>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+
+<footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <!-- <a class="large-font bottom_buttons" disabled>
+        <i class="fab fa-github"></i>
+      </a> -->
+        <br>
+        <p>Contact us at roman.mux.mux@gmail.com if you have any questions.</p>
+      </div>
+    </div>
+  </footer>
+
+
+<!--
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;">
+            <bold>Electronic Instruction</bold>
+          </h3>
+            <div class="col">
+              <h5 class="is-4">
+                <bold>Text Instructions:</bold>
+              </h5>
+              <ul class="list-group">
+                <li class="list-group-item">1) Attach larger S101 bracket using 4 short 4mm tap black screws screwed into the MCP side motor.</li>
+                <li class="list-group-item">2) Attach PIP motor to S101 bracket using 4 of the long M2 8mm tap screws.</li>
+                <li class="list-group-item">3) Align H101 Horn, DIP Spacer and larger S101 bracket, and put 4 M2 10mm screws through them followed by nuts inside S101.</li>
+                <li class="list-group-item">4) Attach DIP assembly to PIP motor using 4 black M2 4mm tap screws and idler.</li>
+                <li class="list-group-item">5) Attach DIP Motor to open S101 bracket using 4 of the long M2 8mm tap screws.</li>
+                <li class="list-group-item">6) Attach Fingertip to H101 Horn using 6 M2 4mm screws into 3D brass inserts.  Attach Horn to open DIP motor using idler and 4 short 4mm tap black screws.</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5 class="is-4">
+                <bold>3D Model Preview:</bold>
+              </h5>
+              <div class="sketchfab-embed-wrapper"> <iframe title="PIP/DIP LEAP Assembly" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" width="526" height="300" src="https://sketchfab.com/models/e33db4a8c3f8492ead0b2e0a9e8c0a65/embed?autospin=0&amp;camera=0"> </iframe> </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
