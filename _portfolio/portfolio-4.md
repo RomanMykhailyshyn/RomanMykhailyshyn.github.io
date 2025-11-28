@@ -32,6 +32,8 @@ The first step is the development of a low-contact gripper that would be able gr
 
 To download the dataset obtained for the gripper with different nozzle diameters, follow the links:
 
+<td><a href="/files/vortex/data_set_vortex_gripper(nozzle 0.6mm).zip" style="font-weight:bold">Download Vortex gripper dataset (nozzle diameter = 0.6 mm)</a> </td>
+
 <a href="https://www.dropbox.com/scl/fi/zta0yljjgszxedm04ov30/data_set_vortex_gripper-nozzle-0.6mm.zip?rlkey=plche5yfpwoeibqyeqo1vvzjd&st=rzu7o8hz&dl=0" target="_blank" rel="noopener">Download Vortex gripper dataset (nozzle diameter = 0.6 mm)</a>
 
 <a href="https://www.dropbox.com/scl/fi/9yjwomj025sbx8yfv604g/data_set_vortex_gripper-nozzle-0.8mm.zip?rlkey=7180pyncxrqkj25h6yvpebk2z&st=si3gu46p&dl=0" target="_blank" rel="noopener">Download Vortex gripper dataset (nozzle diameter = 0.8 mm)</a>
