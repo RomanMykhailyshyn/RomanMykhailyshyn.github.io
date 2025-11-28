@@ -19,11 +19,6 @@ The project is in the process of seeking funds from NSF FRR.
 
 The first step is the development of a low-contact gripper that would be able grasping and manipulate soft objects with different surface shapes. For example, during surgical applications, manipulation of various organs with convex and concave surfaces.
 
-<a href="https://www.dropbox.com/scl/fi/zta0yljjgszxedm04ov30/data_set_vortex_gripper-nozzle-0.6mm.zip?rlkey=plche5yfpwoeibqyeqo1vvzjd&st=rzu7o8hz&dl=0" target="_blank" rel="noopener">Download Vortex gripper dataset (0.6 mm)</a>
-
-<a href="https://www.dropbox.com/scl/fi/9yjwomj025sbx8yfv604g/data_set_vortex_gripper-nozzle-0.8mm.zip?rlkey=7180pyncxrqkj25h6yvpebk2z&st=si3gu46p&dl=0" target="_blank" rel="noopener">Download Vortex gripper dataset (0.8 mm)</a>
-
-<a href="https://www.dropbox.com/scl/fi/tp1f7ewjhppx0sjyriqm9/data_set_vortex_gripper-nozzle-1.0mm.zip?rlkey=pta2wmtrqxsm0emlkm4k00mdl&st=aorq52wt&dl=0" target="_blank" rel="noopener">Download Vortex gripper dataset (1.0 mm)</a>
 
 ### Grasping Soft Balls of Various Shapes by Vortex Gripper
 
@@ -33,6 +28,16 @@ The first step is the development of a low-contact gripper that would be able gr
  | <br/><img src='/images/vortex/4_2.jpg' width='140'> | <br/><img src='/images/vortex/5_2.jpg' width='140'>  | <br/><img src='/images/vortex/6_1.jpg' width='140'>  |
  | - | - | - |
 
+## Datasets
+
+To download the dataset obtained for the gripper with different nozzle diameters, follow the links:
+
+<a href="https://www.dropbox.com/scl/fi/zta0yljjgszxedm04ov30/data_set_vortex_gripper-nozzle-0.6mm.zip?rlkey=plche5yfpwoeibqyeqo1vvzjd&st=rzu7o8hz&dl=0" target="_blank" rel="noopener">Download Vortex gripper dataset (nozzle diameter = 0.6 mm)</a>
+
+<a href="https://www.dropbox.com/scl/fi/9yjwomj025sbx8yfv604g/data_set_vortex_gripper-nozzle-0.8mm.zip?rlkey=7180pyncxrqkj25h6yvpebk2z&st=si3gu46p&dl=0" target="_blank" rel="noopener">Download Vortex gripper dataset (nozzle diameter = 0.8 mm)</a>
+
+<a href="https://www.dropbox.com/scl/fi/tp1f7ewjhppx0sjyriqm9/data_set_vortex_gripper-nozzle-1.0mm.zip?rlkey=pta2wmtrqxsm0emlkm4k00mdl&st=aorq52wt&dl=0" target="_blank" rel="noopener">Download Vortex gripper dataset nozzle diameter = (1.0 mm)</a>
+
 ## Results Presentation
 
 * R. Mykhailyshyn, A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue with Complex Geometry using a Novel Vortex Gripper.&quot; <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023) Workshop on Robotics for the Gut</i>.
@@ -40,4 +45,4 @@ The first step is the development of a low-contact gripper that would be able gr
 
 ## Publications
 
-* R. Mykhailyshyn, A. Majewicz Fey &quot;Investigating a Fluidic Vortex Grasping Mechanism for Geometrically Complex Objects and Soft Tissue.&quot; Under Submission.
+* R. Mykhailyshyn, A. Majewicz Fey, &quot;Fluidic Vortex Grasping Mechanism for Geometrically Complex Objects and Soft Tissue.&quot; Under Submission.
