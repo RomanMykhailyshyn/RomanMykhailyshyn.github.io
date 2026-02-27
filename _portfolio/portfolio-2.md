@@ -23,8 +23,12 @@ The project partially funded by grant "Disassembly plans that take into account 
 * Bio-inspiration of clingfish suction cups using PolyJet 3D printing technology.
 * Bio-Inspired Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications
 
+## Results Presentation
+
+* M. Kojouharov, D. Ho, D. Rowland, R. Mykhailyshyn, L. Sentis, A. Majewicz Fey, Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots. <i>IEEE International Conference on Robotics & Automation 2026</i>, Accepted.
+
 ## Publications
 
-* R. Mykhailyshyn, Y. Domae, K. Harada, ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications.  In process.
-* M. Kojouharov, R. Mykhailyshyn, A. Majewicz Fey, Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots. In process.
+* M. Kojouharov, D. Ho, D. Rowland, R. Mykhailyshyn, L. Sentis, A. Majewicz Fey, Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots. <i>IEEE International Conference on Robotics & Automation 2026</i>, Accepted.
+* R. Mykhailyshyn, Y. Domae, K. Harada, ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications, <i>IEEE/ASME Transactions on Mechatronics</i>, Under review.
 * M. J. DeMoor, R. Mykhailyshyn, A. Majewicz Fey, Bio-Inspired Suction Cup. In process.
