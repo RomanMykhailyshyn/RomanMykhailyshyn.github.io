@@ -53,4 +53,4 @@ To download the dataset obtained for the gripper with different nozzle diameters
 
 ## Publications
 
-* R. Mykhailyshyn, A. Majewicz Fey, &quot;Fluidic Vortex Grasping Mechanism for Geometrically Complex Objects and Soft Tissue.&quot; Under Submission.
+* R. Mykhailyshyn, A. Majewicz Fey, &quot;Investigating a Fluidic Vortex Grasping Mechanism for Complex Objects and Bio-Inspired Tissue.&quot; <i>IEEE Access</i> [IEEE](https://doi.org/10.1109/ACCESS.2026.3706808).
