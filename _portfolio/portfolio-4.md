@@ -28,6 +28,10 @@ The first step is the development of a low-contact gripper that would be able gr
  | <br/><img src='/images/vortex/4_2.jpg' width='140'> | <br/><img src='/images/vortex/5_2.jpg' width='140'>  | <br/><img src='/images/vortex/6_1.jpg' width='140'>  |
  | - | - | - |
 
+<iframe src="/files/Investigating_a_Fluidic_Vortex_Grasping_Mechanism_for_Complex_Objects_and_Bio-Inspired_Tissue.pdf" width="100%" height="600px">
+    <p>Your browser does not support iframes. <a href="/files/Investigating_a_Fluidic_Vortex_Grasping_Mechanism_for_Complex_Objects_and_Bio-Inspired_Tissue.pdf">Download the PDF</a> instead.</p>
+</iframe>
+
 ## Datasets
 
 To download the dataset obtained for the gripper with different nozzle diameters, follow the links:
