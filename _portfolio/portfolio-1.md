@@ -81,5 +81,5 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 
 ## Awards
-* Scientific Photograph “Smoked air-flow of modified Bernoulli-based gripper for grasping textile materials,” was selected as a finalist in the Wiki Science Competition 2025.
+* Scientific Photography “Smoked air-flow of modified Bernoulli-based gripper for grasping textile materials” was selected as a finalist in the Wiki Science Competition 2025:
 <br/><img src='/images/Jet_gripper_air-flow.jpg' width='300'>
