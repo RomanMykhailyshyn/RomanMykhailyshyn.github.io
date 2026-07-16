@@ -24,7 +24,7 @@ The project partially funded by grant "Disassembly plans that take into account 
 * [ARTiS: Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications](https://romanmykhailyshyn.github.io/artis/)
 * STIFF: Sectional Three-Dimensional Interactive Fin-Ray Fingers: Design, Grasping, and Learning in Robotics
 * Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots
-    <br/><img src='/images/hand_f.jpg' width='500'><br />
+    <br/><img src='/images/hand_f.jpg' width='600'><br />
 
 ## Results Presentation
 
