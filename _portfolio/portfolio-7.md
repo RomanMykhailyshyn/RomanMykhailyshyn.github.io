@@ -1,5 +1,5 @@
 ---
-title: "Development of Models for Optimizing the Orientation of the Industrial Robot Brush"
+title: "Optimization the Orientation of the Robot Arm Wrist"
 excerpt: "<br/><img src='/images/P1.png'>"
 collection: portfolio
 ---
