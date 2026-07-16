@@ -21,7 +21,8 @@ The project partially funded by grant "Disassembly plans that take into account 
 ## Projects
 
 * Bio-inspiration of clingfish suction cups using PolyJet 3D printing technology.
-* Bio-Inspired Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications
+* [ARTiS: Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications](https://romanmykhailyshyn.github.io/artis/)
+* STIFF: Sectional Three-Dimensional Interactive Fin-Ray Fingers: Design, Grasping, and Learning in Robotics
 
 ## Results Presentation
 
