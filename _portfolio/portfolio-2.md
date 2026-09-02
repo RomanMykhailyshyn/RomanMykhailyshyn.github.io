@@ -22,17 +22,18 @@ The project partially funded by grant "Disassembly plans that take into account 
 
 * Bio-inspiration of clingfish suction cups using PolyJet 3D printing technology.
 * [ARTiS: Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications](https://romanmykhailyshyn.github.io/artis/)
-        <br/><img src='/images/ARTiS_1.jpg' width='400'><br />
+        <br/><img src='/images/ARTiS_w.jpg' width='400'><br />
 * STIFF: Sectional Three-Dimensional Interactive Fin-Ray Fingers: Design, Grasping, and Learning in Robotics
 * Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots
     <br/><img src='/images/hand_f.jpg' width='600'><br />
 
 ## Results Presentation
 
-* M. Kojouharov, D. Ho, D. Rowland, R. Mykhailyshyn, L. Sentis, A. Majewicz Fey, Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots. <i>IEEE International Conference on Robotics & Automation 2026 (ICRA)</i>, Accepted.
+* M. Kojouharov, D. Ho, D. Rowland, R. Mykhailyshyn, L. Sentis, A. Majewicz Fey, Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots. <i>IEEE International Conference on Robotics & Automation 2026 (ICRA)</i>.
+* R. Mykhailyshyn, Y. Domae, K. Harada, ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications, <i>IEEE International Conference on Robotics & Automation 2027 (ICRA)</i>.
 
 ## Publications
 
 * M. Kojouharov, D. Ho, D. Rowland, R. Mykhailyshyn, L. Sentis, A. Majewicz Fey, Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots. <i>IEEE International Conference on Robotics & Automation 2026 (ICRA)</i>, Accepted.
-* R. Mykhailyshyn, Y. Domae, K. Harada, ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications, <i>IEEE/ASME Transactions on Mechatronics</i>, Under review.
+* R. Mykhailyshyn, Y. Domae, K. Harada, ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications, <i>IEEE Transactions on Automation Science and Engineering</i>, Accepted.
 * M. J. DeMoor, R. Mykhailyshyn, A. Majewicz Fey, Bio-Inspired Suction Cup. In process.
