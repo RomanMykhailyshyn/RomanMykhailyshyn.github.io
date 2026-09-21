@@ -7,7 +7,7 @@ collection: portfolio
 Recent advances in imitation learning, reinforcement learning, and multimodal foundation models are rapidly expanding the range of robotic tasks that can be learned from human demonstrations and interaction data. However, the performance of these methods depends fundamentally on the physical interface through which a robot interacts with its environment. Conventional rigid end-effectors and standard sensing architectures are often designed primarily for motion execution rather than for generating rich, task-relevant interaction data. My research addresses this limitation through the development of physical interfaces for robot learning, in which mechanical design, adaptive structures, multimodal sensing, teleoperation, and robot-learning algorithms are intentionally co-designed. Rather than treating the robot's physical interface simply as a mechanism for executing learned commands, I investigate how embodiment can actively contribute to data acquisition, perception, skill learning, and generalization.
 
 ## Funding
-The project partially funded by AIST, JSPS, [New Energy and Industrial Technology Development Organization (NEDO)](https://www.nedo.go.jp/english/), and FRONTia[FRONTia](https://frontia-ai.go.jp/en/). 
+The project partially funded by AIST, JSPS, [New Energy and Industrial Technology Development Organization (NEDO)](https://www.nedo.go.jp/english/), and [FRONTia](https://frontia-ai.go.jp/en/). 
 
 ## Colaboration
 * National Institute of Advanced Industrial Science and Technology (Japan).
