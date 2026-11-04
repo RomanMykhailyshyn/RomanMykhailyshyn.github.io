@@ -54,7 +54,10 @@ To download the dataset obtained for the gripper with different nozzle diameters
 
 * R. Mykhailyshyn, A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue with Complex Geometry using a Novel Vortex Gripper.&quot; <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023) Workshop on Robotics for the Gut</i>.
 * R. Mykhailyshyn, A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue Using a Novel Vortex Gripper.&quot; <i>IEEE 2024 International Symposium on Medical Robotics (ISMR 2024)</i> [IEEE](https://doi.org/10.1109/ISMR63436.2024.10585970).
+* R. Mykhailyshyn, T. Motoda, I. Virgala, A. Majewicz Fey, Y. Domae, &quot;Vortex-Induced Torque in Grasping Soft Objects: Influence of Geometry and Pneumatic Parameters.&quot; <i>IEEE/SICE International Symposium on System Integration (SII) 2027</i>, Accepted.
 
 ## Publications
 
+* R. Mykhailyshyn, T. Motoda, I. Virgala, A. Majewicz Fey, Y. Domae, &quot;Vortex-Induced Torque in Grasping Soft Objects: Influence of Geometry and Pneumatic Parameters.&quot; <i>IEEE/SICE International Symposium on System Integration (SII) 2027</i> [IEEE](https://doi.org/10.______), Accepted.
 * R. Mykhailyshyn, A. Majewicz Fey, &quot;Investigating a Fluidic Vortex Grasping Mechanism for Complex Objects and Bio-Inspired Tissue.&quot; <i>IEEE Access</i> [IEEE](https://doi.org/10.1109/ACCESS.2026.3706808).
+* R. Mykhailyshyn, A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue Using a Novel Vortex Gripper.&quot; <i>IEEE 2024 International Symposium on Medical Robotics (ISMR 2024)</i> [IEEE](https://doi.org/10.1109/ISMR63436.2024.10585970).
