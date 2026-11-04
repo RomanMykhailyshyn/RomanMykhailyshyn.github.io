@@ -6,8 +6,6 @@ collection: portfolio
 ## Description
 The main idea of the project is the development of new types of grasping systems and methods of their use for medical purposes, in order to minimize tissue damage and contact with them.
 
-## Funding
-The project is in the process of seeking funds.
 
 ## Colaboration
 * National Institute of Advanced Industrial Science and Technology (Japan).
@@ -52,9 +50,10 @@ To download the dataset obtained for the gripper with different nozzle diameters
 
 ## Results Presentation
 
-* R. Mykhailyshyn, A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue with Complex Geometry using a Novel Vortex Gripper.&quot; <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023) Workshop on Robotics for the Gut</i>.
-* R. Mykhailyshyn, A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue Using a Novel Vortex Gripper.&quot; <i>IEEE 2024 International Symposium on Medical Robotics (ISMR 2024)</i> [IEEE](https://doi.org/10.1109/ISMR63436.2024.10585970).
 * R. Mykhailyshyn, T. Motoda, I. Virgala, A. Majewicz Fey, Y. Domae, &quot;Vortex-Induced Torque in Grasping Soft Objects: Influence of Geometry and Pneumatic Parameters.&quot; <i>IEEE/SICE International Symposium on System Integration (SII) 2027</i>, Accepted.
+* R. Mykhailyshyn, A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue Using a Novel Vortex Gripper.&quot; <i>IEEE 2024 International Symposium on Medical Robotics (ISMR 2024)</i> [IEEE](https://doi.org/10.1109/ISMR63436.2024.10585970).
+* R. Mykhailyshyn, A. Majewicz Fey &quot; Low-Contact Grasping of Soft Tissue with Complex Geometry using a Novel Vortex Gripper.&quot; <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023) Workshop on Robotics for the Gut</i>.
+
 
 ## Publications
 
