@@ -4,7 +4,11 @@ excerpt: "<br/><img src='/images/p2_2.jpg'>"
 collection: portfolio
 ---
 ## Description
-The main idea of the project is the development of new types of grasping systems and methods of their use for medical purposes, in order to minimize tissue damage and contact with them.
+This project develops robotic grasping systems and manipulation methods for delicate soft tissues, with the goal of minimizing direct contact and reducing the risk of tissue damage in medical applications. The research focuses on pneumatic vortex grippers, which use controlled swirling airflow to generate a low-pressure region and produce lifting force. This approach offers an alternative to conventional tissue grasping through mechanical pinching, while addressing the challenges of handling compliant objects with complex surface geometries.
+
+The project combines gripper design, experimental characterization, and data-driven modeling to understand how tissue geometry and pneumatic parameters influence grasping performance. Experiments investigate the effects of surface curvature, nozzle diameter, and supply pressure on lifting force across a wide range of soft objects, including convex and concave surfaces. Studies using artificial tissue and ex vivo porcine intestine examine the practical opportunities and limitations of vortex-based grasping, including the role of friction elements in improving holding stability.
+
+Beyond lifting and holding, the research examines vortex-induced torque to understand how airflow and object geometry affect rotational behavior during manipulation. These investigations support the development of design guidelines and predictive models for more reliable low-contact grasping. The long-term objective is to establish a foundation for robotic tissue-handling technologies that balance secure manipulation with gentle interaction, supporting future applications in medical and surgical robotics.
 
 
 ## Colaboration
