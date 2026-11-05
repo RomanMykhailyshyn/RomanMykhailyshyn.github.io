@@ -15,6 +15,7 @@ Beyond lifting and holding, the research examines vortex-induced torque to under
 * National Institute of Advanced Industrial Science and Technology (Japan).
 * Texas Robotics, The University of Texas at Austin (USA).
 * Walker Department of Mechanical Engineering, The University of Texas at Austin (USA).
+* Department of Industrial Automation and Mechatronics, Technical University of Kosice (Slovak Republic).
 * EPAM School of Digital Technologies, American University Kyiv (Powered by Arizona State University) (Ukraine).
 
 ## Results
