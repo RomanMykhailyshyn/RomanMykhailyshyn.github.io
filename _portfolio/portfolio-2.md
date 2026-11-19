@@ -20,7 +20,7 @@ The project partially funded by grant "Disassembly plans that take into account 
 
 ## Projects
 
-* Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots
+* [Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots](https://doi.org/10.1109/ICRA57385.2026.11696920)
     <br/><img src='/images/hand_f.jpg' width='600'><br />
 * [ARTiS: Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications](https://romanmykhailyshyn.github.io/artis/)
     <br/><img src='/images/ARTiS_w.jpg' width='600'><br />
@@ -34,6 +34,6 @@ The project partially funded by grant "Disassembly plans that take into account 
 
 ## Publications
 
-* M. Kojouharov, D. Ho, D. Rowland, R. Mykhailyshyn, L. Sentis, A. Majewicz Fey, Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots. <i>IEEE International Conference on Robotics & Automation (ICRA)</i>, pp. 1679-1686, 2026.
+* M. Kojouharov, D. Ho, D. Rowland, R. Mykhailyshyn, L. Sentis, A. Majewicz Fey, Soft Vortex Gripper for Dexterous Manipulation using Hand-Like Robots. <i>IEEE International Conference on Robotics & Automation (ICRA)</i>, pp. 1679-1686, 2026,  DOI: [10.1109/ICRA57385.2026.11696920](https://doi.org/10.1109/ICRA57385.2026.11696920).
 * R. Mykhailyshyn, Y. Domae, K. Harada, ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Assembly and Disassembly Applications, <i>IEEE Transactions on Automation Science and Engineering</i>, 2026, DOI: [10.1109/TASE.2026.3731571](https://doi.org/10.1109/TASE.2026.3731571).
 * M. J. DeMoor, R. Mykhailyshyn, A. Majewicz Fey, Bio-Inspired Suction Cup. In process.
