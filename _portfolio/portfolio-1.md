@@ -63,6 +63,9 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 * Experiment to determine the holding force of non-rigid materials when lifting them vertically with different orientations of the gripper.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F-GiMlQj6F0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+* Dexterous lifting of deformable materials via pneumatic grasping in manufacturing: Lifting by one end.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EPyknf2_78Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Results Presentation
 
 * T. Alkis, A. M. Fey and R. Mykhailyshyn, (2026). &quot;Robotic Integration of Pneumatic Grasping Systems for Deformable Textile Handling: Automated Characterization Approach.&quot; <i>2026 IEEE/SICE International Symposium on System Integration (SII)</i>, Cancun, Mexico, 2026, pp. 213-218, doi: [10.1109/SII64115.2026.11404705](https://doi.org/10.1109/SII64115.2026.11404705).
@@ -72,7 +75,7 @@ This project was supported in part by the U.S. Department of State (DOS), Bureau
 
 ## Publications
 
-* R. Mykhailyshyn, J. Lee, M. Mykhailyshyn, K. Harada, A. Majewicz Fey, (2025). &quot;Dexterous Manipulation of Deformable Objects via Pneumatic Gripping: Lifting by One End.&quot; <i>arXiv preprint</i>. arXiv: [2501.05198](https://arxiv.org/abs/2501.05198).
+* R. Mykhailyshyn, J. Lee, M. Mykhailyshyn, K. Harada, A. Majewicz Fey, (2027). &quot;Dexterous Manipulation of Deformable Objects via Pneumatic Gripping: Lifting by One End.&quot; <i>Robotics and Computer-Integrated Manufacturing</i>. doi: [10.1016/j.rcim.2026.103467](https://doi.org/10.1016/j.rcim.2026.103467).
 * R. Mykhailyshyn, A. Majewicz Fey, J. Xiao, (2024). &quot;Toward Novel Grasping of Non-Rigid Materials Through Robotic End-Effector Reorientation.&quot; <i>IEEE/ASME Transactions on Mechatronics</i>. 29(4), 2614-2624. [https://doi.org/10.1109/TMECH.2023.3337628](https://doi.org/10.1109/TMECH.2023.3337628).
 * R. Mykhailyshyn, A. Majewicz Fey, J. Xiao, (2023). &quot;Finite Element Modeling of Grasping Porous Materials in Robotics Cells.&quot; <i>Robotica</i>. 41(11), 3485-3500. [https://doi.org/10.1017/S0263574723001121](https://www.cambridge.org/core/journals/robotica/article/finite-element-modeling-of-grasping-porous-materials-in-robotics-cells/2F3370037A36269D8690047F8A488880).
 * R. Mykhailyshyn, V. Savkiv, A. Majewicz Fey, J. Xiao, (2023). &quot;Gripping Device for Textile Materials.&quot; <i>IEEE Transactions on Automation Science and Engineering</i>. 20(4), 2397–2408. [https://doi.org/10.1109/TASE.2022.3208796](https://doi.org/10.1109/TASE.2022.3208796).
