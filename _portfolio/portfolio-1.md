@@ -7,7 +7,8 @@ collection: portfolio
 Grasping and manipulating non-rigid and porous objects is an important challenge for manufacturing, which many scientists are currently engaged in. Now there are many problems in handling non-rigid (textile) materials from a stack or oriented in space. The goal of this project is to development of gripping devices, their control systems and manipulation methods for non-rigid objects. Such grippers and new methods of manipulation would allow to automate manufacturing where non-rigid objects are used. In addition, important aspects are the use of household robotic systems with the ability to grasping and manipulate a flexible object, which is practically not used now due to its complexity.
 
 ## Funding
-This project was supported in part by the U.S. Department of State (DOS), Bureau of Educational and Cultural Affairs (ECA), Exchange Visitor Program #G-1-00005 with the cooperation of the Institute of International Education (IIE) under Fulbright Grant PS00322778.
+This project was supported in part by the U.S. Department of State (DOS), Bureau of Educational and Cultural Affairs (ECA), Exchange Visitor Program #G-1-00005 with the cooperation of the Institute of International Education (IIE) under Fulbright Grant PS00322778. Also this project was supported by JST CREST, Japan, Grant Number JPMJCR2553, and is based on results obtained from a project, JPNP26013, commissioned by the New Energy and Industrial Technology Development Organization (NEDO). 
+
 ## Colaboration
 * Department of Systems Innovation, Osaka University (Japan).
 * National Institute of Advanced Industrial Science and Technology (AIST, Japan).
